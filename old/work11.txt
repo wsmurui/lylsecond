@@ -1,0 +1,108 @@
+//////////////////////////////////////////////
+////   本设计中用到的逻辑资源如下所示  
+////////////////////////////////////////////// 
+
+/*     IOB信息如下所示             */
+IOB:Total Number:6
+IOB-0 + N1 + L21 + input
+IOB-1 + N2 + L20 + input
+IOB-2 + N3 + L15 + input
+IOB-3 + N6 + L16 + input
+IOB-4 + N7 + J22 + input
+IOB-5 + N22 + K21 + output
+
+/*     IOB信息已显示完毕          */
+
+/*     查找表信息如下所示             */
+LUT:Total Number:1
+LUT-0 + N22_OBUF + SLICE_X43Y98 + A6LUT + (A1&(A4&(A3&(A2&A6))))
+
+/*     查找表信息已显示完毕          */
+
+/*     CLKINV信息如下所示             */
+CLKINV:Total Number:0
+
+/*     CLKINV信息已显示完毕          */
+
+/*     F7MUX信息如下所示             */
+F7MUX:Total Number:0
+
+/*     F7MUX信息已显示完毕          */
+
+/*     F8MUX信息如下所示             */
+F8MUX:Total Number:0
+
+/*     F8MUX信息已显示完毕          */
+
+/*     CY0信息如下所示             */
+CY0:Total Number:0
+
+/*     CY0信息已显示完毕          */
+
+/*     PRECYINIT信息如下所示             */
+PRECYINIT:Total Number:0
+
+/*     PRECYINIT信息已显示完毕          */
+
+/*     CCE信息如下所示             */
+CCE:Total Number:0
+
+/*     CCE信息已显示完毕          */
+
+/*     OUTMUX信息如下所示             */
+OUTMUX:Total Number:0
+
+/*     OUTMUX信息已显示完毕          */
+
+/*     FFMUX信息如下所示             */
+FFMUX:Total Number:0
+
+/*     FFMUX信息已显示完毕          */
+
+/*     FlipFlop信息如下所示             */
+FlipFlop:Total Number:0
+
+/*     FlipFlop信息已显示完毕          */
+
+
+//////////////////////////////////////////////
+////   本设计中资源的逻辑连线如下所示  
+////////////////////////////////////////////// 
+/*        对于查找表的逻辑连线提取如下所示     */ 
+LUT-0
+A1 <- N1,I,L21
+A2 <- N3,I,L15
+A3 <- N2,I,L20
+A4 <- N7,I,J22
+A5 <- null
+A6 <- N6,I,L16
+O6  ->  A pin
+A pin  ->  N22,O,K21
+
+
+/*        对于CLKINV的逻辑连线提取如下所示     */ 
+
+
+/*        对于F7MUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于F8MUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于CY0的逻辑连线提取如下所示     */ 
+
+
+/*        对于PRECYINIT的逻辑连线提取如下所示     */ 
+
+
+/*        对于进位链的逻辑连线提取如下所示     */ 
+
+
+/*        对于OUTMUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于FFMUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于触发器的逻辑连线提取如下所示     */ 
+

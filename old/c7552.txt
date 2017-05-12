@@ -1,0 +1,4790 @@
+//////////////////////////////////////////////
+////   本设计中用到的逻辑资源如下所示  
+////////////////////////////////////////////// 
+
+/*     IOB信息如下所示             */
+IOB:Total Number:315
+IOB-0 + N241_I + N34 + input
+IOB-1 + N1 + U42 + input
+IOB-2 + N5 + N35 + input
+IOB-3 + N9 + AB34 + input
+IOB-4 + N307 + AR40 + input
+IOB-5 + N303 + AD36 + input
+IOB-6 + N322 + P38 + input
+IOB-7 + N325 + AN28 + input
+IOB-8 + N328 + K17 + input
+IOB-9 + N310 + P27 + input
+IOB-10 + N313 + J16 + input
+IOB-11 + N319 + P35 + input
+IOB-12 + N316 + L29 + input
+IOB-13 + N343 + J17 + input
+IOB-14 + N103 + L16 + input
+IOB-15 + N346 + N36 + input
+IOB-16 + N340 + E33 + input
+IOB-17 + N100 + AC34 + input
+IOB-18 + N109 + AU41 + input
+IOB-19 + N106 + AM17 + input
+IOB-20 + N349 + AN39 + input
+IOB-21 + N334 + W42 + input
+IOB-22 + N331 + AM26 + input
+IOB-23 + N337 + AB39 + input
+IOB-24 + N12 + D37 + input
+IOB-25 + N15 + J31 + input
+IOB-26 + N18 + AP27 + input
+IOB-27 + N124 + AF40 + input
+IOB-28 + N367 + AN29 + input
+IOB-29 + N361 + V36 + input
+IOB-30 + N121 + V33 + input
+IOB-31 + N364 + AL17 + input
+IOB-32 + N127 + AT41 + input
+IOB-33 + N23 + AD40 + input
+IOB-34 + N26 + N26 + input
+IOB-35 + N29 + AT42 + input
+IOB-36 + N112 + AH41 + input
+IOB-37 + N113 + N39 + input
+IOB-38 + N355 + AL26 + input
+IOB-39 + N114 + AE40 + input
+IOB-40 + N115 + AF39 + input
+IOB-41 + N110 + R42 + input
+IOB-42 + N352 + L37 + input
+IOB-43 + N111 + AD41 + input
+IOB-44 + N32 + J41 + input
+IOB-45 + N358 + M27 + input
+IOB-46 + N118 + V34 + input
+IOB-47 + N35 + T36 + input
+IOB-48 + N38 + AJ41 + input
+IOB-49 + N147 + AK15 + input
+IOB-50 + N141 + E40 + input
+IOB-51 + N144 + H38 + input
+IOB-52 + N41 + AN40 + input
+IOB-53 + N44 + P18 + input
+IOB-54 + N47 + R37 + input
+IOB-55 + N150 + AK13 + input
+IOB-56 + N151 + AN13 + input
+IOB-57 + N134 + AM28 + input
+IOB-58 + N135 + N38 + input
+IOB-59 + N130 + AG38 + input
+IOB-60 + N133 + AM14 + input
+IOB-61 + N50 + L14 + input
+IOB-62 + N54 + AB42 + input
+IOB-63 + N138 + N29 + input
+IOB-64 + N53 + AG41 + input
+IOB-65 + N56 + M29 + input
+IOB-66 + N55 + AL42 + input
+IOB-67 + N58 + AB33 + input
+IOB-68 + N57 + AE37 + input
+IOB-69 + N59 + V41 + input
+IOB-70 + N382 + AA42 + input
+IOB-71 + N167 + AD37 + input
+IOB-72 + N168 + L39 + input
+IOB-73 + N169 + W33 + input
+IOB-74 + N163 + AK14 + input
+IOB-75 + N164 + Y37 + input
+IOB-76 + N165 + T42 + input
+IOB-77 + N166 + G36 + input
+IOB-78 + N61 + T41 + input
+IOB-79 + N60 + W37 + input
+IOB-80 + N63 + M41 + input
+IOB-81 + N62 + T39 + input
+IOB-82 + N65 + AA41 + input
+IOB-83 + N64 + F42 + input
+IOB-84 + N66 + F40 + input
+IOB-85 + N69 + N14 + input
+IOB-86 + N170 + G39 + input
+IOB-87 + N171 + AG42 + input
+IOB-88 + N172 + AA40 + input
+IOB-89 + N173 + Y35 + input
+IOB-90 + N156 + AM37 + input
+IOB-91 + N157 + L17 + input
+IOB-92 + N158 + N25 + input
+IOB-93 + N159 + J37 + input
+IOB-94 + N152 + V35 + input
+IOB-95 + N153 + Y33 + input
+IOB-96 + N70 + AF41 + input
+IOB-97 + N154 + L40 + input
+IOB-98 + N155 + AD32 + input
+IOB-99 + N74 + P42 + input
+IOB-100 + N73 + J38 + input
+IOB-101 + N76 + M14 + input
+IOB-102 + N75 + AL30 + input
+IOB-103 + N78 + AM13 + input
+IOB-104 + N77 + AC41 + input
+IOB-105 + N79 + K33 + input
+IOB-106 + N160 + N15 + input
+IOB-107 + N161 + G37 + input
+IOB-108 + N162 + Y40 + input
+IOB-109 + N189 + AA36 + input
+IOB-110 + N185 + AM41 + input
+IOB-111 + N186 + AC35 + input
+IOB-112 + N81 + AC36 + input
+IOB-113 + N187 + J42 + input
+IOB-114 + N80 + Y34 + input
+IOB-115 + N188 + AA32 + input
+IOB-116 + N83 + AN41 + input
+IOB-117 + N82 + AE42 + input
+IOB-118 + N85 + V38 + input
+IOB-119 + N84 + W32 + input
+IOB-120 + N87 + H40 + input
+IOB-121 + N86 + AJ38 + input
+IOB-122 + N89 + AR42 + input
+IOB-123 + N88 + L41 + input
+IOB-124 + N192 + AB41 + input
+IOB-125 + N193 + E39 + input
+IOB-126 + N194 + F37 + input
+IOB-127 + N195 + T40 + input
+IOB-128 + N190 + L27 + input
+IOB-129 + N191 + AA34 + input
+IOB-130 + N178 + T37 + input
+IOB-131 + N179 + M39 + input
+IOB-132 + N174 + AP41 + input
+IOB-133 + N175 + AD42 + input
+IOB-134 + N176 + V40 + input
+IOB-135 + N177 + H41 + input
+IOB-136 + N94 + W41 + input
+IOB-137 + N97 + K38 + input
+IOB-138 + N181 + V39 + input
+IOB-139 + N182 + AJ42 + input
+IOB-140 + N183 + Y42 + input
+IOB-141 + N184 + AJ30 + input
+IOB-142 + N180 + N30 + input
+IOB-143 + N196 + AA39 + input
+IOB-144 + N197 + N41 + input
+IOB-145 + N198 + AC39 + input
+IOB-146 + N199 + AT40 + input
+IOB-147 + N200 + AJ37 + input
+IOB-148 + N201 + W40 + input
+IOB-149 + N202 + AV40 + input
+IOB-150 + N203 + AF37 + input
+IOB-151 + N208 + AK30 + input
+IOB-152 + N209 + E38 + input
+IOB-153 + N204 + AK12 + input
+IOB-154 + N205 + AM42 + input
+IOB-155 + N206 + K28 + input
+IOB-156 + N207 + AL41 + input
+IOB-157 + N222 + P36 + input
+IOB-158 + N223 + AL39 + input
+IOB-159 + N224 + K40 + input
+IOB-160 + N225 + F41 + input
+IOB-161 + N220 + AU42 + input
+IOB-162 + N221 + G38 + input
+IOB-163 + N226 + P37 + input
+IOB-164 + N227 + AA35 + input
+IOB-165 + N228 + AL14 + input
+IOB-166 + N229 + P25 + input
+IOB-167 + N211 + P40 + input
+IOB-168 + N212 + W35 + input
+IOB-169 + N213 + M38 + input
+IOB-170 + N214 + T34 + input
+IOB-171 + N210 + AB38 + input
+IOB-172 + N219 + T32 + input
+IOB-173 + N215 + AD38 + input
+IOB-174 + N216 + F39 + input
+IOB-175 + N217 + J40 + input
+IOB-176 + N218 + Y38 + input
+IOB-177 + N245 + AL40 + input
+IOB-178 + N240 + N13 + input
+IOB-179 + N242 + F34 + input
+IOB-180 + N248 + AK27 + input
+IOB-181 + N233 + R38 + input
+IOB-182 + N234 + M26 + input
+IOB-183 + N235 + M17 + input
+IOB-184 + N236 + AA37 + input
+IOB-185 + N230 + N40 + input
+IOB-186 + N231 + H39 + input
+IOB-187 + N232 + M28 + input
+IOB-188 + N237 + J30 + input
+IOB-189 + N238 + L15 + input
+IOB-190 + N239 + L30 + input
+IOB-191 + N267 + AT39 + input
+IOB-192 + N263 + M37 + input
+IOB-193 + N271 + U36 + input
+IOB-194 + N257 + T35 + input
+IOB-195 + N251 + AK38 + input
+IOB-196 + N254 + P33 + input
+IOB-197 + N260 + R34 + input
+IOB-198 + N289 + Y39 + input
+IOB-199 + N286 + M36 + input
+IOB-200 + N293 + AN30 + input
+IOB-201 + N277 + AH39 + input
+IOB-202 + N274 + AV41 + input
+IOB-203 + N280 + U32 + input
+IOB-204 + N283 + K34 + input
+IOB-205 + N299 + N28 + input
+IOB-206 + N296 + AP38 + input
+IOB-207 + N10103 + M42 + output
+IOB-208 + N10102 + W36 + output
+IOB-209 + N10101 + P31 + output
+IOB-210 + N10104 + G34 + output
+IOB-211 + N10109 + H35 + output
+IOB-212 + N10576 + G31 + output
+IOB-213 + N10575 + E34 + output
+IOB-214 + N10574 + L31 + output
+IOB-215 + N1781 + AP13 + output
+IOB-216 + N10763 + R40 + output
+IOB-217 + N10762 + U33 + output
+IOB-218 + N10761 + P13 + output
+IOB-219 + N10760 + J32 + output
+IOB-220 + N10759 + N31 + output
+IOB-221 + N241_O + M33 + output
+IOB-222 + N945 + AM16 + output
+IOB-223 + N10729 + R33 + output
+IOB-224 + N707 + AG39 + output
+IOB-225 + N10712 + P17 + output
+IOB-226 + N10711 + N16 + output
+IOB-227 + N10716 + K37 + output
+IOB-228 + N10715 + K39 + output
+IOB-229 + N10714 + AM29 + output
+IOB-230 + N10713 + G42 + output
+IOB-231 + N10718 + R39 + output
+IOB-232 + N10717 + J36 + output
+IOB-233 + N10704 + AB37 + output
+IOB-234 + N10706 + H34 + output
+IOB-235 + N505 + P32 + output
+IOB-236 + N507 + U37 + output
+IOB-237 + N501 + AP40 + output
+IOB-238 + N509 + M32 + output
+IOB-239 + N1111 + AN38 + output
+IOB-240 + N1112 + E35 + output
+IOB-241 + N1110 + G32 + output
+IOB-242 + N1113 + AK28 + output
+IOB-243 + N1114 + AM39 + output
+IOB-244 + N10907 + Y32 + output
+IOB-245 + N10906 + L42 + output
+IOB-246 + N10905 + U31 + output
+IOB-247 + N10908 + K35 + output
+IOB-248 + N511 + U41 + output
+IOB-249 + N517 + M16 + output
+IOB-250 + N519 + AD35 + output
+IOB-251 + N513 + K27 + output
+IOB-252 + N515 + F35 + output
+IOB-253 + N541 + J15 + output
+IOB-254 + N543 + AE33 + output
+IOB-255 + N549 + AL15 + output
+IOB-256 + N545 + U39 + output
+IOB-257 + N547 + AL16 + output
+IOB-258 + N539 + AN14 + output
+IOB-259 + N535 + AH38 + output
+IOB-260 + N537 + P28 + output
+IOB-261 + N563 + L36 + output
+IOB-262 + N565 + L35 + output
+IOB-263 + N561 + AL29 + output
+IOB-264 + N567 + AL27 + output
+IOB-265 + N569 + AJ26 + output
+IOB-266 + N553 + AH40 + output
+IOB-267 + N551 + AN15 + output
+IOB-268 + N556 + AC40 + output
+IOB-269 + N559 + AR39 + output
+IOB-270 + N582 + H31 + output
+IOB-271 + N571 + AM38 + output
+IOB-272 + N573 + AK17 + output
+IOB-273 + N387 + AU39 + output
+IOB-274 + N388 + F32 + output
+IOB-275 + N10025 + F36 + output
+IOB-276 + N11342 + K29 + output
+IOB-277 + N11340 + J35 + output
+IOB-278 + N11334 + K30 + output
+IOB-279 + N11333 + AL37 + output
+IOB-280 + N10641 + K42 + output
+IOB-281 + N10871 + AF42 + output
+IOB-282 + N10870 + U38 + output
+IOB-283 + N10632 + AG37 + output
+IOB-284 + N10628 + AJ40 + output
+IOB-285 + N10869 + K32 + output
+IOB-286 + N10868 + P41 + output
+IOB-287 + N10840 + U34 + output
+IOB-288 + N813 + AP42 + output
+IOB-289 + N10837 + F31 + output
+IOB-290 + N10839 + R35 + output
+IOB-291 + N10838 + E32 + output
+IOB-292 + N10827 + L32 + output
+IOB-293 + N1490 + AH36 + output
+IOB-294 + N1489 + AK29 + output
+IOB-295 + N882 + AV39 + output
+IOB-296 + N883 + AB36 + output
+IOB-297 + N884 + AK42 + output
+IOB-298 + N643 + AE39 + output
+IOB-299 + N885 + AK39 + output
+IOB-300 + N881 + AK40 + output
+IOB-301 + N889 + L34 + output
+IOB-302 + N486 + J33 + output
+IOB-303 + N489 + E37 + output
+IOB-304 + N482 + AC38 + output
+IOB-305 + N484 + AK37 + output
+IOB-306 + N492 + AE38 + output
+IOB-307 + N478 + AP30 + output
+IOB-308 + N10110 + G33 + output
+IOB-309 + N10352 + M13 + output
+IOB-310 + N10351 + W38 + output
+IOB-311 + N10350 + G41 + output
+IOB-312 + N10112 + K15 + output
+IOB-313 + N10111 + P26 + output
+IOB-314 + N10353 + H36 + output
+
+/*     IOB信息已显示完毕          */
+
+/*     查找表信息如下所示             */
+LUT:Total Number:348
+LUT-0 + N1489_OBUF + SLICE_X63Y120 + A6LUT + (A1|(~A4|~A5))
+LUT-1 + N9682 + SLICE_X56Y138 + A6LUT + ((~A5&((~A2&((~A1&(~A4&~A3))|(A1&(~A4|~A3))))|(A2&(A1|~A3))))|(A5&((~A6&(((~A2&~A4)|A2)&~A3))|(A6&(A2|(~A4|~A3))))))
+LUT-2 + N8117 + SLICE_X0Y159 + D6LUT + ((~D2&((~D3&((~D4|(D4&~D1))&~D6))|(D3&((~D4&(D5&~D6))|(D4&(~D1&(D5&~D6)))))))|(D2&((~D3&(~D4|(~D1|~D6)))|(D3&(((~D4&D5)|(D4&(~D1&D5)))|~D6)))))
+LUT-3 + N1011919 + SLICE_X29Y142 + A6LUT + ((A5&((~A4&(~A3&(~A1&~A6)))|(A4&(A3&(~A1&~A6)))))|A2)
+LUT-4 + N1011919 + SLICE_X29Y142 + B6LUT + ((~B3&B6)|(B3&(B2|(((~B1&(B4&B5))|(B1&B4))|B6))))
+LUT-5 + N1711 + SLICE_X11Y148 + A6LUT + ((~A4&((~A2&((~A5&(~A6|(A3|A1)))|(A5&((~A6&A3)|A1))))|(A2&((~A5&((~A6|(A6&A3))&A1))|(A5&(~A6&(A3&A1)))))))|(A4&((~A2&((~A5&(A6&(~A3&~A1)))|(A5&(((~A6&~A3)|A6)&~A1))))|(A2&((~A5&((A6&~A3)|~A1))|(A5&(A6|(~A3|~A1))))))))
+LUT-6 + N1711 + SLICE_X11Y148 + B6LUT + (~B6&(~B4&((B5^~B1)&(~B2&~B3))))
+LUT-7 + N1711 + SLICE_X11Y148 + C6LUT + (C6|~C6)&(((~C5&((~C4&(~C2|C3))|(C4&(C2&~C3))))|(C5&((~C1&((~C4&(~C2|C3))|(C4&(C2&~C3))))|(C1&C4)))))
+LUT-8 + N1711 + SLICE_X11Y148 + C5LUT + ((~C2&(~C1|~C5))|(C2&((~C1|(C1&~C5))&C3)))
+LUT-9 + N10301 + SLICE_X28Y141 + A6LUT + ((~A5&((~A2&((A6&A4)^A1))|(A2&((~A6&((~A1&(A4&A3))|(A1&(~A4|~A3))))|(A6&(A1^A4))))))|(A5&((~A2&((~A6|(A6&A4))^A1))|(A2&((~A6&((~A1&(A4|~A3))|(A1&(~A4&A3))))|(A6&(A1^A4)))))))
+LUT-10 + N10301 + SLICE_X28Y141 + B6LUT + ((~B3&B6)|(B3&(B5|((B4&B1)|B6))))
+LUT-11 + N10301 + SLICE_X28Y141 + C6LUT + (C6|~C6)&(((~C2&C3)|(C2&(C1|((C5&C4)|C3)))))
+LUT-12 + N10301 + SLICE_X28Y141 + C5LUT + (C1|(C4&C5))
+LUT-13 + N9029 + SLICE_X20Y125 + A6LUT + ((~A6&((~A3&(A4&A2))|(A3&((~A5&(A4&A2))|(A5&(A4|A2))))))|(A6&((~A1&(A3&(A5&A4)))|(A1&((A3&A5)|A4)))))
+LUT-14 + N9029 + SLICE_X20Y125 + B6LUT + ((~B5&((~B3&(B1&(B6&B2)))|(B3&(((~B1&B6)|B1)&B2))))|(B5&((~B3&((B1&B6)|B2))|(B3&(B1|(B6|B2))))))
+LUT-15 + N884_OBUF + SLICE_X22Y121 + D6LUT + (~D1|(~D6|(~D5|~D4)))
+LUT-16 + N10544 + SLICE_X14Y150 + D6LUT + ((~D1&((~D2&((~D6&(~D3|D4))|(D6&((D3&~D4)|~D5))))|(D2&((~D6&((~D3|(D3&D4))&D5))|(D6&(~D3|D4))))))|(D1&((~D2&((~D6&(~D3|D4))|(D6&(~D3|(D4|D5)))))|(D2&((~D6&(D3&(~D4&~D5)))|(D6&(~D3|D4)))))))
+LUT-17 + N2638 + SLICE_X8Y154 + D6LUT + ((~D5&(~D3|~D2))|(D5&((~D3|(D3&~D2))&D6)))
+LUT-18 + N8394 + SLICE_X6Y133 + A6LUT + ((~A3&A6)|(A3&A4))
+LUT-19 + N8394 + SLICE_X6Y133 + C6LUT + (((~C5&(C1^~C4))|(C5&(C4^C2)))|(C6^~C3))
+LUT-20 + N8394 + SLICE_X6Y133 + D6LUT + (D2&(~D1&((D4^D6)&(~D3&~D5))))
+LUT-21 + N9244 + SLICE_X31Y149 + A6LUT + (((~A6&A2)|(A6&A3))^A1)
+LUT-22 + N9249 + SLICE_X46Y138 + A6LUT + ((~A6&((~A4&(~A3&(~A2&~A1)))|(A4&((~A3&~A1)|~A2))))|(A6&((~A4&((~A3|(A3&~A1))&~A2))|(A4&(~A3|(~A2|~A1))))))
+LUT-23 + N9249 + SLICE_X46Y138 + B6LUT + (B6|~B6)&((((~B1&B5)|(B1&B4))^B2))
+LUT-24 + N9249 + SLICE_X46Y138 + B5LUT + ((~B2&(B3|((~B1&B5)|(B1&B4))))|(B2&(B3&((~B1&B5)|(B1&B4)))))
+LUT-25 + N10109_OBUF + SLICE_X42Y151 + A6LUT + ((~A5&((~A4&((~A2&(~A6|(A3|A1)))|(A2&((~A6&A3)|A1))))|(A4&((~A2&((~A6|(A6&A3))&A1))|(A2&(~A6&(A3&A1)))))))|(A5&((~A4&((~A2&(A6&(~A3&~A1)))|(A2&(((~A6&~A3)|A6)&~A1))))|(A4&((~A2&((A6&~A3)|~A1))|(A2&(A6|(~A3|~A1))))))))
+LUT-26 + N2611 + SLICE_X46Y132 + A6LUT + (A6|~A6)&(((~A3&A4)|(A3&A5)))
+LUT-27 + N2611 + SLICE_X46Y132 + A5LUT + ((~A3&(A4&A2))|(A3&(A5&~A1)))
+LUT-28 + N2615 + SLICE_X10Y120 + D6LUT + ((~D5&D6)|(D5&D2))
+LUT-29 + N10871_OBUF + SLICE_X17Y143 + D6LUT + ((~D2&((~D4&((~D6&(~D1|(~D3|D5)))|(D6&(D1&(D3&~D5)))))|(D4&(D6^D5))))|(D2&((~D4&((~D6&((~D1|(D1&~D3))&D5))|(D6&((D1&D3)|~D5))))|(D4&D6))))
+LUT-30 + N10990 + SLICE_X8Y149 + A6LUT + ((~A4&((~A3&((~A5&((~A1&~A2)^A6))|(A5&(A1^(A6^A2)))))|(A3&(((~A5&A1)|(A5&(~A1&~A2)))^A6))))|(A4&((~A3&(((~A5&(~A1|(A1&~A2)))|(A5&A1))^A6))|(A3&((~A5&(A1^(A6^~A2)))|(A5&((~A1|(A1&~A2))^A6)))))))
+LUT-31 + N8146 + SLICE_X31Y130 + A6LUT + ((~A2&((~A4&((~A6|(A6&~A3))&~A5))|(A4&((~A6&(A1&~A5))|(A6&(~A3&(A1&~A5)))))))|(A2&((~A4&(~A6|(~A3|~A5)))|(A4&(((~A6&A1)|(A6&(~A3&A1)))|~A5)))))
+LUT-32 + N7057 + SLICE_X6Y131 + A6LUT + ((~A5&((~A6&A1)|(A6&(A2^A4))))|(A5&((~A3&((~A6&A1)|(A6&(A2^A4))))|(A3&((~A6&~A1)|(A6&A2))))))
+LUT-33 + N7057 + SLICE_X6Y131 + B6LUT + ((~B2&((B5^B4)&(~B3&(B1&~B6))))|(B2&((B5^B4)&(~B3&(~B1&~B6)))))
+LUT-34 + N2670 + SLICE_X3Y128 + A6LUT + ((~A6&A1)|(A6&~A2))
+LUT-35 + N10988 + SLICE_X9Y151 + C6LUT + ((~C6&((~C2&~C3)|(C2&((~C3&(~C1|C5))|(C3&(C1&~C5))))))|(C6&((~C4&((~C2&~C3)|(C2&((~C3&(~C1|C5))|(C3&(C1&~C5))))))|(C4&(C2^~C3)))))
+LUT-36 + N10988 + SLICE_X9Y151 + D6LUT + (((~D1&((~D3&(~D4|(D4&~D6)))|(D3&~D6)))|(D1&((~D3&D6)|(D3&(~D4|(D4&~D6))))))^(D2^D5))
+LUT-37 + N2666 + SLICE_X2Y125 + A6LUT + ((~A2&A4)|(A2&~A1))
+LUT-38 + N10111_OBUF + SLICE_X91Y137 + A6LUT + (A1^((~A6&(A2^~A3))|(A6&(A3^~A5))))
+LUT-39 + N2654 + SLICE_X2Y126 + B6LUT + (B6|~B6)&(((~B2&B5)|(B2&~B3)))
+LUT-40 + N2654 + SLICE_X2Y126 + B5LUT + ((~B3&((~B1&(B2|(B5^~B4)))|(B1&(~B2&(B5^~B4)))))|(B3&((~B1&(~B2&(B5^~B4)))|(B1&(B2|(B5^~B4))))))
+LUT-41 + N2654 + SLICE_X2Y126 + C6LUT + (C5^(C2^(C1^((~C6&C3)^C4))))
+LUT-42 + N2654 + SLICE_X2Y126 + D6LUT + (D5^((~D4&(D2^(D1^(D6^D3))))|(D4&(D2^(D1^~D6)))))
+LUT-43 + N2658 + SLICE_X1Y126 + A6LUT + ((~A2&A6)|(A2&~A1))
+LUT-44 + N9290 + SLICE_X35Y139 + A6LUT + ((~A1&((A6^~A4)&(~A2&(~A5&~A3))))|(A1&((A6^~A4)&(~A2&(A5&~A3)))))
+LUT-45 + N9290 + SLICE_X35Y139 + B6LUT + ((~B5&((~B3&(((~B1&B2)|B1)&~B4))|(B3&(B1|(B2|~B4)))))|(B5&((~B3&(B1&(B2&~B4)))|(B3&((B1&B2)|~B4)))))
+LUT-46 + N9290 + SLICE_X35Y139 + C6LUT + (C6|~C6)&((((~C5&C2)|(C5&C4))^C1))
+LUT-47 + N9290 + SLICE_X35Y139 + C5LUT + ((~C1&(C3|((~C5&C2)|(C5&C4))))|(C1&(C3&((~C5&C2)|(C5&C4)))))
+LUT-48 + N3322 + SLICE_X15Y148 + A6LUT + ((~A6&(((~A1&(~A2|(A2&A5)))|(A1&(~A3|(A3&A5))))&~A4))|(A6&(((~A1&~A2)|(A1&~A3))|(~A4|A5))))
+LUT-49 + N3322 + SLICE_X15Y148 + B6LUT + (B6|~B6)&(((~B3&B1)|(B3&B4)))
+LUT-50 + N3322 + SLICE_X15Y148 + B5LUT + (((~B3&B1)|(B3&B4))^B5)
+LUT-51 + N2474 + SLICE_X6Y119 + D6LUT + ((~D2&(~D6|~D4))|(D2&((~D6|(D6&~D4))&D3)))
+LUT-52 + N2478 + SLICE_X39Y141 + A6LUT + ((~A3&(~A5|~A4))|(A3&((~A5|(A5&~A4))&A2)))
+LUT-53 + N3328 + SLICE_X19Y142 + C6LUT + ((~C3&((~C5&((~C2&(~C6|(C1|C4)))|(C2&((~C6&C1)|C4))))|(C5&((~C2&((~C6|(C6&C1))&C4))|(C2&(~C6&(C1&C4)))))))|(C3&((~C5&((~C2&(C6&(~C1&~C4)))|(C2&(((~C6&~C1)|C6)&~C4))))|(C5&((~C2&((C6&~C1)|~C4))|(C2&(C6|(~C1|~C4))))))))
+LUT-54 + N3328 + SLICE_X19Y142 + D6LUT + (D6|~D6)&(((~D3&D5)|(D3&D2)))
+LUT-55 + N3328 + SLICE_X19Y142 + D5LUT + (C1^((~C3&(C5^~C4))|(C3&(C4^~C2))))
+LUT-56 + N883_OBUF + SLICE_X12Y129 + D6LUT + (D6|~D6)&((~D4|(~D5|(~D3|~D2))))
+LUT-57 + N883_OBUF + SLICE_X12Y129 + D5LUT + (~C5|(~C3|(~C4|(~C2|~C1))))
+LUT-58 + N9098 + SLICE_X39Y137 + A6LUT + ((~A5&((~A3&((~A4|(A4&~A1))&~A6))|(A3&((~A4&(A2&~A6))|(A4&(~A1&(A2&~A6)))))))|(A5&((~A3&(~A4|(~A1|~A6)))|(A3&(((~A4&A2)|(A4&(~A1&A2)))|~A6)))))
+LUT-59 + N9098 + SLICE_X39Y137 + B6LUT + ((~B3&((~B2&(((~B4&B5)|B4)&~B1))|(B2&(B4|(B5|~B1)))))|(B3&((~B2&(B4&(B5&~B1)))|(B2&((B4&B5)|~B1)))))
+LUT-60 + N6 + SLICE_X33Y135 + A6LUT + ((~A1&((~A2&(A6&(A3&A4)))|(A2&A3)))|(A1&((~A2&(~A6|(A3|~A4)))|(A2&A3))))
+LUT-61 + N7 + SLICE_X49Y139 + C6LUT + ((~C2&((~C6&((C3&C5)^C4))|(C6&((~C3&((~C4&(C5&C1))|(C4&(~C5|~C1))))|(C3&(C4^C5))))))|(C2&((~C6&((~C3|(C3&C5))^C4))|(C6&((~C3&((~C4&(C5|~C1))|(C4&(~C5&C1))))|(C3&(C4^C5)))))))
+LUT-62 + N3311 + SLICE_X5Y153 + A6LUT + ((~A3&A2)|(A3&A1))
+LUT-63 + N2462 + SLICE_X9Y133 + D6LUT + ((~D5&(~D2|~D4))|(D5&((~D2|(D2&~D4))&D6)))
+LUT-64 + N3315 + SLICE_X15Y143 + A6LUT + ((~A4&((~A2&((~A3&~A5)|(A3&(A5|A6))))|(A2&((~A3&A5)|(A3&(~A5&~A6))))))|(A4&((~A2&((~A3&(A5^A6))|(A3&(A5&A6))))|(A2&((~A3&(A5^~A6))|(A3&(~A5|~A6)))))))
+LUT-65 + N3315 + SLICE_X15Y143 + B6LUT + (B6|~B6)&(((~B1&B5)|(B1&B4)))
+LUT-66 + N3315 + SLICE_X15Y143 + B5LUT + ((~B4&((~B2&(B1|(B5^~B3)))|(B2&(~B1&(B5^~B3)))))|(B4&((~B2&(~B1&(B5^~B3)))|(B2&(B1|(B5^~B3))))))
+LUT-67 + N2692 + SLICE_X1Y130 + A6LUT + ((~A6&A2)|(A6&A3))
+LUT-68 + N2696 + SLICE_X1Y138 + A6LUT + ((~A4&A1)|(A4&A2))
+LUT-69 + N2454 + SLICE_X4Y127 + C6LUT + ((~C2&(~C3|~C4))|(C2&((~C3|(C3&~C4))&C5)))
+LUT-70 + N2451 + SLICE_X11Y128 + A6LUT + ((~A4&A2)|(A4&(A1|(((~A5&(A3&A6))|(A5&A3))|A2))))
+LUT-71 + N2451 + SLICE_X11Y128 + B6LUT + (B2|(B6&B1))
+LUT-72 + N2458 + SLICE_X29Y131 + D6LUT + ((~D3&(~D1|~D5))|(D3&((~D1|(D1&~D5))&D6)))
+LUT-73 + N3303 + SLICE_X7Y130 + A6LUT + ((~A2&(A1&(A4&(~A3&A5))))|(A2&(((~A1&A5)|(A1&((~A4&A5)|A4)))&~A3)))
+LUT-74 + N3303 + SLICE_X7Y130 + B6LUT + ((~B5&B2)|(B5&B6))
+LUT-75 + N3307 + SLICE_X3Y129 + A6LUT + (A6|~A6)&(((~A2&A1)|(A2&A4)))
+LUT-76 + N3307 + SLICE_X3Y129 + A5LUT + ((~A2&(A1&A5))|(A2&(A4&~A3)))
+LUT-77 + N9077 + SLICE_X9Y149 + A6LUT + ((~A1&((~A5&((A4&A6)|(~A3&A2)))|(A5&((~A4|(A4&~A6))&(A3|~A2)))))|(A1&((~A5&((~A4|(A4&~A6))&(A3|~A2)))|(A5&((A4&A6)|(~A3&A2))))))
+LUT-78 + N9077 + SLICE_X9Y149 + B6LUT + ((~B6&((~B1&(~B4&(~B2&~B5)))|(B1&((~B4&~B5)|~B2))))|(B6&((~B1&((~B4|(B4&~B5))&~B2))|(B1&(~B4|(~B2|~B5))))))
+LUT-79 + N2688 + SLICE_X15Y144 + C6LUT + ((~C1&C4)|(C1&C6))
+LUT-80 + N10714_OBUF + SLICE_X64Y107 + A6LUT + ((~A1&((~A2&((~A6&~A5)|(A6&((~A5&(~A3|A4))|(A5&(A3&~A4))))))|(A2&((~A6&(A5^A4))|(A6&((~A5&(~A3|A4))|(A5&(A3&~A4))))))))|(A1&((~A2&((~A6&(A5^A4))|(A6&((~A5&(~A3&A4))|(A5&(A3|~A4))))))|(A2&((~A6&A5)|(A6&((~A5&(~A3&A4))|(A5&(A3|~A4)))))))))
+LUT-81 + N2271 + SLICE_X47Y135 + A6LUT + (((~A1&((~A2&(~A4|(A4&~A3)))|(A2&~A3)))|(A1&((~A2&A3)|(A2&(~A4|(A4&~A3))))))^(A6^A5))
+LUT-82 + N2271 + SLICE_X47Y135 + B6LUT + ((~B3&((~B6&B4)^~B2))|(B3&((~B4|(B4&B5))^B2)))
+LUT-83 + N3114 + SLICE_X9Y150 + A6LUT + ((~A4&((~A6&(A2&(A3&~A5)))|(A6&((~A1&~A5)|(A1&(A2&(A3&~A5)))))))|(A4&((~A6&((A2&A3)|~A5))|(A6&(~A1|((A2&A3)|~A5))))))
+LUT-84 + N3114 + SLICE_X9Y150 + B6LUT + ((~B5&((~B1&((~B3&(~B6&(~B2&~B4)))|(B3&(~B2&~B4))))|(B1&(((~B3&(~B6|(B6&~B2)))|B3)&~B4))))|(B5&((~B1&(((~B3&(~B6&~B2))|(B3&~B2))|~B4))|(B1&(B3|(~B6|(~B2|~B4)))))))
+LUT-85 + N3114 + SLICE_X9Y150 + C6LUT + (C6|~C6)&(((~C3&((~C1|(C1&~C4))&~C2))|(C3&((~C1&(~C2&C5))|(C1&(~C2&(~C4&C5)))))))
+LUT-86 + N3114 + SLICE_X9Y150 + C5LUT + ((~C1&((~C2&(~C3|C5))|(C2&(C3&~C5))))|(C1&((~C4&((~C2&(~C3|C5))|(C2&(C3&~C5))))|(C4&C2))))
+LUT-87 + N3355 + SLICE_X25Y128 + D6LUT + ((~D5&D2)|(D5&D6))
+LUT-88 + N2251 + SLICE_X43Y136 + A6LUT + ((~A3&((~A5&(((~A2&~A6)|A2)&~A1))|(A5&~A4)))|(A3&(A5|(A2|(~A6|~A1)))))
+LUT-89 + N3343 + SLICE_X57Y138 + B6LUT + (B6|~B6)&(((~B5&B1)|(B5&B3)))
+LUT-90 + N3343 + SLICE_X57Y138 + B5LUT + (((~B5&B1)|(B5&B3))^B4)
+LUT-91 + N3343 + SLICE_X57Y138 + C6LUT + (C4^(C6^(C1^(C2^(C3^~C5)))))
+LUT-92 + N3343 + SLICE_X57Y138 + D6LUT + (D5^(D6^(D4^(D2^(D1^~D3)))))
+LUT-93 + N2496 + SLICE_X33Y128 + A6LUT + (A1^(A5^(A3^(A4^(A6^A2)))))
+LUT-94 + N2496 + SLICE_X33Y128 + B6LUT + (B6|~B6)&(((~B2&(~B1|~B5))|(B2&((~B1|(B1&~B5))&B4))))
+LUT-95 + N2496 + SLICE_X33Y128 + B5LUT + ((~B5&((~B3&(~B2|B4))|(B3&(B2&~B4))))|(B5&((~B1&((~B3&(~B2|B4))|(B3&(B2&~B4))))|(B1&B3))))
+LUT-96 + N3349 + SLICE_X64Y137 + A6LUT + ((~A5&((~A6&((~A4&((~A1&~A2)^A3))|(A4&(A1^(A3^A2)))))|(A6&(((~A4&A1)|(A4&(~A1&~A2)))^A3))))|(A5&((~A6&(((~A4&(~A1|(A1&~A2)))|(A4&A1))^A3))|(A6&((~A4&(A1^(A3^~A2)))|(A4&((~A1|(A1&~A2))^A3)))))))
+LUT-97 + N3349 + SLICE_X64Y137 + B6LUT + (B6|~B6)&(((~B2&B3)|(B2&B4)))
+LUT-98 + N3349 + SLICE_X64Y137 + B5LUT + (((~B2&B3)|(B2&B4))^B5)
+LUT-99 + N10718_OBUF + SLICE_X6Y149 + A6LUT + ((~A6&((~A5&((~A1&((~A4&A2)|A3))|(A1&(((~A4&~A2)|A4)&~A3))))|(A5&~A1)))|(A6&((~A5&((~A1&(~A4&(A2&A3)))|(A1&(A4|(~A2|~A3)))))|(A5&(A1^A3)))))
+LUT-100 + N10104_OBUF + SLICE_X25Y144 + D6LUT + ((~D3&((~D2&(~D1&(~D4&D6)))|(D2&((~D5&(~D1&(~D4&D6)))|(D5&(~D1&~D4))))))|(D3&((~D2&(~D1|(~D4|D6)))|(D2&(D5|(~D1|(~D4|D6)))))))
+LUT-101 + N3334 + SLICE_X8Y150 + A6LUT + ((~A6&((~A4&((~A3&(~A1&(~A5&~A2)))|(A3&(~A5&~A2))))|(A4&(((~A3&(~A1|(A1&~A5)))|A3)&~A2))))|(A6&((~A4&(((~A3&(~A1&~A5))|(A3&~A5))|~A2))|(A4&(A3|(~A1|(~A5|~A2)))))))
+LUT-102 + N3334 + SLICE_X8Y150 + B6LUT + (B6|~B6)&(((~B1&B2)|(B1&B3)))
+LUT-103 + N3334 + SLICE_X8Y150 + B5LUT + ((~B4&(((~B1&~B2)|(B1&~B3))|B5))|(B4&(((~B1&B2)|(B1&B3))|~B5)))
+LUT-104 + N11187 + SLICE_X19Y148 + A6LUT + (A1^(A3^(A4^(A2^(A5^A6)))))
+LUT-105 + N3390 + SLICE_X19Y147 + A6LUT + ((~A3&((~A1&(((~A5&A6)|A5)&~A4))|(A1&(A5|(A6|~A4)))))|(A3&((~A1&(A5&(A6&~A4)))|(A1&((A5&A6)|~A4)))))
+LUT-106 + N3390 + SLICE_X19Y147 + B6LUT + (B6^(B4^(B3^((~B1&~B2)|(B1&~B5)))))
+LUT-107 + N3390 + SLICE_X19Y147 + C6LUT + (C6|~C6)&(((~C5&C2)|(C5&C4)))
+LUT-108 + N3390 + SLICE_X19Y147 + C5LUT + (~C1&((~C5&C2)|(C5&C4)))
+LUT-109 + N10352_OBUF + SLICE_X57Y137 + C6LUT + ((~C4&((~C5&((~C2&~C3)|(C2&((~C3&(~C6|C1))|(C3&(C6&~C1))))))|(C5&((~C2&(C3^C1))|(C2&((~C3&(~C6|C1))|(C3&(C6&~C1))))))))|(C4&((~C5&((~C2&(C3^C1))|(C2&((~C3&(~C6&C1))|(C3&(C6|~C1))))))|(C5&((~C2&C3)|(C2&((~C3&(~C6&C1))|(C3&(C6|~C1)))))))))
+LUT-110 + N3398 + SLICE_X27Y147 + A6LUT + ((~A5&((~A3&((~A6&~A2)|(A6&((~A2&(~A1|A4))|(A2&(A1&~A4))))))|(A3&((~A6&(A2^A4))|(A6&((~A2&(~A1|A4))|(A2&(A1&~A4))))))))|(A5&((~A3&((~A6&(A2^A4))|(A6&((~A2&(~A1&A4))|(A2&(A1|~A4))))))|(A3&((~A6&A2)|(A6&((~A2&(~A1&A4))|(A2&(A1|~A4)))))))))
+LUT-111 + N3398 + SLICE_X27Y147 + B6LUT + (B6|~B6)&(((~B5&B3)|(B5&B4)))
+LUT-112 + N3398 + SLICE_X27Y147 + B5LUT + (((~B5&B3)|(B5&B4))^B1)
+LUT-113 + N785235 + SLICE_X3Y127 + A6LUT + ((~A6&(~A5|~A1))|(A6&((~A5|(A5&~A1))&A2)))
+LUT-114 + N785235 + SLICE_X3Y127 + B6LUT + ((~B4&(B3&((~B5&(~B2&B6))|(B5&(~B2&(~B1&B6))))))|(B4&(((~B3&B6)|(B3&(~B5|(B5&(~B1|B6)))))&~B2)))
+LUT-115 + N10103_OBUF + SLICE_X16Y127 + B6LUT + ((~B5&((~B4&(~B6&(~B2&B1)))|(B4&((~B3&(~B6&(~B2&B1)))|(B3&(~B6&~B2))))))|(B5&((~B4&(~B6|(~B2|B1)))|(B4&(B3|(~B6|(~B2|B1)))))))
+LUT-116 + N10839_OBUF + SLICE_X3Y144 + D6LUT + ((~D4&((~D2&((~D5&(~D1|~D3))|(D5&((~D1|(D1&~D3))^D6))))|(D2&((~D5&(D1&D3))|(D5&((D1&D3)^D6))))))|(D4&((~D2&(D5&D6))|(D2&(~D5|~D6)))))
+LUT-117 + N3384 + SLICE_X26Y143 + D6LUT + (D6|~D6)&(((~D2&D4)|(D2&D5)))
+LUT-118 + N3384 + SLICE_X26Y143 + D5LUT + (((~C2&C4)|(C2&C5))^C3)
+LUT-119 + N9910 + SLICE_X31Y134 + A6LUT + (A4^(A6^(A2^(A5^(A1^~A3)))))
+LUT-120 + N9910 + SLICE_X31Y134 + B6LUT + (B4^(B1^(B6^(B5^(B2^~B3)))))
+LUT-121 + N1062816 + SLICE_X10Y128 + A6LUT + (A2|(A5&A1))
+LUT-122 + N1062816 + SLICE_X10Y128 + B6LUT + (((~B4&(B3&(B2&(B6&B1))))|(B4&(B3&B2)))|B5)
+LUT-123 + N9741 + SLICE_X64Y138 + A6LUT + ((~A1&((~A4&((~A6&(~A5&(~A3&~A2)))|(A6&(~A3&~A2))))|(A4&(((~A6&(~A5|(A5&~A3)))|A6)&~A2))))|(A1&((~A4&(((~A6&(~A5&~A3))|(A6&~A3))|~A2))|(A4&(A6|(~A5|(~A3|~A2)))))))
+LUT-124 + N9741 + SLICE_X64Y138 + B6LUT + (B6|~B6)&(((B2^B1)&~B4))
+LUT-125 + N9741 + SLICE_X64Y138 + B5LUT + (~B2&(B1&~B4))
+LUT-126 + N8412 + SLICE_X6Y130 + A6LUT + (((~A6&(A2^~A3))|(A6&(A3^A5)))|(A4^~A1))
+LUT-127 + N8412 + SLICE_X6Y130 + B6LUT + ((~B2&((B4^B1)&(~B3&(B5&~B6))))|(B2&((B4^B1)&(~B3&(~B5&~B6)))))
+LUT-128 + N1010315 + SLICE_X17Y128 + A6LUT + ((~A2&A1)|(A2&(A5|(((~A6&(A3&A4))|(A6&A3))|A1))))
+LUT-129 + N1010315 + SLICE_X17Y128 + B6LUT + (B6|~B6)&((B1&(B5&B4)))
+LUT-130 + N1010315 + SLICE_X17Y128 + B5LUT + (((~B1&B2)|(B1&((~B4&B2)|B4)))&B5)
+LUT-131 + N8405 + SLICE_X0Y137 + A6LUT + ((~A1&(A6&(~A3|~A5)))|(A1&((~A3&(~A4&A2))|(A3&(~A4&(~A5&A2))))))
+LUT-132 + N8405 + SLICE_X0Y137 + B6LUT + ((~B4&B1)|(B4&~B6))
+LUT-133 + N8405 + SLICE_X0Y137 + C6LUT + (((~C2&(C6^~C3))|(C2&(C3^C1)))|(C4^~C5))
+LUT-134 + N8405 + SLICE_X0Y137 + D6LUT + ((~D2&((D4^D6)&(D1&~D5)))|(D2&((D4^D6)&(~D1&~D5))))
+LUT-135 + N43 + SLICE_X35Y135 + A6LUT + (A4^(A3^(A2^(A6^~A5))))
+LUT-136 + N43 + SLICE_X35Y135 + B6LUT + (B4^(B2^(B3^((~B1&B6)|(B1&~B5)))))
+LUT-137 + N42 + SLICE_X9Y148 + A6LUT + (((~A5&((~A1&~A3)|(A1&(~A3&~A4))))|(A5&((~A1&(~A3&A2))|(A1&(~A3&(~A4&A2))))))|A6)
+LUT-138 + N42 + SLICE_X9Y148 + B6LUT + (B3^(B4^(B1^((~B6&B2)|(B6&~B5)))))
+LUT-139 + N45 + SLICE_X63Y138 + A6LUT + (A2^(A3^(A6^(A1^(A4^~A5)))))
+LUT-140 + N45 + SLICE_X63Y138 + B6LUT + ((~B2&((~B4&(B3^B1))|(B4&(B3^(B1^(B6^B5))))))|(B2&((~B4&(B3^~B1))|(B4&(B3^(B1^(B6^B5)))))))
+LUT-141 + N9969 + SLICE_X30Y136 + D6LUT + ((~D2&((~D6&((~D4&(~D1&D5))|(D4&(D1^D5))))|(D6&((~D4|(D4&D5))&~D1))))|(D2&((~D6&(((~D4&~D5)|D4)&D1))|(D6&((~D4&(D1^D5))|(D4&(D1&~D5)))))))
+LUT-142 + N9726 + SLICE_X27Y144 + B6LUT + ((~B6&(B3|((~B2&B1)|(B2&B4))))|(B6&(B3&((~B2&B1)|(B2&B4)))))
+LUT-143 + N9726 + SLICE_X27Y144 + C6LUT + ((~C5&((~C3&(~C6&(~C4&~C1)))|(C3&((~C6&~C1)|~C4))))|(C5&((~C3&((~C6|(C6&~C1))&~C4))|(C3&(~C6|(~C4|~C1))))))
+LUT-144 + N10869_OBUF + SLICE_X17Y148 + A6LUT + ((~A5&((~A3&((~A1&(A6&(~A4&~A2)))|(A1&(~A4&~A2))))|(A3&(((~A1&(A6&~A2))|(A1&~A2))|~A4))))|(A5&((~A3&(((~A1&((~A6&~A2)|A6))|A1)&~A4))|(A3&(A1|(A6|(~A4|~A2)))))))
+LUT-145 + N10869_OBUF + SLICE_X17Y148 + B6LUT + ((~B2&((~B5&(B3^(B1^~B6)))|(B5&(B3^B1))))|(B2&((~B5&(B3^~B1))|(B5&(B3^(B1^~B6))))))
+LUT-146 + N51 + SLICE_X19Y144 + A6LUT + ((~A4&(~A6|((~A2|(A2&~A3))&~A1)))|(A4&((~A6&((~A2&(~A5|A1))|(A2&(A3|(~A5|A1)))))|(A6&(((~A2&~A1)|(A2&(~A3&~A1)))|A5)))))
+LUT-147 + N3178 + SLICE_X35Y127 + A6LUT + ((~A3&((~A1|(A1&~A5))&~A2))|(A3&((~A1&(~A2&A4))|(A1&(~A2&(~A5&A4))))))
+LUT-148 + N9786 + SLICE_X6Y129 + A6LUT + ((~A3&(A2&((~A5&(((~A6&A1)|A6)&A4))|(A5&(A6|(A1|A4))))))|(A3&(A2|((~A5&(((~A6&A1)|A6)&A4))|(A5&(A6|(A1|A4)))))))
+LUT-149 + N9786 + SLICE_X6Y129 + B6LUT + (B1|(B2&B6))
+LUT-150 + N1821 + SLICE_X34Y141 + A6LUT + (A1^(A4^(A3^(A2^(A6^~A5)))))
+LUT-151 + N1821 + SLICE_X34Y141 + B6LUT + (B2&B4)
+LUT-152 + N8444 + SLICE_X27Y143 + C6LUT + (((~C2&(C3^C6))|(C2&(C6^C5)))|C4)
+LUT-153 + N8444 + SLICE_X27Y143 + D6LUT + ((~D4&((D1^~D6)&(~D2&(~D3&~D5))))|(D4&((D1^~D6)&(~D2&(D3&~D5)))))
+LUT-154 + N6052_and0000 + SLICE_X1Y136 + B6LUT + ((~B3&((~B6&B2)|(B6&(B4^B1))))|(B3&((~B5&((~B6&B2)|(B6&(B4^B1))))|(B5&((~B6&~B2)|(B6&B4))))))
+LUT-155 + N7100 + SLICE_X3Y126 + C6LUT + ((~C4&(((~C1&C2)|(C1&(C6^C5)))|C3))|(C4&(((~C1&~C2)|(C1&C6))|~C3)))
+LUT-156 + N7100 + SLICE_X3Y126 + D6LUT + ((~D6&((D2^D3)&(~D4&(D1&~D5))))|(D6&((D2^D3)&(~D4&(~D1&~D5)))))
+LUT-157 + N1801 + SLICE_X12Y128 + A6LUT + (((~A1&~A3)|(A1&(A2^~A4)))&(~A5&~A6))
+LUT-158 + N1801 + SLICE_X12Y128 + B6LUT + (((~B1&(B6^~B4))|(B1&(B4^B5)))|(B2^~B3))
+LUT-159 + N10761_OBUF + SLICE_X33Y130 + C6LUT + ((~C6&(~C1|((~C5&((~C4|(C4&C2))&~C3))|(C5&(~C4|(C2|~C3))))))|(C6&(~C4&~C3)))
+LUT-160 + N10761_OBUF + SLICE_X33Y130 + D6LUT + (((~D3&((~D2&(~D4|(D4&D6)))|(D2&(~D4&D6))))|(D3&~D5))^D1)
+LUT-161 + N8252 + SLICE_X11Y160 + A6LUT + (A6|~A6)&((((~A5&A1)|(A5&A2))^A3))
+LUT-162 + N8252 + SLICE_X11Y160 + A5LUT + (A4^((~A5&(A1^~A3))|(A5&(A3^~A2))))
+LUT-163 + N8251 + SLICE_X4Y152 + D6LUT + (D6|~D6)&(((~D2&((~D5&(~D1|D4))|(D5&(D1&~D4))))|(D2&((~D3&((~D5&(~D1|D4))|(D5&(D1&~D4))))|(D3&D5)))))
+LUT-164 + N8251 + SLICE_X4Y152 + D5LUT + ((~C1&(~C3|~C2))|(C1&((~C3|(C3&~C2))&C4)))
+LUT-165 + N1112_OBUF + SLICE_X0Y178 + A6LUT + (A2|~A1)
+LUT-166 + N8253 + SLICE_X32Y149 + A6LUT + (A6|~A6)&((((~A3&A4)|(A3&A2))^A5))
+LUT-167 + N8253 + SLICE_X32Y149 + A5LUT + (A1^((~A3&(A4^~A5))|(A3&(A5^~A2))))
+LUT-168 + N8943141 + SLICE_X7Y129 + A6LUT + ((~A2&(((~A6&A3)|(A6&~A1))&(A5&A4)))|(A2&(((~A6&(A3&A5))|(A6&(A5&~A1)))|A4)))
+LUT-169 + N8943141 + SLICE_X7Y129 + B6LUT + ((~B1&((~B6&(B3&(B5&B4)))|(B6&((~B2&B3)|(B2&(B3&(B5&B4)))))))|(B1&((B6&~B2)|(B5&B4))))
+LUT-170 + N112051320 + SLICE_X32Y128 + C6LUT + (C4^(C6^(C2^(C3^(C5^~C1)))))
+LUT-171 + N8242 + SLICE_X33Y134 + A6LUT + (A6|~A6)&(((~A5&A3)|(A5&A4)))
+LUT-172 + N8242 + SLICE_X33Y134 + A5LUT + ((~A1&(A2|((~A5&A3)|(A5&A4))))|(A1&(A2&((~A5&A3)|(A5&A4)))))
+LUT-173 + N8242 + SLICE_X33Y134 + B6LUT + (B6|~B6)&((((~B5&B3)|(B5&B1))^B4))
+LUT-174 + N8242 + SLICE_X33Y134 + B5LUT + (~B4&((~B5&B3)|(B5&B1)))
+LUT-175 + N10762_OBUF + SLICE_X18Y148 + C6LUT + ((~C4&((~C3&((~C1&(~C2|(~C6|C5)))|(C1&(C2&(C6&~C5)))))|(C3&(C1^C5))))|(C4&((~C3&((~C1&((~C2|(C2&~C6))&C5))|(C1&((C2&C6)|~C5))))|(C3&C1))))
+LUT-176 + N8248 + SLICE_X4Y149 + A6LUT + ((~A5&((~A1&(~A3|A4))|(A1&(A3&~A4))))|(A5&((~A2&((~A1&(~A3|A4))|(A1&(A3&~A4))))|(A2&A1))))
+LUT-177 + N8246 + SLICE_X32Y134 + A6LUT + ((~A3&((~A5&((A6&A1)|(~A4&A2)))|(A5&((~A6|(A6&~A1))&(A4|~A2)))))|(A3&((~A5&((~A6|(A6&~A1))&(A4|~A2)))|(A5&((A6&A1)|(~A4&A2))))))
+LUT-178 + N8246 + SLICE_X32Y134 + B6LUT + ((~B4&((~B2&B3)|(B5&B1)))|(B4&(~B2|(B3|(B5&B1)))))
+LUT-179 + N8246 + SLICE_X32Y134 + D6LUT + (((~D3&D1)|(D3&D2))^D6)
+LUT-180 + N10576_OBUF + SLICE_X8Y144 + D6LUT + (((~D6&((~D4&((~D3&(D2^D1))|(D3&(D2^~D1))))|(D4&((~D3&(D2^~D1))|(D3&(D2^D1))))))|(D6&((~D4&((~D3&(D2^~D1))|(D3&(D2^D1))))|(D4&((~D3&(D2^D1))|(D3&(D2^~D1)))))))|D5)
+LUT-181 + N2700 + SLICE_X35Y140 + D6LUT + ((~D6&D3)|(D6&D2))
+LUT-182 + N2704 + SLICE_X1Y142 + C6LUT + ((~C5&C4)|(C5&C6))
+LUT-183 + N10350_OBUF + SLICE_X36Y139 + B6LUT + ((~B3&((~B1&((~B5&(B6|~B4))|(B5&(~B6&~B4))))|(B1&((~B2&((~B5&(B6|~B4))|(B5&(~B6&~B4))))|(B2&~B5)))))|(B3&((~B1&((~B5&(~B6&B4))|(B5&(B6|B4))))|(B1&((~B2&((~B5&(~B6&B4))|(B5&(B6|B4))))|(B2&B5))))))
+LUT-184 + N7384 + SLICE_X43Y131 + B6LUT + ((~B4&((~B2&(B1|(B6^~B3)))|(B2&(~B1&(B6^~B3)))))|(B4&((~B2&(~B1&(B6^~B3)))|(B2&(B1|(B6^~B3))))))
+LUT-185 + N10025_OBUF + SLICE_X12Y151 + D6LUT + ((~D3&((~D5&D2)^~D1))|(D3&(((~D5&D2)|D5)^D1)))
+LUT-186 + N1601 + SLICE_X0Y130 + A6LUT + ((~A2&((A1&((~A3&(A4&~A6))|(A3&(~A4&~A6))))|A5))|(A2&(~A1|((A3^~A4)|(A6|A5)))))
+LUT-187 + N1601 + SLICE_X0Y130 + B6LUT + (((~B3&((~B4&((~B6&(B1^B2))|(B6&(B1^~B2))))|(B4&((~B6&(B1^~B2))|(B6&(B1^B2))))))|(B3&((~B4&((~B6&(B1^~B2))|(B6&(B1^B2))))|(B4&((~B6&(B1^B2))|(B6&(B1^~B2)))))))|B5)
+LUT-188 + N10425 + SLICE_X2Y161 + C6LUT + ((~C2&((~C4&(C1^(C5^~C6)))|(C4&(C1^C5))))|(C2&((~C4&(C1^~C5))|(C4&(C1^(C5^~C6))))))
+LUT-189 + N10425 + SLICE_X2Y161 + D6LUT + ((~D3&((~D5&(D2&(~D1&~D6)))|(D5&~D6)))|(D3&(D5|((D2&~D1)|~D6))))
+LUT-190 + N2753 + SLICE_X2Y110 + B6LUT + ((~B1&B3)|(B1&~B4))
+LUT-191 + N2511 + SLICE_X6Y128 + A6LUT + ((~A6&(~A5|~A1))|(A6&((~A5|(A5&~A1))&A4)))
+LUT-192 + N2511 + SLICE_X6Y128 + B6LUT + ((B3^~B6)|(B4^~B1))
+LUT-193 + N2757 + SLICE_X13Y115 + B6LUT + ((~B6&B3)|(B6&~B4))
+LUT-194 + N10412 + SLICE_X51Y138 + A6LUT + ((~A6&((~A3&(A1^(A4^~A5)))|(A3&(A1^A4))))|(A6&((~A3&(A1^~A4))|(A3&(A1^(A4^~A5))))))
+LUT-195 + N10412 + SLICE_X51Y138 + B6LUT + ((~B1&((~B2&(B6&(~B5&~B3)))|(B2&~B3)))|(B1&(B2|((B6&~B5)|~B3))))
+LUT-196 + N2741 + SLICE_X7Y141 + D6LUT + (D6|~D6)&(((~D1&D4)|(D1&~D3)))
+LUT-197 + N2741 + SLICE_X7Y141 + D5LUT + ((~C1&(C4^~C2))|(C1&(C3^C5)))
+LUT-198 + N2745 + SLICE_X5Y132 + D6LUT + ((~D2&D4)|(D2&~D6))
+LUT-199 + N10402 + SLICE_X12Y133 + A6LUT + (((~A5&((~A1&(A2^~A4))|(A1&(A2^A4))))|(A5&((~A1&(A2^A4))|(A1&(A2^~A4)))))|(A6^~A3))
+LUT-200 + N10402 + SLICE_X12Y133 + B6LUT + (B6|~B6)&(((~B5&((B3^B4)&(B2&~B1)))|(B5&((B3^B4)&(~B2&~B1)))))
+LUT-201 + N10402 + SLICE_X12Y133 + B5LUT + ((B4^~B3)|((B2^~B5)|B1))
+LUT-202 + N10641_OBUF + SLICE_X7Y145 + D6LUT + ((~D1&((~D2&((D6&D3)|(~D4&D5)))|(D2&((~D6|(D6&~D3))&(D4|~D5)))))|(D1&((~D2&((~D6|(D6&~D3))&(D4|~D5)))|(D2&((D6&D3)|(~D4&D5))))))
+LUT-203 + N2733 + SLICE_X2Y129 + C6LUT + ((~C1&C2)|(C1&~C6))
+LUT-204 + N2737 + SLICE_X0Y140 + D6LUT + (D6|~D6)&(((~D2&D3)|(D2&~D4)))
+LUT-205 + N2737 + SLICE_X0Y140 + D5LUT + ((~C2&(C3^~C5))|(C2&(C4^C1)))
+LUT-206 + N10632_OBUF + SLICE_X33Y104 + A6LUT + (A4^((~A6&(A2^~A1))|(A6&(A1^~A5))))
+LUT-207 + N9352 + SLICE_X18Y140 + A6LUT + (((~A1&((~A6&A4)|(A6&((A5&A2)|A4))))|(A1&((~A6&A4)|A6)))&~A3)
+LUT-208 + N9352 + SLICE_X18Y140 + B6LUT + (B6|~B6)&((((~B4&B5)|(B4&B2))^B1))
+LUT-209 + N9352 + SLICE_X18Y140 + B5LUT + ((~B1&(B3|((~B4&B5)|(B4&B2))))|(B1&(B3&((~B4&B5)|(B4&B2)))))
+LUT-210 + N2729 + SLICE_X7Y133 + A6LUT + (A3^(A4^(A5^(A1^A2))))
+LUT-211 + N2729 + SLICE_X7Y133 + B6LUT + (B6|~B6)&(((~B2&B1)|(B2&~B4)))
+LUT-212 + N2729 + SLICE_X7Y133 + B5LUT + ((~B4&((~B3&(B2|(B1^~B5)))|(B3&(~B2&(B1^~B5)))))|(B4&((~B3&(~B2&(B1^~B5)))|(B3&(B2|(B1^~B5))))))
+LUT-213 + N2550 + SLICE_X6Y141 + A6LUT + ((~A6&A2)|(A6&A1))
+LUT-214 + N3404 + SLICE_X33Y141 + A6LUT + ((~A6&((~A4&((~A3&((~A2&~A5)^A1))|(A3&(A2^(A1^A5)))))|(A4&(((~A3&A2)|(A3&(~A2&~A5)))^A1))))|(A6&((~A4&(((~A3&(~A2|(A2&~A5)))|(A3&A2))^A1))|(A4&((~A3&(A2^(A1^~A5)))|(A3&((~A2|(A2&~A5))^A1)))))))
+LUT-215 + N3404 + SLICE_X33Y141 + B6LUT + (B6|~B6)&(((~B3&B5)|(B3&B4)))
+LUT-216 + N3404 + SLICE_X33Y141 + B5LUT + (((~B3&B5)|(B3&B4))^B1)
+LUT-217 + N2542 + SLICE_X47Y133 + D6LUT + ((~D2&D3)|(D2&D5))
+LUT-218 + N2546 + SLICE_X0Y143 + A6LUT + ((~A3&A5)|(A3&A4))
+LUT-219 + N881_OBUF + SLICE_X39Y114 + A6LUT + (A1|A2)
+LUT-220 + N2538 + SLICE_X19Y135 + A6LUT + (A4^(A5^(A6^(A1^A2))))
+LUT-221 + N2538 + SLICE_X19Y135 + B6LUT + (B6|~B6)&(((~B1&B4)|(B1&B3)))
+LUT-222 + N2538 + SLICE_X19Y135 + B5LUT + ((~B3&((~B2&(B1|(B4^~B5)))|(B2&(~B1&(B4^~B5)))))|(B3&((~B2&(~B1&(B4^~B5)))|(B2&(B1|(B4^~B5))))))
+LUT-223 + N2761 + SLICE_X7Y128 + B6LUT + ((~B6&(B2^(B5^(B4^~B3))))|(B6&(B5^(B4^(B3^B1)))))
+LUT-224 + N2761 + SLICE_X7Y128 + C6LUT + ((~C1&C2)|(C1&~C6))
+LUT-225 + N10905_OBUF + SLICE_X18Y152 + D6LUT + ((~D3&((~D4&~D1)|(D4&((~D6&(D5|~D2))|(D6&(D5&~D2))))))|(D3&((~D4&D1)|(D4&((~D6&(~D5&D2))|(D6&(~D5|D2)))))))
+LUT-226 + N3444 + SLICE_X7Y137 + C6LUT + ((~C5&C2)|(C5&~C1))
+LUT-227 + N2110 + SLICE_X11Y144 + D6LUT + (D6&D4)
+LUT-228 + N3448 + SLICE_X0Y139 + C6LUT + ((~C3&(C4^(C5^(C2^~C6))))|(C3&(C5^(C2^(C6^C1)))))
+LUT-229 + N3448 + SLICE_X0Y139 + D6LUT + ((~D3&D6)|(D3&~D2))
+LUT-230 + N1028 + SLICE_X3Y125 + D6LUT + (D6&~D3)
+LUT-231 + N3432 + SLICE_X7Y131 + D6LUT + ((~D2&D6)|(D2&~D3))
+LUT-232 + N3436 + SLICE_X0Y150 + D6LUT + ((~D3&D6)|(D3&~D2))
+LUT-233 + N3420 + SLICE_X46Y118 + A6LUT + ((~A3&A6)|(A3&~A1))
+LUT-234 + N2573 + SLICE_X47Y138 + B6LUT + ((~B5&((~B2&((~B1&(~B3&(~B4&~B6)))|(B1&(~B4&~B6))))|(B2&(((~B1&(~B3|(B3&~B4)))|B1)&~B6))))|(B5&((~B2&(((~B1&(~B3&~B4))|(B1&~B4))|~B6))|(B2&(B1|(~B3|(~B4|~B6)))))))
+LUT-235 + N2573 + SLICE_X47Y138 + C6LUT + (C6|~C6)&(((~C5&C4)|(C5&C1)))
+LUT-236 + N2573 + SLICE_X47Y138 + C5LUT + ((~C2&(C3|((~C5&C4)|(C5&C1))))|(C2&(C3&((~C5&C4)|(C5&C1)))))
+LUT-237 + N3424 + SLICE_X4Y129 + A6LUT + (A6|~A6)&(((~A5&A4)|(A5&~A1)))
+LUT-238 + N3424 + SLICE_X4Y129 + A5LUT + ((~A5&(A4^~A2))|(A5&(A1^A3)))
+LUT-239 + N3428 + SLICE_X3Y123 + B6LUT + ((~B2&B5)|(B2&~B3))
+LUT-240 + N101190 + SLICE_X47Y139 + A6LUT + (~A3&(~A1&((A2^~A4)&(~A6&~A5))))
+LUT-241 + N101190 + SLICE_X47Y139 + B6LUT + (B6|~B6)&((B1&B5))
+LUT-242 + N101190 + SLICE_X47Y139 + B5LUT + (((~B1&B3)|(B1&((~B5&B3)|B5)))&B4)
+LUT-243 + N2567 + SLICE_X39Y138 + A6LUT + ((~A6&((~A2&((~A1&(~A5|(A3|A4)))|(A1&((~A5&A3)|A4))))|(A2&((~A1&((~A5|(A5&A3))&A4))|(A1&(~A5&(A3&A4)))))))|(A6&((~A2&((~A1&(A5&(~A3&~A4)))|(A1&(((~A5&~A3)|A5)&~A4))))|(A2&((~A1&((A5&~A3)|~A4))|(A1&(A5|(~A3|~A4))))))))
+LUT-244 + N2567 + SLICE_X39Y138 + B6LUT + (~B1&(~B3&((B4^~B2)&(~B5&~B6))))
+LUT-245 + N2567 + SLICE_X39Y138 + C6LUT + (C6|~C6)&(((~C3&C2)|(C3&C4)))
+LUT-246 + N2567 + SLICE_X39Y138 + C5LUT + (((~C3&C2)|(C3&C4))^C5)
+LUT-247 + N3416 + SLICE_X18Y129 + A6LUT + (A6^(A4^(A3^(A1^A2))))
+LUT-248 + N3416 + SLICE_X18Y129 + B6LUT + (B6|~B6)&(((~B1&B5)|(B1&~B2)))
+LUT-249 + N3416 + SLICE_X18Y129 + B5LUT + ((~B2&((~B4&(B1|(B5^~B3)))|(B4&(~B1&(B5^~B3)))))|(B2&((~B4&(~B1&(B5^~B3)))|(B4&(B1|(B5^~B3))))))
+LUT-250 + N3482 + SLICE_X41Y130 + A6LUT + (A4^(A2^(A6^(A3^(A1^~A5)))))
+LUT-251 + N3482 + SLICE_X41Y130 + B6LUT + ((~B1&B4)|(B1&~B3))
+LUT-252 + N2151 + SLICE_X46Y136 + A6LUT + ((~A4&((~A3&A6)^~A2))|(A4&(((~A3&A6)|A3)^A2)))
+LUT-253 + N7609 + SLICE_X2Y149 + A6LUT + ((~A5&((~A4&((~A1|(A1&~A3))&~A2))|(A4&((~A1&(A6&~A2))|(A1&(~A3&(A6&~A2)))))))|(A5&((~A4&(~A1|(~A3|~A2)))|(A4&(((~A1&A6)|(A1&(~A3&A6)))|~A2)))))
+LUT-254 + N3247 + SLICE_X38Y128 + B6LUT + ((~B3&B2)|(B3&B4))
+LUT-255 + N3247 + SLICE_X38Y128 + C6LUT + (C1^(C2^(C5^(C6^(C3^~C4)))))
+LUT-256 + N3247 + SLICE_X38Y128 + D6LUT + (D1^(D2^(D4^(D6^(D3^~D5)))))
+LUT-257 + N10760_OBUF + SLICE_X19Y151 + A6LUT + ((~A1&((~A2&((~A4&(A6|~A5))|(A4&(~A6&~A5))))|(A2&((~A3&((~A4&(A6|~A5))|(A4&(~A6&~A5))))|(A3&~A4)))))|(A1&((~A2&((~A4&(~A6&A5))|(A4&(A6|A5))))|(A2&((~A3&((~A4&(~A6&A5))|(A4&(A6|A5))))|(A3&A4))))))
+LUT-258 + N10827_OBUF + SLICE_X15Y164 + A6LUT + ((~A3&(A2^(A1^~A4)))|(A3&((~A2&(A1^(A4^~A5)))|(A2&(A1^A4)))))
+LUT-259 + N3470 + SLICE_X21Y124 + A6LUT + ((~A3&A1)|(A3&~A6))
+LUT-260 + N3474 + SLICE_X15Y128 + A6LUT + ((~A1&A4)|(A1&~A3))
+LUT-261 + N3478 + SLICE_X21Y122 + A6LUT + ((~A6&A3)|(A6&~A4))
+LUT-262 + N3462 + SLICE_X57Y116 + C6LUT + ((~C6&C1)|(C6&~C4))
+LUT-263 + N3466 + SLICE_X13Y134 + A6LUT + ((~A3&A4)|(A3&~A1))
+LUT-264 + N3454 + SLICE_X14Y128 + B6LUT + ((~B1&B3)|(B1&~B2))
+LUT-265 + N3454 + SLICE_X14Y128 + C6LUT + 0
+LUT-266 + N3454 + SLICE_X14Y128 + D6LUT + ((~D4&((~D6&(D2&(D3&D1)))|(D6&(D2|(D3&D1)))))|(D4&(D6&D5)))
+LUT-267 + N3458 + SLICE_X42Y132 + A6LUT + (A6|~A6)&(((~A5&A2)|(A5&~A3)))
+LUT-268 + N3458 + SLICE_X42Y132 + A5LUT + ((~A5&(A2^~A4))|(A5&(A3^A1)))
+LUT-269 + N3281 + SLICE_X31Y139 + D6LUT + (D6|~D6)&(((~D3&D1)|(D3&D4)))
+LUT-270 + N3281 + SLICE_X31Y139 + D5LUT + (((~C3&C1)|(C3&C4))^C2)
+LUT-271 + N441 + SLICE_X18Y147 + A6LUT + (A6^(A1^(A4^(A2^(A3^~A5)))))
+LUT-272 + N441 + SLICE_X18Y147 + B6LUT + ((~B2&(B6^(B4^~B1)))|(B2&(B4^(B1^(B3^~B5)))))
+LUT-273 + N9820 + SLICE_X21Y128 + A6LUT + ((~A5&(A4&((~A1&(((~A6&A2)|A6)&A3))|(A1&(A6|(A2|A3))))))|(A5&(A4|((~A1&(((~A6&A2)|A6)&A3))|(A1&(A6|(A2|A3)))))))
+LUT-274 + N9820 + SLICE_X21Y128 + B6LUT + (B3|(B4&B6))
+LUT-275 + N3287 + SLICE_X32Y139 + A6LUT + ((~A5&((~A1&((~A4&((~A6&~A3)^A2))|(A4&(A6^(A2^A3)))))|(A1&(((~A4&A6)|(A4&(~A6&~A3)))^A2))))|(A5&((~A1&(((~A4&(~A6|(A6&~A3)))|(A4&A6))^A2))|(A1&((~A4&(A6^(A2^~A3)))|(A4&((~A6|(A6&~A3))^A2)))))))
+LUT-276 + N3287 + SLICE_X32Y139 + B6LUT + ((~B4&((~B6&(~B5&~B1))|(B6&(~B1&(~B3&B2)))))|(B4&(((~B6&~B5)|(B6&(~B3&B2)))|~B1)))
+LUT-277 + N3287 + SLICE_X32Y139 + C6LUT + (C6|~C6)&(((~C2&C5)|(C2&C1)))
+LUT-278 + N3287 + SLICE_X32Y139 + C5LUT + (((~C2&C5)|(C2&C1))^(C4^C3))
+LUT-279 + N5996_and0000 + SLICE_X13Y119 + C6LUT + ((~C1&((~C4&C2)|(C4&(C5^C3))))|(C1&((~C6&((~C4&C2)|(C4&(C5^C3))))|(C6&((~C4&~C2)|(C4&C5))))))
+LUT-280 + N3273 + SLICE_X38Y138 + A6LUT + (A6|~A6)&(((~A1&((~A4&(~A3|A2))|(A4&(A3&~A2))))|(A1&((~A5&((~A4&(~A3|A2))|(A4&(A3&~A2))))|(A5&A4)))))
+LUT-281 + N3273 + SLICE_X38Y138 + A5LUT + ((~A3&(~A5|~A1))|(A3&((~A5|(A5&~A1))&A2)))
+LUT-282 + N3273 + SLICE_X38Y138 + C6LUT + (C4^(C2^(C1^((~C5&~C3)|(C5&~C6)))))
+LUT-283 + N3273 + SLICE_X38Y138 + D6LUT + (D6|~D6)&(((~D5&D4)|(D5&D3)))
+LUT-284 + N3273 + SLICE_X38Y138 + D5LUT + (~C1&((~C5&C4)|(C5&C3)))
+LUT-285 + N1072951 + SLICE_X58Y129 + D6LUT + (~D1|(~D3|(~D5|~D2)))
+LUT-286 + N2171 + SLICE_X3Y140 + A6LUT + (A1&~A2)
+LUT-287 + N3263 + SLICE_X24Y125 + A6LUT + (A3^(A6^(A4^(A5^A1))))
+LUT-288 + N3263 + SLICE_X24Y125 + B6LUT + ((~B4&B1)|(B4&B2))
+LUT-289 + N10717_OBUF + SLICE_X20Y159 + D6LUT + ((~D6&((~D3&((D1&D4)|(~D2&D5)))|(D3&((~D1|(D1&~D4))&(D2|~D5)))))|(D6&((~D3&((~D1|(D1&~D4))&(D2|~D5)))|(D3&((D1&D4)|(~D2&D5))))))
+LUT-290 + N8950 + SLICE_X1Y137 + C6LUT + ((~C2&((~C5&(C6&C1))|(C5&((~C3&(C6&C1))|(C3&(C6|C1))))))|(C2&((~C4&(C5&(C3&C6)))|(C4&((C5&C3)|C6)))))
+LUT-291 + N8950 + SLICE_X1Y137 + D6LUT + ((~D4&((~D2&(D1&(D5&D6)))|(D2&(((~D1&D5)|D1)&D6))))|(D4&((~D2&((D1&D5)|D6))|(D2&(D1|(D5|D6))))))
+LUT-292 + N7852 + SLICE_X2Y127 + A6LUT + ((~A1&((~A6&(~A3&(~A4&A5)))|(A6&((~A2&(~A3&(~A4&A5)))|(A2&(~A3&~A4))))))|(A1&((~A6&(~A3|(~A4|A5)))|(A6&(A2|(~A3|(~A4|A5)))))))
+LUT-293 + N7852 + SLICE_X2Y127 + B6LUT + ((~B6&(B3&((~B2&(((~B5&B1)|B5)&B4))|(B2&(B5|(B1|B4))))))|(B6&(B3|((~B2&(((~B5&B1)|B5)&B4))|(B2&(B5|(B1|B4)))))))
+LUT-294 + N3251 + SLICE_X21Y113 + A6LUT + ((~A6&A3)|(A6&A4))
+LUT-295 + N8943 + SLICE_X6Y132 + C6LUT + ((~C5&((~C3&(C4|C6))|(C3&(C4&C6))))|(C5&((~C2&((~C3&C1)|C4))|(C2&(~C3&(C1&C4))))))
+LUT-296 + N8943 + SLICE_X6Y132 + D6LUT + ((~D6&((D1&D3)|D2))|(D6&(D5|((D1&D3)|D2))))
+LUT-297 + N3255 + SLICE_X25Y125 + A6LUT + ((~A4&A3)|(A4&A1))
+LUT-298 + N6761 + SLICE_X31Y128 + A6LUT + ((~A6&(~A1&((~A3&(A2&(~A5&~A4)))|(A3&~A5))))|(A6&(~A1&(~A3&((~A2|(A2&A4))&~A5)))))
+LUT-299 + N6761 + SLICE_X31Y128 + B6LUT + (B6|~B6)&(((~B2&((~B1&(~B5|B3))|(B1&(B5&~B3))))|(B2&((~B4&((~B1&(~B5|B3))|(B1&(B5&~B3))))|(B4&B1)))))
+LUT-300 + N6761 + SLICE_X31Y128 + B5LUT + ((~B5&(~B4|~B2))|(B5&((~B4|(B4&~B2))&B3)))
+LUT-301 + N10112_OBUF + SLICE_X65Y138 + A6LUT + (((~A3&((~A4&(A6^~A2))|(A4&(A6^(A2^~A1)))))|(A3&((~A4&(A6^(A2^A1)))|(A4&(A6^~A2)))))^A5)
+LUT-302 + N10112_OBUF + SLICE_X65Y138 + B6LUT + (B6|~B6)&(((~B2&((~B5&(B3|(B4|~B1)))|(B5&(~B3&(~B4&B1)))))|(B2&((~B5&(B3&(~B4&~B1)))|(B5&(~B3|(B4|B1)))))))
+LUT-303 + N10112_OBUF + SLICE_X65Y138 + B5LUT + (~B3|(B1|B4))
+LUT-304 + N885_OBUF + SLICE_X13Y131 + C6LUT + (C4|(~C3|(~C2|(~C1|(C6|C5)))))
+LUT-305 + N885_OBUF + SLICE_X13Y131 + D6LUT + (D6|~D6)&((~D2|(~D3|(~D5|~D4))))
+LUT-306 + N885_OBUF + SLICE_X13Y131 + D5LUT + (~C3|(~C5|(~C2|(~C4|~C1))))
+LUT-307 + N247 + SLICE_X15Y150 + C6LUT + (C3&((~C2&((~C4|(C4&~C5))&~C6))|(C2&((~C4|(C4&~C5))&C6))))
+LUT-308 + N247 + SLICE_X15Y150 + D6LUT + (D2^(D6^(D5^D4)))
+LUT-309 + N249 + SLICE_X13Y138 + B6LUT + (B6&((~B2&(B1^(B3^B4)))|(B2&((~B1&((~B3&(B4&~B5))|(B3&(~B4|B5))))|(B1&((~B3&(~B4&~B5))|(B3&(B4|B5))))))))
+LUT-310 + N249 + SLICE_X13Y138 + C6LUT + ((~C3&((~C4&(C5^~C6))|(C4&((C5^~C6)&~C2))))|(C3&((~C4&(C5^C6))|(C4&((C5^C6)&~C2)))))
+LUT-311 + N10713_OBUF + SLICE_X7Y135 + A6LUT + (((~A4&(~A5&A3))|(A4&((~A6&(~A5&A3))|(A6&~A5))))|(A2&A1))
+LUT-312 + N10713_OBUF + SLICE_X7Y135 + B6LUT + ((~B6&(B3&(B4&(~B2&B1))))|(B6&(((~B3&B1)|(B3&((~B4&B1)|B4)))&~B2)))
+LUT-313 + N10713_OBUF + SLICE_X7Y135 + C6LUT + (C2^((~C1&(C5^~C6))|(C1&(C6^~C3))))
+LUT-314 + N10176 + SLICE_X33Y127 + C6LUT + (~C5&((~C3&((~C1&((~C2&C6)|~C4))|(C1&(~C2|(C6|~C4)))))|(C3&(~C2&(C6|~C4)))))
+LUT-315 + N10176 + SLICE_X33Y127 + D6LUT + ((~D4&((~D2&((~D1&(D5&D3))|(D1&(D5^~D3))))|(D2&((~D1&(D5^~D3))|(D1&(D5&D3))))))|(D4&(((~D2&((~D1&~D3)|D1))|(D2&(~D1|(D1&~D3))))&~D5)))
+LUT-316 + N6102 + SLICE_X19Y140 + D6LUT + ((~D1&((~D4&(D2|(D3^~D5)))|(D4&(~D2&(D3^~D5)))))|(D1&((~D4&(~D2&(D3^~D5)))|(D4&(D2|(D3^~D5))))))
+LUT-317 + N11011 + SLICE_X35Y141 + B6LUT + ((~B6&(B1|((~B5&B4)|(B5&B3))))|(B6&(B1&((~B5&B4)|(B5&B3)))))
+LUT-318 + N11011 + SLICE_X35Y141 + C6LUT + ((~C5&((~C2&((~C1&((~C3&(C6&C4))|(C3&(~C6|~C4))))|(C1&(C3^C4))))|(C2&((~C1&(C3^~C4))|(C1&((~C3&(C6&C4))|(C3&(~C6|~C4))))))))|(C5&((~C2&((~C1&((~C3&(~C6&~C4))|(C3&(C6|C4))))|(C1&C3)))|(C2&((~C1&~C3)|(C1&((~C3&(~C6&~C4))|(C3&(C6|C4)))))))))
+LUT-319 + N10838_OBUF + SLICE_X2Y145 + A6LUT + ((~A5&((~A6&(((~A4&~A1)|(A4&(~A2&~A1)))|A3))|(A6&(((~A4&A1)|(A4&((~A2&A1)|A2)))&~A3))))|(A5&((~A6&((~A4&(A1|~A3))|(A4&(A2|(A1|~A3)))))|(A6&((~A4&(~A1&A3))|(A4&(~A2&(~A1&A3))))))))
+LUT-320 + N11000 + SLICE_X34Y135 + C6LUT + (C3^(C1^(C2^(C6^(C5^C4)))))
+LUT-321 + N10399 + SLICE_X11Y145 + C6LUT + (C5|(~C2|~C6))
+LUT-322 + N10399 + SLICE_X11Y145 + D6LUT + (D6|~D6)&(((~D4&((D2^D5)&(D3&~D1)))|(D4&((D2^D5)&(~D3&~D1)))))
+LUT-323 + N10399 + SLICE_X11Y145 + D5LUT + ((C5^~C2)|((C3^~C4)|C1))
+LUT-324 + N10156 + SLICE_X28Y143 + A6LUT + ((A3^~A4)|(A1^~A5))
+LUT-325 + N10156 + SLICE_X28Y143 + B6LUT + (B6^(B2^(B3^(B1^B4))))
+LUT-326 + N11002 + SLICE_X43Y138 + A6LUT + ((~A5&((~A2&((~A4&(~A3&(~A1&~A6)))|(A4&(~A1&~A6))))|(A2&(((~A4&(~A3|(A3&~A1)))|A4)&~A6))))|(A5&((~A2&(((~A4&(~A3&~A1))|(A4&~A1))|~A6))|(A2&(A4|(~A3|(~A1|~A6)))))))
+LUT-327 + N11002 + SLICE_X43Y138 + B6LUT + ((~B5&((~B2&((~B1&((~B6&(B3&B4))|(B6&(~B3|~B4))))|(B1&(B6^B4))))|(B2&((~B1&(B6^~B4))|(B1&((~B6&(B3&B4))|(B6&(~B3|~B4))))))))|(B5&((~B2&((~B1&((~B6&(~B3&~B4))|(B6&(B3|B4))))|(B1&B6)))|(B2&((~B1&~B6)|(B1&((~B6&(~B3&~B4))|(B6&(B3|B4)))))))))
+LUT-328 + N3299 + SLICE_X4Y131 + A6LUT + (A5^(A4^(A3^(A1^A2))))
+LUT-329 + N3299 + SLICE_X4Y131 + B6LUT + (B6|~B6)&(((~B4&B2)|(B4&B1)))
+LUT-330 + N3299 + SLICE_X4Y131 + B5LUT + ((~B1&((~B5&(B4|(B2^~B3)))|(B5&(~B4&(B2^~B3)))))|(B1&((~B5&(~B4&(B2^~B3)))|(B5&(B4|(B2^~B3))))))
+LUT-331 + N1781_OBUF + SLICE_X88Y122 + A6LUT + (A4&A6)
+LUT-332 + N10388 + SLICE_X9Y141 + C6LUT + ((~C4&(~C6|~C5))|(C4&((~C6|(C6&~C5))&C2)))
+LUT-333 + N10388 + SLICE_X9Y141 + D6LUT + (((~D2&(D4^(D6^(D3^~D5))))|(D2&(D4^(D6^(D3^D5)))))&~D1)
+LUT-334 + N106280 + SLICE_X33Y125 + D6LUT + ((~D5&((D4^D6)&(D1&(D3&~D2))))|(D5&((D4^D6)&(D1&(~D3&~D2)))))
+LUT-335 + N10906_OBUF + SLICE_X14Y141 + C6LUT + ((~C4&((~C1&((~C5&(~C3&~C2))|(C5&(~C3|~C2))))|(C1&(C5|~C2))))|(C4&((~C6&(((~C1&~C3)|C1)&~C2))|(C6&(C1|(~C3|~C2))))))
+LUT-336 + N10906_OBUF + SLICE_X14Y141 + D6LUT + (((~D6&((~D4&(~D3|(D3&D2)))|(D4&(~D3&D2))))|(D6&~D5))^D1)
+LUT-337 + N1931 + SLICE_X28Y128 + C6LUT + (((~C3&(C1&(~C5&~C2)))|(C3&((~C1&(~C5&~C2))|(C1&~C5))))|~C6)
+LUT-338 + N1931 + SLICE_X28Y128 + D6LUT + (D6|~D6)&(((~D5&(D2|(D4&D1)))|(D5&(~D3|(D2|(D4&D1))))))
+LUT-339 + N1931 + SLICE_X28Y128 + D5LUT + ((~C4&((~C2&(~C5|C3))|(C2&(C5&~C3))))|(C4&((~C1&((~C2&(~C5|C3))|(C2&(C5&~C3))))|(C1&C2))))
+LUT-340 + N628_and0000 + SLICE_X12Y135 + A6LUT + (((~A4&((~A3&(A1^~A6))|(A3&(A1^A6))))|(A4&((~A3&(A1^A6))|(A3&(A1^~A6)))))|(A5|~A2))
+LUT-341 + N628_and0000 + SLICE_X12Y135 + B6LUT + (B6|~B6)&((B1&B4))
+LUT-342 + N628_and0000 + SLICE_X12Y135 + B5LUT + ((B5^~B3)|((B1&B4)|~B2))
+LUT-343 + N8315 + SLICE_X9Y140 + A6LUT + ((~A3&((~A1&(~A4|A5))|(A1&(A4&~A5))))|(A3&((~A2&((~A1&(~A4|A5))|(A1&(A4&~A5))))|(A2&A1))))
+LUT-344 + N8541 + SLICE_X21Y125 + A6LUT + (((~A6&(A2^~A1))|(A6&(A1^A4)))|(A5^~A3))
+LUT-345 + N8541 + SLICE_X21Y125 + B6LUT + ((~B3&((B5^B2)&(B1&~B6)))|(B3&((B5^B2)&(~B1&~B6))))
+LUT-346 + N9632 + SLICE_X49Y151 + A6LUT + ((~A3&((~A2&(A1^(A4^~A5)))|(A2&(A1^A4))))|(A3&((~A2&(A1^~A4))|(A2&(A1^(A4^~A5))))))
+LUT-347 + N9632 + SLICE_X49Y151 + B6LUT + ((~B2&((~B6&(B5&(~B4&~B3)))|(B6&~B3)))|(B2&(B6|((B5&~B4)|~B3))))
+
+/*     查找表信息已显示完毕          */
+
+/*     CLKINV信息如下所示             */
+CLKINV:Total Number:0
+
+/*     CLKINV信息已显示完毕          */
+
+/*     F7MUX信息如下所示             */
+F7MUX:Total Number:5
+F7MUX-0 + N2654 + SLICE_X2Y126 + F7BMUX
+F7MUX-1 + N3343 + SLICE_X57Y138 + F7BMUX
+F7MUX-2 + N9910 + SLICE_X31Y134 + F7AMUX
+F7MUX-3 + N3247 + SLICE_X38Y128 + F7BMUX
+F7MUX-4 + N3454 + SLICE_X14Y128 + F7BMUX
+
+/*     F7MUX信息已显示完毕          */
+
+/*     F8MUX信息如下所示             */
+F8MUX:Total Number:0
+
+/*     F8MUX信息已显示完毕          */
+
+/*     CY0信息如下所示             */
+CY0:Total Number:0
+
+/*     CY0信息已显示完毕          */
+
+/*     PRECYINIT信息如下所示             */
+PRECYINIT:Total Number:0
+
+/*     PRECYINIT信息已显示完毕          */
+
+/*     CCE信息如下所示             */
+CCE:Total Number:0
+
+/*     CCE信息已显示完毕          */
+
+/*     OUTMUX信息如下所示             */
+OUTMUX:Total Number:55
+OUTMUX-0 + N1711 + SLICE_X11Y148 + COUTMUX + O5
+OUTMUX-1 + N10301 + SLICE_X28Y141 + COUTMUX + O5
+OUTMUX-2 + N9249 + SLICE_X46Y138 + BOUTMUX + O5
+OUTMUX-3 + N2611 + SLICE_X46Y132 + AOUTMUX + O5
+OUTMUX-4 + N2654 + SLICE_X2Y126 + BOUTMUX + O5
+OUTMUX-5 + N2654 + SLICE_X2Y126 + COUTMUX + F7
+OUTMUX-6 + N9290 + SLICE_X35Y139 + COUTMUX + O5
+OUTMUX-7 + N3322 + SLICE_X15Y148 + BOUTMUX + O5
+OUTMUX-8 + N3328 + SLICE_X19Y142 + DOUTMUX + O5
+OUTMUX-9 + N883_OBUF + SLICE_X12Y129 + DOUTMUX + O5
+OUTMUX-10 + N3315 + SLICE_X15Y143 + BOUTMUX + O5
+OUTMUX-11 + N3307 + SLICE_X3Y129 + AOUTMUX + O5
+OUTMUX-12 + N3114 + SLICE_X9Y150 + COUTMUX + O5
+OUTMUX-13 + N3343 + SLICE_X57Y138 + BOUTMUX + O5
+OUTMUX-14 + N3343 + SLICE_X57Y138 + COUTMUX + F7
+OUTMUX-15 + N2496 + SLICE_X33Y128 + BOUTMUX + O5
+OUTMUX-16 + N3349 + SLICE_X64Y137 + BOUTMUX + O5
+OUTMUX-17 + N3334 + SLICE_X8Y150 + BOUTMUX + O5
+OUTMUX-18 + N3390 + SLICE_X19Y147 + COUTMUX + O5
+OUTMUX-19 + N3398 + SLICE_X27Y147 + BOUTMUX + O5
+OUTMUX-20 + N3384 + SLICE_X26Y143 + DOUTMUX + O5
+OUTMUX-21 + N9910 + SLICE_X31Y134 + AOUTMUX + F7
+OUTMUX-22 + N9741 + SLICE_X64Y138 + BOUTMUX + O5
+OUTMUX-23 + N1010315 + SLICE_X17Y128 + BOUTMUX + O5
+OUTMUX-24 + N8252 + SLICE_X11Y160 + AOUTMUX + O5
+OUTMUX-25 + N8251 + SLICE_X4Y152 + DOUTMUX + O5
+OUTMUX-26 + N8253 + SLICE_X32Y149 + AOUTMUX + O5
+OUTMUX-27 + N8242 + SLICE_X33Y134 + AOUTMUX + O5
+OUTMUX-28 + N8242 + SLICE_X33Y134 + BOUTMUX + O5
+OUTMUX-29 + N2741 + SLICE_X7Y141 + DOUTMUX + O5
+OUTMUX-30 + N10402 + SLICE_X12Y133 + BOUTMUX + O5
+OUTMUX-31 + N2737 + SLICE_X0Y140 + DOUTMUX + O5
+OUTMUX-32 + N9352 + SLICE_X18Y140 + BOUTMUX + O5
+OUTMUX-33 + N2729 + SLICE_X7Y133 + BOUTMUX + O5
+OUTMUX-34 + N3404 + SLICE_X33Y141 + BOUTMUX + O5
+OUTMUX-35 + N2538 + SLICE_X19Y135 + BOUTMUX + O5
+OUTMUX-36 + N2573 + SLICE_X47Y138 + COUTMUX + O5
+OUTMUX-37 + N3424 + SLICE_X4Y129 + AOUTMUX + O5
+OUTMUX-38 + N101190 + SLICE_X47Y139 + BOUTMUX + O5
+OUTMUX-39 + N2567 + SLICE_X39Y138 + COUTMUX + O5
+OUTMUX-40 + N3416 + SLICE_X18Y129 + BOUTMUX + O5
+OUTMUX-41 + N3247 + SLICE_X38Y128 + COUTMUX + F7
+OUTMUX-42 + N3454 + SLICE_X14Y128 + COUTMUX + F7
+OUTMUX-43 + N3458 + SLICE_X42Y132 + AOUTMUX + O5
+OUTMUX-44 + N3281 + SLICE_X31Y139 + DOUTMUX + O5
+OUTMUX-45 + N3287 + SLICE_X32Y139 + COUTMUX + O5
+OUTMUX-46 + N3273 + SLICE_X38Y138 + AOUTMUX + O5
+OUTMUX-47 + N3273 + SLICE_X38Y138 + DOUTMUX + O5
+OUTMUX-48 + N6761 + SLICE_X31Y128 + BOUTMUX + O5
+OUTMUX-49 + N10112_OBUF + SLICE_X65Y138 + BOUTMUX + O5
+OUTMUX-50 + N885_OBUF + SLICE_X13Y131 + DOUTMUX + O5
+OUTMUX-51 + N10399 + SLICE_X11Y145 + DOUTMUX + O5
+OUTMUX-52 + N3299 + SLICE_X4Y131 + BOUTMUX + O5
+OUTMUX-53 + N1931 + SLICE_X28Y128 + DOUTMUX + O5
+OUTMUX-54 + N628_and0000 + SLICE_X12Y135 + BOUTMUX + O5
+
+/*     OUTMUX信息已显示完毕          */
+
+/*     FFMUX信息如下所示             */
+FFMUX:Total Number:0
+
+/*     FFMUX信息已显示完毕          */
+
+/*     FlipFlop信息如下所示             */
+FlipFlop:Total Number:0
+
+/*     FlipFlop信息已显示完毕          */
+
+
+//////////////////////////////////////////////
+////   本设计中资源的逻辑连线如下所示  
+////////////////////////////////////////////// 
+/*        对于查找表的逻辑连线提取如下所示     */ 
+LUT-0
+A1 <- N5,I,N35
+A2 <- null
+A3 <- null
+A4 <- N133,I,AM14
+A5 <- N134,I,AM28
+A6 <- null
+O6  ->  A pin
+A pin  ->  N1113,O,AK28
+A pin  ->  N1489,O,AK29
+LUT-1
+A1 <- N29,I,AT42
+A2 <- N9741,BMUX,SLICE_X64Y138
+A3 <- N313,I,J16
+A4 <- N9741,B,SLICE_X64Y138
+A5 <- N18,I,AP27
+A6 <- N238,I,L15
+O6  ->  A pin
+A pin  ->  N10112_OBUF,A6,SLICE_X65Y138
+LUT-2
+D1 <- N12,I,D37
+D2 <- N3114,B,SLICE_X9Y150
+D3 <- N18,I,AP27
+D4 <- N9,I,AB34
+D5 <- N214,I,T34
+D6 <- N257,I,T35
+O6  ->  D pin
+D pin  ->  N10988,C3,SLICE_X9Y151
+LUT-3
+A1 <- N8252,A,SLICE_X11Y160
+A2 <- N3390,A,SLICE_X19Y147
+A3 <- N358,I,M27
+A4 <- N3398,B,SLICE_X27Y147
+A5 <- N1011919,B,SLICE_X29Y142
+A6 <- N3404,BMUX,SLICE_X33Y141
+O6  ->  A pin
+A pin  ->  N9352,B3,SLICE_X18Y140
+LUT-4
+B1 <- N9249,BMUX,SLICE_X46Y138
+B2 <- N9290,CMUX,SLICE_X35Y139
+B3 <- N8444,D,SLICE_X27Y143
+B4 <- N9290,A,SLICE_X35Y139
+B5 <- N101190,B,SLICE_X47Y139
+B6 <- N9726,B,SLICE_X27Y144
+O6  ->  B pin
+B pin  ->  N1011919,A5,SLICE_X29Y142
+LUT-5
+A1 <- N257,I,T35
+A2 <- N2638,D,SLICE_X8Y154
+A3 <- N106,I,AM17
+A4 <- N8248,A,SLICE_X4Y149
+A5 <- N10425,D,SLICE_X2Y161
+A6 <- N1711,CMUX,SLICE_X11Y148
+O6  ->  A pin
+A pin  ->  N10715,O,K39
+LUT-6
+B1 <- N257,I,T35
+B2 <- N3114,CMUX,SLICE_X9Y150
+B3 <- N1711,C,SLICE_X11Y148
+B4 <- N8248,A,SLICE_X4Y149
+B5 <- N2638,D,SLICE_X8Y154
+B6 <- N8251,D,SLICE_X4Y152
+O6  ->  B pin
+B pin  ->  N10104_OBUF,D5,SLICE_X25Y144
+B pin  ->  N10838_OBUF,A4,SLICE_X2Y145
+B pin  ->  N10839_OBUF,D1,SLICE_X3Y144
+B pin  ->  N51,A3,SLICE_X19Y144
+LUT-7
+C1 <- N9,I,AB34
+C2 <- N18,I,AP27
+C3 <- N215,I,AD38
+C4 <- N106,I,AM17
+C5 <- N12,I,D37
+C6 <- XDL_DUMMY_INT_X7Y148_TIEOFF_X7Y148,KEEP1,TIEOFF_X7Y148
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N1711,B3,SLICE_X11Y148
+LUT-8
+C1 <- N9,I,AB34
+C2 <- N18,I,AP27
+C3 <- N215,I,AD38
+C4 <- N106,I,AM17
+C5 <- N12,I,D37
+C6 <- XDL_DUMMY_INT_X7Y148_TIEOFF_X7Y148,KEEP1,TIEOFF_X7Y148
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N1711,B3,SLICE_X11Y148
+LUT-9
+A1 <- N9352,B,SLICE_X18Y140
+A2 <- N10301,C,SLICE_X28Y141
+A3 <- N8444,D,SLICE_X27Y143
+A4 <- N11011,C,SLICE_X35Y141
+A5 <- N3404,A,SLICE_X33Y141
+A6 <- N9726,B,SLICE_X27Y144
+O6  ->  A pin
+A pin  ->  N441,A6,SLICE_X18Y147
+LUT-10
+B1 <- N10301,CMUX,SLICE_X28Y141
+B2 <- null
+B3 <- N8444,D,SLICE_X27Y143
+B4 <- N9290,A,SLICE_X35Y139
+B5 <- N9290,CMUX,SLICE_X35Y139
+B6 <- N9726,B,SLICE_X27Y144
+O6  ->  B pin
+B pin  ->  N10905_OBUF,D4,SLICE_X18Y152
+B pin  ->  N10906_OBUF,D6,SLICE_X14Y141
+B pin  ->  N3398,A5,SLICE_X27Y147
+B pin  ->  N8252,A4,SLICE_X11Y160
+LUT-11
+C1 <- N9249,BMUX,SLICE_X46Y138
+C2 <- N9290,A,SLICE_X35Y139
+C3 <- N9290,CMUX,SLICE_X35Y139
+C4 <- N101190,A,SLICE_X47Y139
+C5 <- N367,I,AN29
+C6 <- XDL_DUMMY_INT_X16Y141_TIEOFF_X16Y141,KEEP1,TIEOFF_X16Y141
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10301,A2,SLICE_X28Y141
+C pin  ->  N441,B2,SLICE_X18Y147
+LUT-12
+C1 <- N9249,BMUX,SLICE_X46Y138
+C2 <- N9290,A,SLICE_X35Y139
+C3 <- N9290,CMUX,SLICE_X35Y139
+C4 <- N101190,A,SLICE_X47Y139
+C5 <- N367,I,AN29
+C6 <- XDL_DUMMY_INT_X16Y141_TIEOFF_X16Y141,KEEP1,TIEOFF_X16Y141
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10301,A2,SLICE_X28Y141
+C pin  ->  N441,B2,SLICE_X18Y147
+LUT-13
+A1 <- N202,I,AV40
+A2 <- N127,I,AT41
+A3 <- N3251,A,SLICE_X21Y113
+A4 <- N3474,A,SLICE_X15Y128
+A5 <- N3470,A,SLICE_X21Y124
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N9029,B6,SLICE_X20Y125
+LUT-14
+B1 <- N8394,A,SLICE_X6Y133
+B2 <- N3263,B,SLICE_X24Y125
+B3 <- N3478,A,SLICE_X21Y122
+B4 <- null
+B5 <- N3482,B,SLICE_X41Y130
+B6 <- N9029,A,SLICE_X20Y125
+O6  ->  B pin
+B pin  ->  N1010315,A6,SLICE_X17Y128
+B pin  ->  N9820,B3,SLICE_X21Y128
+LUT-15
+D1 <- N182,I,AJ42
+D2 <- null
+D3 <- null
+D4 <- N183,I,Y42
+D5 <- N186,I,AC35
+D6 <- N185,I,AM41
+O6  ->  D pin
+D pin  ->  N884,O,AK42
+LUT-16
+D1 <- N343,I,J17
+D2 <- N3328,D,SLICE_X19Y142
+D3 <- N3315,B,SLICE_X15Y143
+D4 <- N340,I,E33
+D5 <- N3322,B,SLICE_X15Y148
+D6 <- N346,I,N36
+O6  ->  D pin
+D pin  ->  N11187,A1,SLICE_X19Y148
+LUT-17
+D1 <- null
+D2 <- N12,I,D37
+D3 <- N9,I,AB34
+D4 <- null
+D5 <- N18,I,AP27
+D6 <- N214,I,T34
+O6  ->  D pin
+D pin  ->  N10425,C1,SLICE_X2Y161
+D pin  ->  N1711,A2,SLICE_X11Y148
+D pin  ->  N1711,B5,SLICE_X11Y148
+D pin  ->  N1821,A2,SLICE_X34Y141
+D pin  ->  N9077,B1,SLICE_X9Y149
+LUT-18
+A1 <- null
+A2 <- null
+A3 <- N18,I,AP27
+A4 <- N201,I,W40
+A5 <- null
+A6 <- N124,I,AF40
+O6  ->  A pin
+A pin  ->  N106280,D3,SLICE_X33Y125
+A pin  ->  N3263,A4,SLICE_X24Y125
+A pin  ->  N8541,B1,SLICE_X21Y125
+A pin  ->  N9029,B1,SLICE_X20Y125
+LUT-19
+C1 <- N65,I,AA41
+C2 <- N277,I,AH39
+C3 <- N2462,D,SLICE_X9Y133
+C4 <- N2538,B,SLICE_X19Y135
+C5 <- N18,I,AP27
+C6 <- N2745,D,SLICE_X5Y132
+O6  ->  C pin
+C pin  ->  N8394,D5,SLICE_X6Y133
+LUT-20
+D1 <- N2741,DMUX,SLICE_X7Y141
+D2 <- N7057,B,SLICE_X6Y131
+D3 <- N2737,DMUX,SLICE_X0Y140
+D4 <- N2733,C,SLICE_X2Y129
+D5 <- N8394,C,SLICE_X6Y133
+D6 <- N2542,D,SLICE_X47Y133
+O6  ->  D pin
+D pin  ->  N1062816,A1,SLICE_X10Y128
+D pin  ->  N2451,B1,SLICE_X11Y128
+LUT-21
+A1 <- N340,I,E33
+A2 <- N118,I,V34
+A3 <- N217,I,J40
+A4 <- null
+A5 <- null
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N11187,A6,SLICE_X19Y148
+A pin  ->  N8444,C4,SLICE_X27Y143
+LUT-22
+A1 <- N2251,A,SLICE_X43Y136
+A2 <- N319,I,P35
+A3 <- N316,I,L29
+A4 <- N3355,D,SLICE_X25Y128
+A5 <- null
+A6 <- N3349,B,SLICE_X64Y137
+O6  ->  A pin
+A pin  ->  N2151,A2,SLICE_X46Y136
+A pin  ->  N9249,B3,SLICE_X46Y138
+LUT-23
+B1 <- N18,I,AP27
+B2 <- N322,I,P38
+B3 <- N9249,A,SLICE_X46Y138
+B4 <- N235,I,M17
+B5 <- N103,I,L16
+B6 <- XDL_DUMMY_INT_X25Y138_TIEOFF_X25Y138,KEEP1,TIEOFF_X25Y138
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10109_OBUF,A5,SLICE_X42Y151
+B pin  ->  N101190,A3,SLICE_X47Y139
+B pin  ->  N45,B1,SLICE_X63Y138
+LUT-24
+B1 <- N18,I,AP27
+B2 <- N322,I,P38
+B3 <- N9249,A,SLICE_X46Y138
+B4 <- N235,I,M17
+B5 <- N103,I,L16
+B6 <- XDL_DUMMY_INT_X25Y138_TIEOFF_X25Y138,KEEP1,TIEOFF_X25Y138
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10109_OBUF,A5,SLICE_X42Y151
+B pin  ->  N101190,A3,SLICE_X47Y139
+B pin  ->  N45,B1,SLICE_X63Y138
+LUT-25
+A1 <- N319,I,P35
+A2 <- N3349,B,SLICE_X64Y137
+A3 <- N316,I,L29
+A4 <- N3355,D,SLICE_X25Y128
+A5 <- N9249,B,SLICE_X46Y138
+A6 <- N9632,B,SLICE_X49Y151
+O6  ->  A pin
+A pin  ->  N10109,O,H35
+LUT-26
+A1 <- N316,I,L29
+A2 <- N76,I,M14
+A3 <- N18,I,AP27
+A4 <- N26,I,N26
+A5 <- N206,I,K28
+A6 <- XDL_DUMMY_INT_X25Y132_TIEOFF_X25Y132,KEEP1,TIEOFF_X25Y132
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N3247,C5,SLICE_X38Y128
+A pin  ->  N3247,D4,SLICE_X38Y128
+LUT-27
+A1 <- N316,I,L29
+A2 <- N76,I,M14
+A3 <- N18,I,AP27
+A4 <- N26,I,N26
+A5 <- N206,I,K28
+A6 <- XDL_DUMMY_INT_X25Y132_TIEOFF_X25Y132,KEEP1,TIEOFF_X25Y132
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N3247,C5,SLICE_X38Y128
+A pin  ->  N3247,D4,SLICE_X38Y128
+LUT-28
+D1 <- null
+D2 <- N205,I,AM42
+D3 <- null
+D4 <- null
+D5 <- N18,I,AP27
+D6 <- N23,I,AD40
+O6  ->  D pin
+D pin  ->  N1801,B3,SLICE_X12Y128
+D pin  ->  N3247,C6,SLICE_X38Y128
+D pin  ->  N3247,D6,SLICE_X38Y128
+D pin  ->  N9820,A1,SLICE_X21Y128
+LUT-29
+D1 <- N10301,CMUX,SLICE_X28Y141
+D2 <- N3315,B,SLICE_X15Y143
+D3 <- N9290,A,SLICE_X35Y139
+D4 <- N9290,CMUX,SLICE_X35Y139
+D5 <- N340,I,E33
+D6 <- N3322,BMUX,SLICE_X15Y148
+O6  ->  D pin
+D pin  ->  N10871,O,AF42
+LUT-30
+A1 <- N3114,C,SLICE_X9Y150
+A2 <- N1711,CMUX,SLICE_X11Y148
+A3 <- N8251,DMUX,SLICE_X4Y152
+A4 <- N106,I,AM17
+A5 <- N254,I,P33
+A6 <- N9077,A,SLICE_X9Y149
+O6  ->  A pin
+A pin  ->  N42,B2,SLICE_X9Y148
+LUT-31
+A1 <- N154,I,L40
+A2 <- N10761_OBUF,C,SLICE_X33Y130
+A3 <- N12,I,D37
+A4 <- N18,I,AP27
+A5 <- N299,I,N28
+A6 <- N9,I,AB34
+O6  ->  A pin
+A pin  ->  N10760_OBUF,A4,SLICE_X19Y151
+A pin  ->  N2496,A4,SLICE_X33Y128
+LUT-32
+A1 <- N63,I,M41
+A2 <- N293,I,AN30
+A3 <- N9,I,AB34
+A4 <- N176,I,V40
+A5 <- N12,I,D37
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N7057,B6,SLICE_X6Y131
+LUT-33
+B1 <- N2478,A,SLICE_X39Y141
+B2 <- N2761,C,SLICE_X7Y128
+B3 <- N5996_and0000,C,SLICE_X13Y119
+B4 <- N2511,A,SLICE_X6Y128
+B5 <- N2753,B,SLICE_X2Y110
+B6 <- N7057,A,SLICE_X6Y131
+O6  ->  B pin
+B pin  ->  N8394,D2,SLICE_X6Y133
+B pin  ->  N8943,D6,SLICE_X6Y132
+LUT-34
+A1 <- N88,I,L41
+A2 <- N260,I,R34
+A3 <- null
+A4 <- null
+A5 <- null
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N2654,C1,SLICE_X2Y126
+A pin  ->  N2654,D1,SLICE_X2Y126
+A pin  ->  N7100,D1,SLICE_X3Y126
+A pin  ->  N7852,B3,SLICE_X2Y127
+LUT-35
+C1 <- N18,I,AP27
+C2 <- N251,I,AK38
+C3 <- N8117,D,SLICE_X0Y159
+C4 <- N9,I,AB34
+C5 <- N209,I,E38
+C6 <- N12,I,D37
+O6  ->  C pin
+C pin  ->  N10988,D5,SLICE_X9Y151
+LUT-36
+D1 <- N8251,DMUX,SLICE_X4Y152
+D2 <- N3114,B,SLICE_X9Y150
+D3 <- N254,I,P33
+D4 <- N3114,C,SLICE_X9Y150
+D5 <- N10988,C,SLICE_X9Y151
+D6 <- N3114,CMUX,SLICE_X9Y150
+O6  ->  D pin
+D pin  ->  N42,B5,SLICE_X9Y148
+LUT-37
+A1 <- N257,I,T35
+A2 <- N18,I,AP27
+A3 <- null
+A4 <- N112,I,AH41
+A5 <- null
+A6 <- null
+O6  ->  A pin
+A pin  ->  N2654,C2,SLICE_X2Y126
+A pin  ->  N2654,D2,SLICE_X2Y126
+A pin  ->  N7852,B4,SLICE_X2Y127
+LUT-38
+A1 <- N9632,B,SLICE_X49Y151
+A2 <- N26,I,N26
+A3 <- N316,I,L29
+A4 <- null
+A5 <- N237,I,J30
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N10111,O,P26
+LUT-39
+B1 <- N248,I,AK27
+B2 <- N18,I,AP27
+B3 <- N251,I,AK38
+B4 <- N114,I,AE40
+B5 <- N113,I,N39
+B6 <- XDL_DUMMY_INT_X2Y126_TIEOFF_X2Y126,KEEP1,TIEOFF_X2Y126
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N7100,C3,SLICE_X3Y126
+B pin  ->  N785235,B3,SLICE_X3Y127
+LUT-40
+B1 <- N248,I,AK27
+B2 <- N18,I,AP27
+B3 <- N251,I,AK38
+B4 <- N114,I,AE40
+B5 <- N113,I,N39
+B6 <- XDL_DUMMY_INT_X2Y126_TIEOFF_X2Y126,KEEP1,TIEOFF_X2Y126
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N7100,C3,SLICE_X3Y126
+B pin  ->  N785235,B3,SLICE_X3Y127
+LUT-41
+C1 <- N2670,A,SLICE_X3Y128
+C2 <- N2666,A,SLICE_X2Y125
+C3 <- N87,I,H40
+C4 <- N2654,BMUX,SLICE_X2Y126
+C5 <- N2658,A,SLICE_X1Y126
+C6 <- N18,I,AP27
+O6  ->  F7BMUX
+LUT-42
+D1 <- N2670,A,SLICE_X3Y128
+D2 <- N2666,A,SLICE_X2Y125
+D3 <- N87,I,H40
+D4 <- N18,I,AP27
+D5 <- N2658,A,SLICE_X1Y126
+D6 <- N2654,BMUX,SLICE_X2Y126
+O6  ->  F7BMUX
+LUT-43
+A1 <- N254,I,P33
+A2 <- N18,I,AP27
+A3 <- null
+A4 <- null
+A5 <- null
+A6 <- N111,I,AD41
+O6  ->  A pin
+A pin  ->  N2654,C5,SLICE_X2Y126
+A pin  ->  N2654,D5,SLICE_X2Y126
+A pin  ->  N7100,D3,SLICE_X3Y126
+A pin  ->  N785235,B4,SLICE_X3Y127
+LUT-44
+A1 <- N3281,D,SLICE_X31Y139
+A2 <- N8253,A,SLICE_X32Y149
+A3 <- N9290,C,SLICE_X35Y139
+A4 <- N331,I,AM26
+A5 <- N328,I,K17
+A6 <- N3287,C,SLICE_X32Y139
+O6  ->  A pin
+A pin  ->  N101190,B4,SLICE_X47Y139
+A pin  ->  N1011919,B4,SLICE_X29Y142
+A pin  ->  N10301,B4,SLICE_X28Y141
+A pin  ->  N10301,C2,SLICE_X28Y141
+A pin  ->  N10827_OBUF,A3,SLICE_X15Y164
+A pin  ->  N10871_OBUF,D3,SLICE_X17Y143
+LUT-45
+B1 <- N3281,D,SLICE_X31Y139
+B2 <- N3273,DMUX,SLICE_X38Y138
+B3 <- N3287,C,SLICE_X32Y139
+B4 <- N331,I,AM26
+B5 <- N328,I,K17
+B6 <- null
+O6  ->  B pin
+B pin  ->  N10350_OBUF,B4,SLICE_X36Y139
+B pin  ->  N9290,C3,SLICE_X35Y139
+LUT-46
+C1 <- N334,I,W42
+C2 <- N100,I,AC34
+C3 <- N9290,B,SLICE_X35Y139
+C4 <- N231,I,H39
+C5 <- N18,I,AP27
+C6 <- XDL_DUMMY_INT_X19Y139_TIEOFF_X19Y139,KEEP1,TIEOFF_X19Y139
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10350_OBUF,B3,SLICE_X36Y139
+C pin  ->  N7,C4,SLICE_X49Y139
+C pin  ->  N9290,A3,SLICE_X35Y139
+LUT-47
+C1 <- N334,I,W42
+C2 <- N100,I,AC34
+C3 <- N9290,B,SLICE_X35Y139
+C4 <- N231,I,H39
+C5 <- N18,I,AP27
+C6 <- XDL_DUMMY_INT_X19Y139_TIEOFF_X19Y139,KEEP1,TIEOFF_X19Y139
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10350_OBUF,B3,SLICE_X36Y139
+C pin  ->  N7,C4,SLICE_X49Y139
+C pin  ->  N9290,A3,SLICE_X35Y139
+LUT-48
+A1 <- N18,I,AP27
+A2 <- N118,I,V34
+A3 <- N217,I,J40
+A4 <- N3322,B,SLICE_X15Y148
+A5 <- N340,I,E33
+A6 <- N343,I,J17
+O6  ->  A pin
+A pin  ->  N9726,C1,SLICE_X27Y144
+LUT-49
+B1 <- N97,I,K38
+B2 <- null
+B3 <- N18,I,AP27
+B4 <- N226,I,P37
+B5 <- N343,I,J17
+B6 <- XDL_DUMMY_INT_X9Y148_TIEOFF_X9Y148,KEEP1,TIEOFF_X9Y148
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10156,B6,SLICE_X28Y143
+B pin  ->  N10544,D5,SLICE_X14Y150
+B pin  ->  N10869_OBUF,A3,SLICE_X17Y148
+B pin  ->  N11187,A3,SLICE_X19Y148
+B pin  ->  N3315,A4,SLICE_X15Y143
+B pin  ->  N3322,A4,SLICE_X15Y148
+B pin  ->  N3334,A4,SLICE_X8Y150
+LUT-50
+B1 <- N97,I,K38
+B2 <- null
+B3 <- N18,I,AP27
+B4 <- N226,I,P37
+B5 <- N343,I,J17
+B6 <- XDL_DUMMY_INT_X9Y148_TIEOFF_X9Y148,KEEP1,TIEOFF_X9Y148
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10156,B6,SLICE_X28Y143
+B pin  ->  N10544,D5,SLICE_X14Y150
+B pin  ->  N10869_OBUF,A3,SLICE_X17Y148
+B pin  ->  N11187,A3,SLICE_X19Y148
+B pin  ->  N3315,A4,SLICE_X15Y143
+B pin  ->  N3322,A4,SLICE_X15Y148
+B pin  ->  N3334,A4,SLICE_X8Y150
+LUT-51
+D1 <- null
+D2 <- N18,I,AP27
+D3 <- N174,I,AP41
+D4 <- N12,I,D37
+D5 <- null
+D6 <- N9,I,AB34
+O6  ->  D pin
+D pin  ->  N10388,D4,SLICE_X9Y141
+D pin  ->  N10576_OBUF,D4,SLICE_X8Y144
+D pin  ->  N8943141,B5,SLICE_X7Y129
+LUT-52
+A1 <- null
+A2 <- N173,I,Y35
+A3 <- N18,I,AP27
+A4 <- N12,I,D37
+A5 <- N9,I,AB34
+A6 <- null
+O6  ->  A pin
+A pin  ->  N10388,D6,SLICE_X9Y141
+A pin  ->  N10576_OBUF,D3,SLICE_X8Y144
+A pin  ->  N7057,B1,SLICE_X6Y131
+A pin  ->  N8943,D1,SLICE_X6Y132
+A pin  ->  N8943141,B1,SLICE_X7Y129
+LUT-53
+C1 <- N346,I,N36
+C2 <- N10869_OBUF,A,SLICE_X17Y148
+C3 <- N3384,DMUX,SLICE_X26Y143
+C4 <- N349,I,AN39
+C5 <- N3334,B,SLICE_X8Y150
+C6 <- N3328,D,SLICE_X19Y142
+O6  ->  C pin
+C pin  ->  N10868,O,P41
+LUT-54
+D1 <- N10869_OBUF,A,SLICE_X17Y148
+D2 <- N225,I,F41
+D3 <- N18,I,AP27
+D4 <- N346,I,N36
+D5 <- N94,I,W41
+D6 <- XDL_DUMMY_INT_X11Y142_TIEOFF_X11Y142,KEEP1,TIEOFF_X11Y142
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10156,B2,SLICE_X28Y143
+D pin  ->  N10544,D2,SLICE_X14Y150
+D pin  ->  N10869_OBUF,B5,SLICE_X17Y148
+D pin  ->  N3328,C6,SLICE_X19Y142
+D pin  ->  N3334,A6,SLICE_X8Y150
+D pin  ->  N441,B4,SLICE_X18Y147
+D pin  ->  N8444,D6,SLICE_X27Y143
+D pin  ->  N9726,C5,SLICE_X27Y144
+LUT-55
+D1 <- N10869_OBUF,A,SLICE_X17Y148
+D2 <- N225,I,F41
+D3 <- N18,I,AP27
+D4 <- N346,I,N36
+D5 <- N94,I,W41
+D6 <- XDL_DUMMY_INT_X11Y142_TIEOFF_X11Y142,KEEP1,TIEOFF_X11Y142
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10156,B2,SLICE_X28Y143
+D pin  ->  N10544,D2,SLICE_X14Y150
+D pin  ->  N10869_OBUF,B5,SLICE_X17Y148
+D pin  ->  N3328,C6,SLICE_X19Y142
+D pin  ->  N3334,A6,SLICE_X8Y150
+D pin  ->  N441,B4,SLICE_X18Y147
+D pin  ->  N8444,D6,SLICE_X27Y143
+D pin  ->  N9726,C5,SLICE_X27Y144
+LUT-56
+D1 <- N186,I,AC35
+D2 <- N210,I,AB38
+D3 <- N230,I,N40
+D4 <- N152,I,V35
+D5 <- N218,I,Y38
+D6 <- XDL_DUMMY_INT_X8Y129_TIEOFF_X8Y129,KEEP1,TIEOFF_X8Y129
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N883,O,AB36
+LUT-57
+D1 <- N186,I,AC35
+D2 <- N210,I,AB38
+D3 <- N230,I,N40
+D4 <- N152,I,V35
+D5 <- N218,I,Y38
+D6 <- XDL_DUMMY_INT_X8Y129_TIEOFF_X8Y129,KEEP1,TIEOFF_X8Y129
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N883,O,AB36
+LUT-58
+A1 <- N12,I,D37
+A2 <- N157,I,L17
+A3 <- N18,I,AP27
+A4 <- N9,I,AB34
+A5 <- N9098,B,SLICE_X39Y137
+A6 <- N289,I,Y39
+O6  ->  A pin
+A pin  ->  N10760_OBUF,A6,SLICE_X19Y151
+A pin  ->  N10762_OBUF,C3,SLICE_X18Y148
+A pin  ->  N6,A2,SLICE_X33Y135
+A pin  ->  N9352,A1,SLICE_X18Y140
+LUT-59
+B1 <- N286,I,M36
+B2 <- N2573,C,SLICE_X47Y138
+B3 <- N283,I,K34
+B4 <- N8242,AMUX,SLICE_X33Y134
+B5 <- N2567,C,SLICE_X39Y138
+B6 <- null
+O6  ->  B pin
+B pin  ->  N11000,C3,SLICE_X34Y135
+B pin  ->  N8246,B3,SLICE_X32Y134
+B pin  ->  N9098,A5,SLICE_X39Y137
+LUT-60
+A1 <- N112051320,C,SLICE_X32Y128
+A2 <- N9098,A,SLICE_X39Y137
+A3 <- N2496,A,SLICE_X33Y128
+A4 <- N2567,B,SLICE_X39Y138
+A5 <- null
+A6 <- N9352,BMUX,SLICE_X18Y140
+O6  ->  A pin
+A pin  ->  N43,A4,SLICE_X35Y135
+LUT-61
+C1 <- N101190,A,SLICE_X47Y139
+C2 <- N3287,A,SLICE_X32Y139
+C3 <- N9249,BMUX,SLICE_X46Y138
+C4 <- N9290,C,SLICE_X35Y139
+C5 <- N11002,B,SLICE_X43Y138
+C6 <- N367,I,AN29
+O6  ->  C pin
+C pin  ->  N45,A2,SLICE_X63Y138
+LUT-62
+A1 <- N194,I,F37
+A2 <- N121,I,V33
+A3 <- N18,I,AP27
+A4 <- null
+A5 <- null
+A6 <- null
+O6  ->  A pin
+A pin  ->  N3299,A1,SLICE_X4Y131
+A pin  ->  N8412,A1,SLICE_X6Y130
+A pin  ->  N9786,A5,SLICE_X6Y129
+LUT-63
+D1 <- null
+D2 <- N9,I,AB34
+D3 <- null
+D4 <- N12,I,D37
+D5 <- N18,I,AP27
+D6 <- N177,I,H41
+O6  ->  D pin
+D pin  ->  N2538,A4,SLICE_X19Y135
+D pin  ->  N8394,C3,SLICE_X6Y133
+LUT-64
+A1 <- null
+A2 <- N3334,BMUX,SLICE_X8Y150
+A3 <- N340,I,E33
+A4 <- N3322,B,SLICE_X15Y148
+A5 <- N3315,B,SLICE_X15Y143
+A6 <- N343,I,J17
+O6  ->  A pin
+A pin  ->  N441,B3,SLICE_X18Y147
+LUT-65
+B1 <- N18,I,AP27
+B2 <- N227,I,AA35
+B3 <- N115,I,AF39
+B4 <- N217,I,J40
+B5 <- N118,I,V34
+B6 <- XDL_DUMMY_INT_X9Y143_TIEOFF_X9Y143,KEEP1,TIEOFF_X9Y143
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10544,D3,SLICE_X14Y150
+B pin  ->  N10827_OBUF,A4,SLICE_X15Y164
+B pin  ->  N10869_OBUF,A5,SLICE_X17Y148
+B pin  ->  N10871_OBUF,D2,SLICE_X17Y143
+B pin  ->  N3315,A5,SLICE_X15Y143
+B pin  ->  N3334,A3,SLICE_X8Y150
+LUT-66
+B1 <- N18,I,AP27
+B2 <- N227,I,AA35
+B3 <- N115,I,AF39
+B4 <- N217,I,J40
+B5 <- N118,I,V34
+B6 <- XDL_DUMMY_INT_X9Y143_TIEOFF_X9Y143,KEEP1,TIEOFF_X9Y143
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10544,D3,SLICE_X14Y150
+B pin  ->  N10827_OBUF,A4,SLICE_X15Y164
+B pin  ->  N10869_OBUF,A5,SLICE_X17Y148
+B pin  ->  N10871_OBUF,D2,SLICE_X17Y143
+B pin  ->  N3315,A5,SLICE_X15Y143
+B pin  ->  N3334,A3,SLICE_X8Y150
+LUT-67
+A1 <- null
+A2 <- N35,I,T36
+A3 <- N192,I,AB41
+A4 <- null
+A5 <- null
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N1601,B3,SLICE_X0Y130
+A pin  ->  N8405,C5,SLICE_X0Y137
+A pin  ->  N8950,C5,SLICE_X1Y137
+LUT-68
+A1 <- N32,I,J41
+A2 <- N191,I,AA34
+A3 <- null
+A4 <- N18,I,AP27
+A5 <- null
+A6 <- null
+O6  ->  A pin
+A pin  ->  N1601,B4,SLICE_X0Y130
+A pin  ->  N8405,C3,SLICE_X0Y137
+LUT-69
+C1 <- null
+C2 <- N18,I,AP27
+C3 <- N9,I,AB34
+C4 <- N12,I,D37
+C5 <- N167,I,AD37
+C6 <- null
+O6  ->  C pin
+C pin  ->  N7852,B2,SLICE_X2Y127
+LUT-70
+A1 <- N9786,A,SLICE_X6Y129
+A2 <- N8950,D,SLICE_X1Y137
+A3 <- N8412,B,SLICE_X6Y130
+A4 <- N8405,D,SLICE_X0Y137
+A5 <- N9820,B,SLICE_X21Y128
+A6 <- N1010315,B,SLICE_X17Y128
+O6  ->  A pin
+A pin  ->  N2451,B6,SLICE_X11Y128
+LUT-71
+B1 <- N8394,D,SLICE_X6Y133
+B2 <- N8943,D,SLICE_X6Y132
+B3 <- null
+B4 <- null
+B5 <- null
+B6 <- N2451,A,SLICE_X11Y128
+O6  ->  B pin
+B pin  ->  N10103_OBUF,B3,SLICE_X16Y127
+LUT-72
+D1 <- N9,I,AB34
+D2 <- null
+D3 <- N18,I,AP27
+D4 <- null
+D5 <- N12,I,D37
+D6 <- N166,I,G36
+O6  ->  D pin
+D pin  ->  N7100,D6,SLICE_X3Y126
+D pin  ->  N7852,B6,SLICE_X2Y127
+LUT-73
+A1 <- N3299,B,SLICE_X4Y131
+A2 <- N3420,A,SLICE_X46Y118
+A3 <- N3424,AMUX,SLICE_X4Y129
+A4 <- N3416,B,SLICE_X18Y129
+A5 <- N3303,B,SLICE_X7Y130
+A6 <- null
+O6  ->  A pin
+A pin  ->  N9786,A6,SLICE_X6Y129
+LUT-74
+B1 <- null
+B2 <- N97,I,K38
+B3 <- null
+B4 <- null
+B5 <- N18,I,AP27
+B6 <- N196,I,AA39
+O6  ->  B pin
+B pin  ->  N3299,A4,SLICE_X4Y131
+B pin  ->  N3303,A5,SLICE_X7Y130
+B pin  ->  N8412,B5,SLICE_X6Y130
+LUT-75
+A1 <- N94,I,W41
+A2 <- N18,I,AP27
+A3 <- N346,I,N36
+A4 <- N195,I,T40
+A5 <- N59,I,V41
+A6 <- XDL_DUMMY_INT_X2Y129_TIEOFF_X2Y129,KEEP1,TIEOFF_X2Y129
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N3299,A3,SLICE_X4Y131
+LUT-76
+A1 <- N94,I,W41
+A2 <- N18,I,AP27
+A3 <- N346,I,N36
+A4 <- N195,I,T40
+A5 <- N59,I,V41
+A6 <- XDL_DUMMY_INT_X2Y129_TIEOFF_X2Y129,KEEP1,TIEOFF_X2Y129
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N3299,A3,SLICE_X4Y131
+LUT-77
+A1 <- N251,I,AK38
+A2 <- N18,I,AP27
+A3 <- N209,I,E38
+A4 <- N12,I,D37
+A5 <- N9077,B,SLICE_X9Y149
+A6 <- N9,I,AB34
+O6  ->  A pin
+A pin  ->  N10990,A6,SLICE_X8Y149
+LUT-78
+B1 <- N2638,D,SLICE_X8Y154
+B2 <- N257,I,T35
+B3 <- null
+B4 <- N106,I,AM17
+B5 <- N3114,A,SLICE_X9Y150
+B6 <- N1711,CMUX,SLICE_X11Y148
+O6  ->  B pin
+B pin  ->  N7609,A5,SLICE_X2Y149
+B pin  ->  N9077,A5,SLICE_X9Y149
+LUT-79
+C1 <- N18,I,AP27
+C2 <- null
+C3 <- null
+C4 <- N47,I,R37
+C5 <- null
+C6 <- N193,I,E39
+O6  ->  C pin
+C pin  ->  N3299,A5,SLICE_X4Y131
+C pin  ->  N8412,A3,SLICE_X6Y130
+C pin  ->  N9786,A3,SLICE_X6Y129
+LUT-80
+A1 <- N9352,BMUX,SLICE_X18Y140
+A2 <- N147,I,AK15
+A3 <- N151,I,AN13
+A4 <- N277,I,AH39
+A5 <- N8246,D,SLICE_X32Y134
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N10714,O,AM29
+LUT-81
+A1 <- N8242,A,SLICE_X33Y134
+A2 <- N280,I,U32
+A3 <- N8242,B,SLICE_X33Y134
+A4 <- N8242,BMUX,SLICE_X33Y134
+A5 <- N2271,B,SLICE_X47Y135
+A6 <- N2573,B,SLICE_X47Y138
+O6  ->  A pin
+A pin  ->  N43,B5,SLICE_X35Y135
+LUT-82
+B1 <- null
+B2 <- N2573,CMUX,SLICE_X47Y138
+B3 <- N18,I,AP27
+B4 <- N277,I,AH39
+B5 <- N151,I,AN13
+B6 <- N147,I,AK15
+O6  ->  B pin
+B pin  ->  N2271,A5,SLICE_X47Y135
+LUT-83
+A1 <- N216,I,F39
+A2 <- N9,I,AB34
+A3 <- N12,I,D37
+A4 <- N254,I,P33
+A5 <- N3114,C,SLICE_X9Y150
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N9077,B5,SLICE_X9Y149
+LUT-84
+B1 <- N8251,DMUX,SLICE_X4Y152
+B2 <- N254,I,P33
+B3 <- N3114,C,SLICE_X9Y150
+B4 <- N106,I,AM17
+B5 <- N1711,CMUX,SLICE_X11Y148
+B6 <- N3114,CMUX,SLICE_X9Y150
+O6  ->  B pin
+B pin  ->  N10988,D2,SLICE_X9Y151
+B pin  ->  N8117,D2,SLICE_X0Y159
+LUT-85
+C1 <- N12,I,D37
+C2 <- N251,I,AK38
+C3 <- N18,I,AP27
+C4 <- N9,I,AB34
+C5 <- N209,I,E38
+C6 <- XDL_DUMMY_INT_X6Y150_TIEOFF_X6Y150,KEEP1,TIEOFF_X6Y150
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10425,D5,SLICE_X2Y161
+C pin  ->  N10988,D4,SLICE_X9Y151
+C pin  ->  N10990,A1,SLICE_X8Y149
+C pin  ->  N3114,A5,SLICE_X9Y150
+C pin  ->  N3114,B3,SLICE_X9Y150
+LUT-86
+C1 <- N12,I,D37
+C2 <- N251,I,AK38
+C3 <- N18,I,AP27
+C4 <- N9,I,AB34
+C5 <- N209,I,E38
+C6 <- XDL_DUMMY_INT_X6Y150_TIEOFF_X6Y150,KEEP1,TIEOFF_X6Y150
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10425,D5,SLICE_X2Y161
+C pin  ->  N10988,D4,SLICE_X9Y151
+C pin  ->  N10990,A1,SLICE_X8Y149
+C pin  ->  N3114,A5,SLICE_X9Y150
+C pin  ->  N3114,B3,SLICE_X9Y150
+LUT-87
+D1 <- null
+D2 <- N23,I,AD40
+D3 <- null
+D4 <- null
+D5 <- N18,I,AP27
+D6 <- N236,I,AA37
+O6  ->  D pin
+D pin  ->  N10109_OBUF,A4,SLICE_X42Y151
+D pin  ->  N10112_OBUF,A3,SLICE_X65Y138
+D pin  ->  N101190,A4,SLICE_X47Y139
+D pin  ->  N3343,C2,SLICE_X57Y138
+D pin  ->  N3343,D2,SLICE_X57Y138
+D pin  ->  N45,A4,SLICE_X63Y138
+D pin  ->  N9249,A4,SLICE_X46Y138
+D pin  ->  N9632,A4,SLICE_X49Y151
+LUT-88
+A1 <- N29,I,AT42
+A2 <- N310,I,P27
+A3 <- N313,I,J16
+A4 <- N238,I,L15
+A5 <- N18,I,AP27
+A6 <- N41,I,AN40
+O6  ->  A pin
+A pin  ->  N9249,A1,SLICE_X46Y138
+LUT-89
+B1 <- N29,I,AT42
+B2 <- null
+B3 <- N238,I,L15
+B4 <- N313,I,J16
+B5 <- N18,I,AP27
+B6 <- XDL_DUMMY_INT_X32Y138_TIEOFF_X32Y138,KEEP1,TIEOFF_X32Y138
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N3343,C3,SLICE_X57Y138
+B pin  ->  N3343,D1,SLICE_X57Y138
+B pin  ->  N3349,A6,SLICE_X64Y137
+B pin  ->  N9632,B2,SLICE_X49Y151
+B pin  ->  N9741,A4,SLICE_X64Y138
+LUT-90
+B1 <- N29,I,AT42
+B2 <- null
+B3 <- N238,I,L15
+B4 <- N313,I,J16
+B5 <- N18,I,AP27
+B6 <- XDL_DUMMY_INT_X32Y138_TIEOFF_X32Y138,KEEP1,TIEOFF_X32Y138
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N3343,C3,SLICE_X57Y138
+B pin  ->  N3343,D1,SLICE_X57Y138
+B pin  ->  N3349,A6,SLICE_X64Y137
+B pin  ->  N9632,B2,SLICE_X49Y151
+B pin  ->  N9741,A4,SLICE_X64Y138
+LUT-91
+C1 <- N3349,B,SLICE_X64Y137
+C2 <- N3355,D,SLICE_X25Y128
+C3 <- N3343,B,SLICE_X57Y138
+C4 <- N239,I,L30
+C5 <- N235,I,M17
+C6 <- N229,I,P25
+O6  ->  F7BMUX
+LUT-92
+D1 <- N3343,B,SLICE_X57Y138
+D2 <- N3355,D,SLICE_X25Y128
+D3 <- N103,I,L16
+D4 <- N3349,B,SLICE_X64Y137
+D5 <- N41,I,AN40
+D6 <- N44,I,P18
+O6  ->  F7BMUX
+LUT-93
+A1 <- N10176,D,SLICE_X33Y127
+A2 <- N2496,BMUX,SLICE_X33Y128
+A3 <- N293,I,AN30
+A4 <- N8146,A,SLICE_X31Y130
+A5 <- N6761,BMUX,SLICE_X31Y128
+A6 <- N8315,A,SLICE_X9Y140
+O6  ->  A pin
+A pin  ->  N6,A3,SLICE_X33Y135
+LUT-94
+B1 <- N9,I,AB34
+B2 <- N18,I,AP27
+B3 <- N296,I,AP38
+B4 <- N155,I,AD32
+B5 <- N12,I,D37
+B6 <- XDL_DUMMY_INT_X18Y128_TIEOFF_X18Y128,KEEP1,TIEOFF_X18Y128
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10176,D1,SLICE_X33Y127
+B pin  ->  N10761_OBUF,D2,SLICE_X33Y130
+B pin  ->  N1931,C1,SLICE_X28Y128
+LUT-95
+B1 <- N9,I,AB34
+B2 <- N18,I,AP27
+B3 <- N296,I,AP38
+B4 <- N155,I,AD32
+B5 <- N12,I,D37
+B6 <- XDL_DUMMY_INT_X18Y128_TIEOFF_X18Y128,KEEP1,TIEOFF_X18Y128
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10176,D1,SLICE_X33Y127
+B pin  ->  N10761_OBUF,D2,SLICE_X33Y130
+B pin  ->  N1931,C1,SLICE_X28Y128
+LUT-96
+A1 <- N9741,BMUX,SLICE_X64Y138
+A2 <- N3349,B,SLICE_X64Y137
+A3 <- N2151,A,SLICE_X46Y136
+A4 <- N313,I,J16
+A5 <- N316,I,L29
+A6 <- N3343,B,SLICE_X57Y138
+O6  ->  A pin
+A pin  ->  N45,B2,SLICE_X63Y138
+LUT-97
+B1 <- null
+B2 <- N18,I,AP27
+B3 <- N26,I,N26
+B4 <- N237,I,J30
+B5 <- N316,I,L29
+B6 <- XDL_DUMMY_INT_X38Y137_TIEOFF_X38Y137,KEEP1,TIEOFF_X38Y137
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10109_OBUF,A2,SLICE_X42Y151
+B pin  ->  N3343,C1,SLICE_X57Y138
+B pin  ->  N3343,D4,SLICE_X57Y138
+B pin  ->  N3349,A2,SLICE_X64Y137
+B pin  ->  N9249,A6,SLICE_X46Y138
+B pin  ->  N9632,A2,SLICE_X49Y151
+B pin  ->  N9741,A1,SLICE_X64Y138
+LUT-98
+B1 <- null
+B2 <- N18,I,AP27
+B3 <- N26,I,N26
+B4 <- N237,I,J30
+B5 <- N316,I,L29
+B6 <- XDL_DUMMY_INT_X38Y137_TIEOFF_X38Y137,KEEP1,TIEOFF_X38Y137
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10109_OBUF,A2,SLICE_X42Y151
+B pin  ->  N3343,C1,SLICE_X57Y138
+B pin  ->  N3343,D4,SLICE_X57Y138
+B pin  ->  N3349,A2,SLICE_X64Y137
+B pin  ->  N9249,A6,SLICE_X46Y138
+B pin  ->  N9632,A2,SLICE_X49Y151
+B pin  ->  N9741,A1,SLICE_X64Y138
+LUT-99
+A1 <- N8251,D,SLICE_X4Y152
+A2 <- N18,I,AP27
+A3 <- N251,I,AK38
+A4 <- N209,I,E38
+A5 <- N628_and0000,B,SLICE_X12Y135
+A6 <- N42,A,SLICE_X9Y148
+O6  ->  A pin
+A pin  ->  N10718,O,R39
+LUT-100
+D1 <- N1821,B,SLICE_X34Y141
+D2 <- N42,A,SLICE_X9Y148
+D3 <- N38,I,AJ41
+D4 <- N2110,D,SLICE_X11Y144
+D5 <- N1711,B,SLICE_X11Y148
+D6 <- N7609,A,SLICE_X2Y149
+O6  ->  D pin
+D pin  ->  N10101,O,P31
+D pin  ->  N10104,O,G34
+D pin  ->  N10706,O,H34
+D pin  ->  N10759,O,N31
+LUT-101
+A1 <- N340,I,E33
+A2 <- N346,I,N36
+A3 <- N3315,B,SLICE_X15Y143
+A4 <- N3322,B,SLICE_X15Y148
+A5 <- N343,I,J17
+A6 <- N3328,D,SLICE_X19Y142
+O6  ->  A pin
+A pin  ->  N3334,B4,SLICE_X8Y150
+LUT-102
+B1 <- N18,I,AP27
+B2 <- N121,I,V33
+B3 <- N224,I,K40
+B4 <- N3334,A,SLICE_X8Y150
+B5 <- N349,I,AN39
+B6 <- XDL_DUMMY_INT_X6Y150_TIEOFF_X6Y150,KEEP1,TIEOFF_X6Y150
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10156,B3,SLICE_X28Y143
+B pin  ->  N10869_OBUF,B3,SLICE_X17Y148
+B pin  ->  N3328,C5,SLICE_X19Y142
+B pin  ->  N441,A3,SLICE_X18Y147
+B pin  ->  N8444,D3,SLICE_X27Y143
+B pin  ->  N9726,C3,SLICE_X27Y144
+LUT-103
+B1 <- N18,I,AP27
+B2 <- N121,I,V33
+B3 <- N224,I,K40
+B4 <- N3334,A,SLICE_X8Y150
+B5 <- N349,I,AN39
+B6 <- XDL_DUMMY_INT_X6Y150_TIEOFF_X6Y150,KEEP1,TIEOFF_X6Y150
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10156,B3,SLICE_X28Y143
+B pin  ->  N10869_OBUF,B3,SLICE_X17Y148
+B pin  ->  N3328,C5,SLICE_X19Y142
+B pin  ->  N441,A3,SLICE_X18Y147
+B pin  ->  N8444,D3,SLICE_X27Y143
+B pin  ->  N9726,C3,SLICE_X27Y144
+LUT-104
+A1 <- N10544,D,SLICE_X14Y150
+A2 <- N9726,C,SLICE_X27Y144
+A3 <- N3322,B,SLICE_X15Y148
+A4 <- N343,I,J17
+A5 <- N3384,DMUX,SLICE_X26Y143
+A6 <- N9244,A,SLICE_X31Y149
+O6  ->  A pin
+A pin  ->  N441,B6,SLICE_X18Y147
+LUT-105
+A1 <- N3404,B,SLICE_X33Y141
+A2 <- null
+A3 <- N358,I,M27
+A4 <- N361,I,V36
+A5 <- N3398,B,SLICE_X27Y147
+A6 <- N3390,CMUX,SLICE_X19Y147
+O6  ->  A pin
+A pin  ->  N1011919,A2,SLICE_X29Y142
+A pin  ->  N10905_OBUF,D1,SLICE_X18Y152
+LUT-106
+B1 <- N18,I,AP27
+B2 <- N66,I,F40
+B3 <- N3390,C,SLICE_X19Y147
+B4 <- N3404,B,SLICE_X33Y141
+B5 <- N219,I,T32
+B6 <- N3398,B,SLICE_X27Y147
+O6  ->  B pin
+B pin  ->  N10156,A1,SLICE_X28Y143
+LUT-107
+C1 <- N355,I,AL26
+C2 <- N35,I,T36
+C3 <- null
+C4 <- N222,I,P36
+C5 <- N18,I,AP27
+C6 <- XDL_DUMMY_INT_X11Y147_TIEOFF_X11Y147,KEEP1,TIEOFF_X11Y147
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10906_OBUF,C1,SLICE_X14Y141
+C pin  ->  N11011,C4,SLICE_X35Y141
+C pin  ->  N3390,B3,SLICE_X19Y147
+LUT-108
+C1 <- N355,I,AL26
+C2 <- N35,I,T36
+C3 <- null
+C4 <- N222,I,P36
+C5 <- N18,I,AP27
+C6 <- XDL_DUMMY_INT_X11Y147_TIEOFF_X11Y147,KEEP1,TIEOFF_X11Y147
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10906_OBUF,C1,SLICE_X14Y141
+C pin  ->  N11011,C4,SLICE_X35Y141
+C pin  ->  N3390,B3,SLICE_X19Y147
+LUT-109
+C1 <- N325,I,AN28
+C2 <- N18,I,AP27
+C3 <- N3281,DMUX,SLICE_X31Y139
+C4 <- N10301,CMUX,SLICE_X28Y141
+C5 <- N130,I,AG38
+C6 <- N234,I,M26
+O6  ->  C pin
+C pin  ->  N10352,O,M13
+LUT-110
+A1 <- N222,I,P36
+A2 <- N3398,BMUX,SLICE_X27Y147
+A3 <- N35,I,T36
+A4 <- N355,I,AL26
+A5 <- N10301,B,SLICE_X28Y141
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N10907,O,Y32
+LUT-111
+B1 <- N358,I,M27
+B2 <- null
+B3 <- N32,I,J41
+B4 <- N221,I,G38
+B5 <- N18,I,AP27
+B6 <- XDL_DUMMY_INT_X15Y147_TIEOFF_X15Y147,KEEP1,TIEOFF_X15Y147
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N1011919,A4,SLICE_X29Y142
+B pin  ->  N10906_OBUF,D4,SLICE_X14Y141
+B pin  ->  N11011,C2,SLICE_X35Y141
+B pin  ->  N3390,A5,SLICE_X19Y147
+B pin  ->  N3390,B6,SLICE_X19Y147
+B pin  ->  N3404,A4,SLICE_X33Y141
+LUT-112
+B1 <- N358,I,M27
+B2 <- null
+B3 <- N32,I,J41
+B4 <- N221,I,G38
+B5 <- N18,I,AP27
+B6 <- XDL_DUMMY_INT_X15Y147_TIEOFF_X15Y147,KEEP1,TIEOFF_X15Y147
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N1011919,A4,SLICE_X29Y142
+B pin  ->  N10906_OBUF,D4,SLICE_X14Y141
+B pin  ->  N11011,C2,SLICE_X35Y141
+B pin  ->  N3390,A5,SLICE_X19Y147
+B pin  ->  N3390,B6,SLICE_X19Y147
+B pin  ->  N3404,A4,SLICE_X33Y141
+LUT-113
+A1 <- N12,I,D37
+A2 <- N169,I,W33
+A3 <- null
+A4 <- null
+A5 <- N9,I,AB34
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N7100,D2,SLICE_X3Y126
+A pin  ->  N785235,B6,SLICE_X3Y127
+LUT-114
+B1 <- N12,I,D37
+B2 <- N6052_and0000,B,SLICE_X1Y136
+B3 <- N2654,B,SLICE_X2Y126
+B4 <- N2658,A,SLICE_X1Y126
+B5 <- N9,I,AB34
+B6 <- N785235,A,SLICE_X3Y127
+O6  ->  B pin
+B pin  ->  N7852,B5,SLICE_X2Y127
+LUT-115
+B1 <- N7852,B,SLICE_X2Y127
+B2 <- N2171,A,SLICE_X3Y140
+B3 <- N2451,B,SLICE_X11Y128
+B4 <- N7100,D,SLICE_X3Y126
+B5 <- N38,I,AJ41
+B6 <- N1028,D,SLICE_X3Y125
+O6  ->  B pin
+B pin  ->  N10102,O,W36
+B pin  ->  N10103,O,M42
+LUT-116
+D1 <- N1711,B,SLICE_X11Y148
+D2 <- N38,I,AJ41
+D3 <- N42,A,SLICE_X9Y148
+D4 <- N7609,A,SLICE_X2Y149
+D5 <- N382,I,AA42
+D6 <- N263,I,M37
+O6  ->  D pin
+D pin  ->  N10839,O,R35
+D pin  ->  N10840,O,U34
+LUT-117
+D1 <- null
+D2 <- N18,I,AP27
+D3 <- N352,I,L37
+D4 <- N47,I,R37
+D5 <- N223,I,AL39
+D6 <- XDL_DUMMY_INT_X15Y143_TIEOFF_X15Y143,KEEP1,TIEOFF_X15Y143
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10156,B1,SLICE_X28Y143
+LUT-118
+D1 <- null
+D2 <- N18,I,AP27
+D3 <- N352,I,L37
+D4 <- N47,I,R37
+D5 <- N223,I,AL39
+D6 <- XDL_DUMMY_INT_X15Y143_TIEOFF_X15Y143,KEEP1,TIEOFF_X15Y143
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10156,B1,SLICE_X28Y143
+LUT-119
+A1 <- N151,I,AN13
+A2 <- N2567,C,SLICE_X39Y138
+A3 <- N161,I,G37
+A4 <- N3273,AMUX,SLICE_X38Y138
+A5 <- N2573,C,SLICE_X47Y138
+A6 <- N8242,A,SLICE_X33Y134
+O6  ->  F7AMUX
+LUT-120
+B1 <- N8242,A,SLICE_X33Y134
+B2 <- N141,I,E40
+B3 <- N147,I,AK15
+B4 <- N3273,AMUX,SLICE_X38Y138
+B5 <- N2573,C,SLICE_X47Y138
+B6 <- N2567,C,SLICE_X39Y138
+O6  ->  F7AMUX
+LUT-121
+A1 <- N8394,D,SLICE_X6Y133
+A2 <- N8943,D,SLICE_X6Y132
+A3 <- null
+A4 <- null
+A5 <- N1062816,B,SLICE_X10Y128
+A6 <- null
+O6  ->  A pin
+A pin  ->  N7852,A2,SLICE_X2Y127
+LUT-122
+B1 <- N106280,D,SLICE_X33Y125
+B2 <- N8405,D,SLICE_X0Y137
+B3 <- N8412,B,SLICE_X6Y130
+B4 <- N9820,B,SLICE_X21Y128
+B5 <- N9786,B,SLICE_X6Y129
+B6 <- N1801,A,SLICE_X12Y128
+O6  ->  B pin
+B pin  ->  N1062816,A5,SLICE_X10Y128
+LUT-123
+A1 <- N3349,B,SLICE_X64Y137
+A2 <- N316,I,L29
+A3 <- N313,I,J16
+A4 <- N3343,B,SLICE_X57Y138
+A5 <- N9741,B,SLICE_X64Y138
+A6 <- N9741,BMUX,SLICE_X64Y138
+O6  ->  A pin
+A pin  ->  N10112_OBUF,A4,SLICE_X65Y138
+LUT-124
+B1 <- N41,I,AN40
+B2 <- N310,I,P27
+B3 <- null
+B4 <- N18,I,AP27
+B5 <- null
+B6 <- XDL_DUMMY_INT_X38Y138_TIEOFF_X38Y138,KEEP1,TIEOFF_X38Y138
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10112_OBUF,A5,SLICE_X65Y138
+B pin  ->  N101190,A5,SLICE_X47Y139
+B pin  ->  N9632,B4,SLICE_X49Y151
+B pin  ->  N9682,A4,SLICE_X56Y138
+B pin  ->  N9741,A5,SLICE_X64Y138
+LUT-125
+B1 <- N41,I,AN40
+B2 <- N310,I,P27
+B3 <- null
+B4 <- N18,I,AP27
+B5 <- null
+B6 <- XDL_DUMMY_INT_X38Y138_TIEOFF_X38Y138,KEEP1,TIEOFF_X38Y138
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10112_OBUF,A5,SLICE_X65Y138
+B pin  ->  N101190,A5,SLICE_X47Y139
+B pin  ->  N9632,B4,SLICE_X49Y151
+B pin  ->  N9682,A4,SLICE_X56Y138
+B pin  ->  N9741,A5,SLICE_X64Y138
+LUT-126
+A1 <- N3311,A,SLICE_X5Y153
+A2 <- N80,I,Y34
+A3 <- N2688,C,SLICE_X15Y144
+A4 <- N3428,B,SLICE_X3Y123
+A5 <- N352,I,L37
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N8412,B6,SLICE_X6Y130
+LUT-127
+B1 <- N3299,B,SLICE_X4Y131
+B2 <- N3420,A,SLICE_X46Y118
+B3 <- N3424,AMUX,SLICE_X4Y129
+B4 <- N3416,B,SLICE_X18Y129
+B5 <- N3303,B,SLICE_X7Y130
+B6 <- N8412,A,SLICE_X6Y130
+O6  ->  B pin
+B pin  ->  N1010315,A3,SLICE_X17Y128
+B pin  ->  N1062816,B3,SLICE_X10Y128
+B pin  ->  N2451,A3,SLICE_X11Y128
+LUT-128
+A1 <- N8950,D,SLICE_X1Y137
+A2 <- N8405,D,SLICE_X0Y137
+A3 <- N8412,B,SLICE_X6Y130
+A4 <- N1010315,BMUX,SLICE_X17Y128
+A5 <- N9786,A,SLICE_X6Y129
+A6 <- N9029,B,SLICE_X20Y125
+O6  ->  A pin
+A pin  ->  N10704,O,AB37
+LUT-129
+B1 <- N1801,A,SLICE_X12Y128
+B2 <- N9820,A,SLICE_X21Y128
+B3 <- null
+B4 <- N89,I,AR42
+B5 <- N8541,B,SLICE_X21Y125
+B6 <- XDL_DUMMY_INT_X10Y128_TIEOFF_X10Y128,KEEP1,TIEOFF_X10Y128
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N2451,A6,SLICE_X11Y128
+LUT-130
+B1 <- N1801,A,SLICE_X12Y128
+B2 <- N9820,A,SLICE_X21Y128
+B3 <- null
+B4 <- N89,I,AR42
+B5 <- N8541,B,SLICE_X21Y125
+B6 <- XDL_DUMMY_INT_X10Y128_TIEOFF_X10Y128,KEEP1,TIEOFF_X10Y128
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N2451,A6,SLICE_X11Y128
+LUT-131
+A1 <- N18,I,AP27
+A2 <- N168,I,L39
+A3 <- N12,I,D37
+A4 <- N106,I,AM17
+A5 <- N9,I,AB34
+A6 <- N87,I,H40
+O6  ->  A pin
+A pin  ->  N7852,B1,SLICE_X2Y127
+LUT-132
+B1 <- N60,I,W37
+B2 <- null
+B3 <- null
+B4 <- N18,I,AP27
+B5 <- null
+B6 <- N358,I,M27
+O6  ->  B pin
+B pin  ->  N3448,C5,SLICE_X0Y139
+B pin  ->  N8950,C6,SLICE_X1Y137
+LUT-133
+C1 <- N358,I,M27
+C2 <- N18,I,AP27
+C3 <- N2696,A,SLICE_X1Y138
+C4 <- N3436,D,SLICE_X0Y150
+C5 <- N2692,A,SLICE_X1Y130
+C6 <- N60,I,W37
+O6  ->  C pin
+C pin  ->  N8405,D5,SLICE_X0Y137
+LUT-134
+D1 <- N2700,D,SLICE_X35Y140
+D2 <- N3444,C,SLICE_X7Y137
+D3 <- null
+D4 <- N3448,D,SLICE_X0Y139
+D5 <- N8405,C,SLICE_X0Y137
+D6 <- N2704,C,SLICE_X1Y142
+O6  ->  D pin
+D pin  ->  N1010315,A2,SLICE_X17Y128
+D pin  ->  N1062816,B2,SLICE_X10Y128
+D pin  ->  N2451,A4,SLICE_X11Y128
+D pin  ->  N9786,B2,SLICE_X6Y129
+LUT-135
+A1 <- null
+A2 <- N286,I,M36
+A3 <- N1931,DMUX,SLICE_X28Y128
+A4 <- N6,A,SLICE_X33Y135
+A5 <- N43,B,SLICE_X35Y135
+A6 <- N2573,C,SLICE_X47Y138
+O6  ->  A pin
+A pin  ->  N11333,O,AL37
+LUT-136
+B1 <- N9352,BMUX,SLICE_X18Y140
+B2 <- N3273,A,SLICE_X38Y138
+B3 <- N2567,C,SLICE_X39Y138
+B4 <- N283,I,K34
+B5 <- N2271,A,SLICE_X47Y135
+B6 <- N11000,C,SLICE_X34Y135
+O6  ->  B pin
+B pin  ->  N43,A5,SLICE_X35Y135
+LUT-137
+A1 <- N9,I,AB34
+A2 <- N153,I,Y33
+A3 <- N303,I,AD36
+A4 <- N12,I,D37
+A5 <- N18,I,AP27
+A6 <- N9352,A,SLICE_X18Y140
+O6  ->  A pin
+A pin  ->  N10104_OBUF,D2,SLICE_X25Y144
+A pin  ->  N10425,D2,SLICE_X2Y161
+A pin  ->  N10641_OBUF,D2,SLICE_X7Y145
+A pin  ->  N10718_OBUF,A6,SLICE_X6Y149
+A pin  ->  N10838_OBUF,A2,SLICE_X2Y145
+A pin  ->  N10839_OBUF,D3,SLICE_X3Y144
+A pin  ->  N42,B6,SLICE_X9Y148
+A pin  ->  N51,A2,SLICE_X19Y144
+LUT-138
+B1 <- N1711,CMUX,SLICE_X11Y148
+B2 <- N10990,A,SLICE_X8Y149
+B3 <- N8248,A,SLICE_X4Y149
+B4 <- N106,I,AM17
+B5 <- N10988,D,SLICE_X9Y151
+B6 <- N42,A,SLICE_X9Y148
+O6  ->  B pin
+B pin  ->  N1821,A3,SLICE_X34Y141
+LUT-139
+A1 <- N319,I,P35
+A2 <- N7,C,SLICE_X49Y139
+A3 <- N3287,C,SLICE_X32Y139
+A4 <- N3355,D,SLICE_X25Y128
+A5 <- N45,B,SLICE_X63Y138
+A6 <- N331,I,AM26
+O6  ->  A pin
+A pin  ->  N11342,O,K29
+LUT-140
+B1 <- N9249,B,SLICE_X46Y138
+B2 <- N3349,A,SLICE_X64Y137
+B3 <- N3349,BMUX,SLICE_X64Y137
+B4 <- N367,I,AN29
+B5 <- N10112_OBUF,A,SLICE_X65Y138
+B6 <- N3343,BMUX,SLICE_X57Y138
+O6  ->  B pin
+B pin  ->  N45,A5,SLICE_X63Y138
+LUT-141
+D1 <- N8242,BMUX,SLICE_X33Y134
+D2 <- N283,I,K34
+D3 <- null
+D4 <- N280,I,U32
+D5 <- N2567,C,SLICE_X39Y138
+D6 <- N8242,A,SLICE_X33Y134
+O6  ->  D pin
+D pin  ->  N11000,C1,SLICE_X34Y135
+LUT-142
+B1 <- N47,I,R37
+B2 <- N18,I,AP27
+B3 <- N9726,C,SLICE_X27Y144
+B4 <- N223,I,AL39
+B5 <- null
+B6 <- N352,I,L37
+O6  ->  B pin
+B pin  ->  N1011919,B6,SLICE_X29Y142
+B pin  ->  N10301,A6,SLICE_X28Y141
+B pin  ->  N10301,B6,SLICE_X28Y141
+LUT-143
+C1 <- N3322,A,SLICE_X15Y148
+C2 <- null
+C3 <- N3334,B,SLICE_X8Y150
+C4 <- N349,I,AN39
+C5 <- N3328,D,SLICE_X19Y142
+C6 <- N346,I,N36
+O6  ->  C pin
+C pin  ->  N11187,A2,SLICE_X19Y148
+C pin  ->  N9726,B3,SLICE_X27Y144
+LUT-144
+A1 <- N9290,CMUX,SLICE_X35Y139
+A2 <- N340,I,E33
+A3 <- N3322,B,SLICE_X15Y148
+A4 <- N343,I,J17
+A5 <- N3315,B,SLICE_X15Y143
+A6 <- N101190,BMUX,SLICE_X47Y139
+O6  ->  A pin
+A pin  ->  N10869_OBUF,B6,SLICE_X17Y148
+A pin  ->  N3328,C2,SLICE_X19Y142
+A pin  ->  N3328,D1,SLICE_X19Y142
+LUT-145
+B1 <- N349,I,AN39
+B2 <- N346,I,N36
+B3 <- N3334,B,SLICE_X8Y150
+B4 <- null
+B5 <- N3328,D,SLICE_X19Y142
+B6 <- N10869_OBUF,A,SLICE_X17Y148
+O6  ->  B pin
+B pin  ->  N10869,O,K32
+LUT-146
+A1 <- N7609,A,SLICE_X2Y149
+A2 <- N42,A,SLICE_X9Y148
+A3 <- N1711,B,SLICE_X11Y148
+A4 <- N263,I,M37
+A5 <- N382,I,AA42
+A6 <- N38,I,AJ41
+O6  ->  A pin
+A pin  ->  N1821,A4,SLICE_X34Y141
+LUT-147
+A1 <- N9,I,AB34
+A2 <- N293,I,AN30
+A3 <- N18,I,AP27
+A4 <- N156,I,AM37
+A5 <- N12,I,D37
+A6 <- null
+O6  ->  A pin
+A pin  ->  N10761_OBUF,D4,SLICE_X33Y130
+A pin  ->  N112051320,C3,SLICE_X32Y128
+A pin  ->  N1931,C3,SLICE_X28Y128
+LUT-148
+A1 <- N3307,AMUX,SLICE_X3Y129
+A2 <- N3432,D,SLICE_X7Y131
+A3 <- N2688,C,SLICE_X15Y144
+A4 <- N3428,B,SLICE_X3Y123
+A5 <- N3311,A,SLICE_X5Y153
+A6 <- N3303,A,SLICE_X7Y130
+O6  ->  A pin
+A pin  ->  N1010315,A5,SLICE_X17Y128
+A pin  ->  N2451,A1,SLICE_X11Y128
+A pin  ->  N9786,B6,SLICE_X6Y129
+LUT-149
+B1 <- N8950,D,SLICE_X1Y137
+B2 <- N8405,D,SLICE_X0Y137
+B3 <- null
+B4 <- null
+B5 <- null
+B6 <- N9786,A,SLICE_X6Y129
+O6  ->  B pin
+B pin  ->  N1062816,B5,SLICE_X10Y128
+LUT-150
+A1 <- N257,I,T35
+A2 <- N2638,D,SLICE_X8Y154
+A3 <- N42,B,SLICE_X9Y148
+A4 <- N51,A,SLICE_X19Y144
+A5 <- N1821,B,SLICE_X34Y141
+A6 <- N38,I,AJ41
+O6  ->  A pin
+A pin  ->  N11334,O,K30
+LUT-151
+B1 <- null
+B2 <- N382,I,AA42
+B3 <- null
+B4 <- N267,I,AT39
+B5 <- null
+B6 <- null
+O6  ->  B pin
+B pin  ->  N10104_OBUF,D1,SLICE_X25Y144
+B pin  ->  N10838_OBUF,A6,SLICE_X2Y145
+B pin  ->  N1821,A5,SLICE_X34Y141
+LUT-152
+C1 <- null
+C2 <- N18,I,AP27
+C3 <- N47,I,R37
+C4 <- N9244,A,SLICE_X31Y149
+C5 <- N223,I,AL39
+C6 <- N352,I,L37
+O6  ->  C pin
+C pin  ->  N8444,D5,SLICE_X27Y143
+LUT-153
+D1 <- N346,I,N36
+D2 <- N3322,BMUX,SLICE_X15Y148
+D3 <- N3334,B,SLICE_X8Y150
+D4 <- N349,I,AN39
+D5 <- N8444,C,SLICE_X27Y143
+D6 <- N3328,D,SLICE_X19Y142
+O6  ->  D pin
+D pin  ->  N1011919,B3,SLICE_X29Y142
+D pin  ->  N10301,A3,SLICE_X28Y141
+D pin  ->  N10301,B3,SLICE_X28Y141
+LUT-154
+B1 <- N168,I,L39
+B2 <- N87,I,H40
+B3 <- N12,I,D37
+B4 <- N106,I,AM17
+B5 <- N9,I,AB34
+B6 <- N18,I,AP27
+O6  ->  B pin
+B pin  ->  N7100,D4,SLICE_X3Y126
+B pin  ->  N785235,B2,SLICE_X3Y127
+LUT-155
+C1 <- N18,I,AP27
+C2 <- N112,I,AH41
+C3 <- N2654,B,SLICE_X2Y126
+C4 <- N628_and0000,B,SLICE_X12Y135
+C5 <- N167,I,AD37
+C6 <- N257,I,T35
+O6  ->  C pin
+C pin  ->  N7100,D5,SLICE_X3Y126
+LUT-156
+D1 <- N2670,A,SLICE_X3Y128
+D2 <- N785235,A,SLICE_X3Y127
+D3 <- N2658,A,SLICE_X1Y126
+D4 <- N6052_and0000,B,SLICE_X1Y136
+D5 <- N7100,C,SLICE_X3Y126
+D6 <- N2458,D,SLICE_X29Y131
+O6  ->  D pin
+D pin  ->  N10103_OBUF,B4,SLICE_X16Y127
+D pin  ->  N7852,A6,SLICE_X2Y127
+LUT-157
+A1 <- N18,I,AP27
+A2 <- N313,I,J16
+A3 <- N2511,B,SLICE_X6Y128
+A4 <- N207,I,AL41
+A5 <- N1801,B,SLICE_X12Y128
+A6 <- N3458,AMUX,SLICE_X42Y132
+O6  ->  A pin
+A pin  ->  N1010315,B1,SLICE_X17Y128
+A pin  ->  N1062816,B6,SLICE_X10Y128
+LUT-158
+B1 <- N18,I,AP27
+B2 <- N3462,C,SLICE_X57Y116
+B3 <- N2615,D,SLICE_X10Y120
+B4 <- N3247,B,SLICE_X38Y128
+B5 <- N322,I,P38
+B6 <- N73,I,J38
+O6  ->  B pin
+B pin  ->  N1801,A5,SLICE_X12Y128
+LUT-159
+C1 <- N18,I,AP27
+C2 <- N156,I,AM37
+C3 <- N296,I,AP38
+C4 <- N293,I,AN30
+C5 <- N155,I,AD32
+C6 <- N628_and0000,B,SLICE_X12Y135
+O6  ->  C pin
+C pin  ->  N10761_OBUF,D5,SLICE_X33Y130
+C pin  ->  N8146,A2,SLICE_X31Y130
+LUT-160
+D1 <- N1931,DMUX,SLICE_X28Y128
+D2 <- N2496,B,SLICE_X33Y128
+D3 <- N8246,B,SLICE_X32Y134
+D4 <- N3178,A,SLICE_X35Y127
+D5 <- N10761_OBUF,C,SLICE_X33Y130
+D6 <- N296,I,AP38
+O6  ->  D pin
+D pin  ->  N10761,O,P13
+LUT-161
+A1 <- N35,I,T36
+A2 <- N222,I,P36
+A3 <- N355,I,AL26
+A4 <- N10301,B,SLICE_X28Y141
+A5 <- N18,I,AP27
+A6 <- XDL_DUMMY_INT_X7Y160_TIEOFF_X7Y160,KEEP1,TIEOFF_X7Y160
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N1011919,A1,SLICE_X29Y142
+A pin  ->  N3404,A1,SLICE_X33Y141
+LUT-162
+A1 <- N35,I,T36
+A2 <- N222,I,P36
+A3 <- N355,I,AL26
+A4 <- N10301,B,SLICE_X28Y141
+A5 <- N18,I,AP27
+A6 <- XDL_DUMMY_INT_X7Y160_TIEOFF_X7Y160,KEEP1,TIEOFF_X7Y160
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N1011919,A1,SLICE_X29Y142
+A pin  ->  N3404,A1,SLICE_X33Y141
+LUT-163
+D1 <- N18,I,AP27
+D2 <- N12,I,D37
+D3 <- N9,I,AB34
+D4 <- N216,I,F39
+D5 <- N254,I,P33
+D6 <- XDL_DUMMY_INT_X3Y152_TIEOFF_X3Y152,KEEP1,TIEOFF_X3Y152
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10718_OBUF,A1,SLICE_X6Y149
+D pin  ->  N1711,B6,SLICE_X11Y148
+LUT-164
+D1 <- N18,I,AP27
+D2 <- N12,I,D37
+D3 <- N9,I,AB34
+D4 <- N216,I,F39
+D5 <- N254,I,P33
+D6 <- XDL_DUMMY_INT_X3Y152_TIEOFF_X3Y152,KEEP1,TIEOFF_X3Y152
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10718_OBUF,A1,SLICE_X6Y149
+D pin  ->  N1711,B6,SLICE_X11Y148
+LUT-165
+A1 <- N242,I,F34
+A2 <- N5,I,N35
+A3 <- null
+A4 <- null
+A5 <- null
+A6 <- null
+O6  ->  A pin
+A pin  ->  N1110,O,G32
+A pin  ->  N1112,O,E35
+LUT-166
+A1 <- N10301,CMUX,SLICE_X28Y141
+A2 <- N234,I,M26
+A3 <- N18,I,AP27
+A4 <- N130,I,AG38
+A5 <- N325,I,AN28
+A6 <- XDL_DUMMY_INT_X18Y149_TIEOFF_X18Y149,KEEP1,TIEOFF_X18Y149
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N3287,A2,SLICE_X32Y139
+A pin  ->  N9290,A2,SLICE_X35Y139
+LUT-167
+A1 <- N10301,CMUX,SLICE_X28Y141
+A2 <- N234,I,M26
+A3 <- N18,I,AP27
+A4 <- N130,I,AG38
+A5 <- N325,I,AN28
+A6 <- XDL_DUMMY_INT_X18Y149_TIEOFF_X18Y149,KEEP1,TIEOFF_X18Y149
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N3287,A2,SLICE_X32Y139
+A pin  ->  N9290,A2,SLICE_X35Y139
+LUT-168
+A1 <- N293,I,AN30
+A2 <- N2511,A,SLICE_X6Y128
+A3 <- N63,I,M41
+A4 <- N2753,B,SLICE_X2Y110
+A5 <- N10388,C,SLICE_X9Y141
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N8943141,B6,SLICE_X7Y129
+LUT-169
+B1 <- N2478,A,SLICE_X39Y141
+B2 <- N5996_and0000,C,SLICE_X13Y119
+B3 <- N2761,C,SLICE_X7Y128
+B4 <- N2757,B,SLICE_X13Y115
+B5 <- N2474,D,SLICE_X6Y119
+B6 <- N8943141,A,SLICE_X7Y129
+O6  ->  B pin
+B pin  ->  N8943,D2,SLICE_X6Y132
+LUT-170
+C1 <- N8315,A,SLICE_X9Y140
+C2 <- N10176,C,SLICE_X33Y127
+C3 <- N3178,A,SLICE_X35Y127
+C4 <- N2496,BMUX,SLICE_X33Y128
+C5 <- N6761,B,SLICE_X31Y128
+C6 <- N1931,C,SLICE_X28Y128
+O6  ->  C pin
+C pin  ->  N6,A1,SLICE_X33Y135
+LUT-171
+A1 <- N280,I,U32
+A2 <- N8242,BMUX,SLICE_X33Y134
+A3 <- N138,I,N29
+A4 <- N160,I,N15
+A5 <- N18,I,AP27
+A6 <- XDL_DUMMY_INT_X18Y134_TIEOFF_X18Y134,KEEP1,TIEOFF_X18Y134
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N10412,B1,SLICE_X51Y138
+A pin  ->  N11000,C2,SLICE_X34Y135
+A pin  ->  N2271,A1,SLICE_X47Y135
+A pin  ->  N2573,B2,SLICE_X47Y138
+A pin  ->  N9910,A6,SLICE_X31Y134
+A pin  ->  N9910,B1,SLICE_X31Y134
+A pin  ->  N9969,D6,SLICE_X30Y136
+LUT-172
+A1 <- N280,I,U32
+A2 <- N8242,BMUX,SLICE_X33Y134
+A3 <- N138,I,N29
+A4 <- N160,I,N15
+A5 <- N18,I,AP27
+A6 <- XDL_DUMMY_INT_X18Y134_TIEOFF_X18Y134,KEEP1,TIEOFF_X18Y134
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N10412,B1,SLICE_X51Y138
+A pin  ->  N11000,C2,SLICE_X34Y135
+A pin  ->  N2271,A1,SLICE_X47Y135
+A pin  ->  N2573,B2,SLICE_X47Y138
+A pin  ->  N9910,A6,SLICE_X31Y134
+A pin  ->  N9910,B1,SLICE_X31Y134
+A pin  ->  N9969,D6,SLICE_X30Y136
+LUT-173
+B1 <- N151,I,AN13
+B2 <- null
+B3 <- N147,I,AK15
+B4 <- N277,I,AH39
+B5 <- N18,I,AP27
+B6 <- XDL_DUMMY_INT_X18Y134_TIEOFF_X18Y134,KEEP1,TIEOFF_X18Y134
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10412,B5,SLICE_X51Y138
+B pin  ->  N11000,C4,SLICE_X34Y135
+B pin  ->  N2271,A3,SLICE_X47Y135
+B pin  ->  N2567,B3,SLICE_X39Y138
+B pin  ->  N2573,B3,SLICE_X47Y138
+LUT-174
+B1 <- N151,I,AN13
+B2 <- null
+B3 <- N147,I,AK15
+B4 <- N277,I,AH39
+B5 <- N18,I,AP27
+B6 <- XDL_DUMMY_INT_X18Y134_TIEOFF_X18Y134,KEEP1,TIEOFF_X18Y134
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10412,B5,SLICE_X51Y138
+B pin  ->  N11000,C4,SLICE_X34Y135
+B pin  ->  N2271,A3,SLICE_X47Y135
+B pin  ->  N2567,B3,SLICE_X39Y138
+B pin  ->  N2573,B3,SLICE_X47Y138
+LUT-175
+C1 <- N2496,BMUX,SLICE_X33Y128
+C2 <- N9352,BMUX,SLICE_X18Y140
+C3 <- N9098,A,SLICE_X39Y137
+C4 <- N6761,BMUX,SLICE_X31Y128
+C5 <- N293,I,AN30
+C6 <- N2567,B,SLICE_X39Y138
+O6  ->  C pin
+C pin  ->  N10762,O,U33
+LUT-176
+A1 <- N260,I,R34
+A2 <- N9,I,AB34
+A3 <- N18,I,AP27
+A4 <- N213,I,M38
+A5 <- N12,I,D37
+A6 <- null
+O6  ->  A pin
+A pin  ->  N1711,A4,SLICE_X11Y148
+A pin  ->  N1711,B4,SLICE_X11Y148
+A pin  ->  N42,B3,SLICE_X9Y148
+LUT-177
+A1 <- N9,I,AB34
+A2 <- N18,I,AP27
+A3 <- N293,I,AN30
+A4 <- N156,I,AM37
+A5 <- N8246,B,SLICE_X32Y134
+A6 <- N12,I,D37
+O6  ->  A pin
+A pin  ->  N10763,O,R40
+LUT-178
+B1 <- N9352,BMUX,SLICE_X18Y140
+B2 <- N289,I,Y39
+B3 <- N9098,B,SLICE_X39Y137
+B4 <- N3273,AMUX,SLICE_X38Y138
+B5 <- N2567,B,SLICE_X39Y138
+B6 <- null
+O6  ->  B pin
+B pin  ->  N10761_OBUF,D3,SLICE_X33Y130
+B pin  ->  N8246,A5,SLICE_X32Y134
+LUT-179
+D1 <- N138,I,N29
+D2 <- N160,I,N15
+D3 <- N18,I,AP27
+D4 <- null
+D5 <- null
+D6 <- N280,I,U32
+O6  ->  D pin
+D pin  ->  N10714_OBUF,A5,SLICE_X64Y107
+D pin  ->  N2567,B1,SLICE_X39Y138
+LUT-180
+D1 <- N10388,C,SLICE_X9Y141
+D2 <- N2538,A,SLICE_X19Y135
+D3 <- N2478,A,SLICE_X39Y141
+D4 <- N2474,D,SLICE_X6Y119
+D5 <- N1601,A,SLICE_X0Y130
+D6 <- N2511,A,SLICE_X6Y128
+O6  ->  D pin
+D pin  ->  N10576,O,G31
+LUT-181
+D1 <- null
+D2 <- N190,I,L27
+D3 <- N50,I,L14
+D4 <- null
+D5 <- null
+D6 <- N18,I,AP27
+O6  ->  D pin
+D pin  ->  N1601,B6,SLICE_X0Y130
+D pin  ->  N8405,D1,SLICE_X0Y137
+D pin  ->  N8950,D1,SLICE_X1Y137
+LUT-182
+C1 <- null
+C2 <- null
+C3 <- null
+C4 <- N66,I,F40
+C5 <- N18,I,AP27
+C6 <- N189,I,AA36
+O6  ->  C pin
+C pin  ->  N1601,B1,SLICE_X0Y130
+C pin  ->  N8405,D6,SLICE_X0Y137
+C pin  ->  N8950,D6,SLICE_X1Y137
+LUT-183
+B1 <- N101190,A,SLICE_X47Y139
+B2 <- N367,I,AN29
+B3 <- N9290,C,SLICE_X35Y139
+B4 <- N9290,B,SLICE_X35Y139
+B5 <- N11002,A,SLICE_X43Y138
+B6 <- N9249,BMUX,SLICE_X46Y138
+O6  ->  B pin
+B pin  ->  N10350,O,G41
+LUT-184
+B1 <- N18,I,AP27
+B2 <- N310,I,P27
+B3 <- N70,I,AF41
+B4 <- N307,I,AR40
+B5 <- null
+B6 <- N69,I,N14
+O6  ->  B pin
+B pin  ->  N3482,A2,SLICE_X41Y130
+LUT-185
+D1 <- N367,I,AN29
+D2 <- N310,I,P27
+D3 <- N41,I,AN40
+D4 <- null
+D5 <- N18,I,AP27
+D6 <- null
+O6  ->  D pin
+D pin  ->  N10025,O,F36
+LUT-186
+A1 <- N18,I,AP27
+A2 <- N249,B,SLICE_X13Y138
+A3 <- N164,I,Y37
+A4 <- N165,I,T42
+A5 <- N1601,B,SLICE_X0Y130
+A6 <- N628_and0000,B,SLICE_X12Y135
+O6  ->  A pin
+A pin  ->  N10388,D1,SLICE_X9Y141
+A pin  ->  N10576_OBUF,D5,SLICE_X8Y144
+LUT-187
+B1 <- N2704,C,SLICE_X1Y142
+B2 <- N3299,A,SLICE_X4Y131
+B3 <- N2692,A,SLICE_X1Y130
+B4 <- N2696,A,SLICE_X1Y138
+B5 <- N3263,A,SLICE_X24Y125
+B6 <- N2700,D,SLICE_X35Y140
+O6  ->  B pin
+B pin  ->  N1601,A5,SLICE_X0Y130
+LUT-188
+C1 <- N2638,D,SLICE_X8Y154
+C2 <- N106,I,AM17
+C3 <- null
+C4 <- N1711,CMUX,SLICE_X11Y148
+C5 <- N257,I,T35
+C6 <- N10425,D,SLICE_X2Y161
+O6  ->  C pin
+C pin  ->  N10716,O,K37
+LUT-189
+D1 <- N3114,CMUX,SLICE_X9Y150
+D2 <- N42,A,SLICE_X9Y148
+D3 <- N8251,DMUX,SLICE_X4Y152
+D4 <- null
+D5 <- N3114,C,SLICE_X9Y150
+D6 <- N254,I,P33
+O6  ->  D pin
+D pin  ->  N10425,C6,SLICE_X2Y161
+D pin  ->  N10717_OBUF,D6,SLICE_X20Y159
+D pin  ->  N1711,A5,SLICE_X11Y148
+LUT-190
+B1 <- N18,I,AP27
+B2 <- null
+B3 <- N86,I,AJ38
+B4 <- N296,I,AP38
+B5 <- null
+B6 <- null
+O6  ->  B pin
+B pin  ->  N2761,B5,SLICE_X7Y128
+B pin  ->  N7057,B5,SLICE_X6Y131
+B pin  ->  N8943141,A4,SLICE_X7Y129
+LUT-191
+A1 <- N12,I,D37
+A2 <- null
+A3 <- null
+A4 <- N175,I,AD42
+A5 <- N9,I,AB34
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N10388,D2,SLICE_X9Y141
+A pin  ->  N10576_OBUF,D6,SLICE_X8Y144
+A pin  ->  N7057,B4,SLICE_X6Y131
+A pin  ->  N8943141,A2,SLICE_X7Y129
+LUT-192
+B1 <- N29,I,AT42
+B2 <- null
+B3 <- N70,I,AF41
+B4 <- N74,I,P42
+B5 <- null
+B6 <- N41,I,AN40
+O6  ->  B pin
+B pin  ->  N1801,A3,SLICE_X12Y128
+LUT-193
+B1 <- null
+B2 <- null
+B3 <- N109,I,AU41
+B4 <- N299,I,N28
+B5 <- null
+B6 <- N18,I,AP27
+O6  ->  B pin
+B pin  ->  N2761,B4,SLICE_X7Y128
+B pin  ->  N8943141,B4,SLICE_X7Y129
+LUT-194
+A1 <- N2573,C,SLICE_X47Y138
+A2 <- null
+A3 <- N2567,C,SLICE_X39Y138
+A4 <- N286,I,M36
+A5 <- N10412,B,SLICE_X51Y138
+A6 <- N283,I,K34
+O6  ->  A pin
+A pin  ->  N10712,O,P17
+LUT-195
+B1 <- N8242,A,SLICE_X33Y134
+B2 <- N8242,BMUX,SLICE_X33Y134
+B3 <- N280,I,U32
+B4 <- null
+B5 <- N8242,B,SLICE_X33Y134
+B6 <- N9352,BMUX,SLICE_X18Y140
+O6  ->  B pin
+B pin  ->  N10412,A5,SLICE_X51Y138
+B pin  ->  N10713_OBUF,C2,SLICE_X7Y135
+B pin  ->  N2567,A1,SLICE_X39Y138
+LUT-196
+D1 <- N18,I,AP27
+D2 <- N135,I,N38
+D3 <- N286,I,M36
+D4 <- N85,I,V38
+D5 <- N178,I,T37
+D6 <- XDL_DUMMY_INT_X4Y141_TIEOFF_X4Y141,KEEP1,TIEOFF_X4Y141
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10713_OBUF,A2,SLICE_X7Y135
+D pin  ->  N2729,A5,SLICE_X7Y133
+LUT-197
+D1 <- N18,I,AP27
+D2 <- N135,I,N38
+D3 <- N286,I,M36
+D4 <- N85,I,V38
+D5 <- N178,I,T37
+D6 <- XDL_DUMMY_INT_X4Y141_TIEOFF_X4Y141,KEEP1,TIEOFF_X4Y141
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10713_OBUF,A2,SLICE_X7Y135
+D pin  ->  N2729,A5,SLICE_X7Y133
+LUT-198
+D1 <- null
+D2 <- N18,I,AP27
+D3 <- null
+D4 <- N64,I,F42
+D5 <- null
+D6 <- N289,I,Y39
+O6  ->  D pin
+D pin  ->  N2729,A1,SLICE_X7Y133
+D pin  ->  N8394,C6,SLICE_X6Y133
+LUT-199
+A1 <- N3458,A,SLICE_X42Y132
+A2 <- N3462,C,SLICE_X57Y116
+A3 <- N3448,C,SLICE_X0Y139
+A4 <- N3482,A,SLICE_X41Y130
+A5 <- N3454,B,SLICE_X14Y128
+A6 <- N3416,A,SLICE_X18Y129
+O6  ->  A pin
+A pin  ->  N10402,B1,SLICE_X12Y133
+LUT-200
+B1 <- N10402,A,SLICE_X12Y133
+B2 <- N6102,D,SLICE_X19Y140
+B3 <- N2729,A,SLICE_X7Y133
+B4 <- N2761,B,SLICE_X7Y128
+B5 <- N2654,CMUX,SLICE_X2Y126
+B6 <- XDL_DUMMY_INT_X8Y133_TIEOFF_X8Y133,KEEP1,TIEOFF_X8Y133
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N885_OBUF,C1,SLICE_X13Y131
+LUT-201
+B1 <- N10402,A,SLICE_X12Y133
+B2 <- N6102,D,SLICE_X19Y140
+B3 <- N2729,A,SLICE_X7Y133
+B4 <- N2761,B,SLICE_X7Y128
+B5 <- N2654,CMUX,SLICE_X2Y126
+B6 <- XDL_DUMMY_INT_X8Y133_TIEOFF_X8Y133,KEEP1,TIEOFF_X8Y133
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N885_OBUF,C1,SLICE_X13Y131
+LUT-202
+D1 <- N251,I,AK38
+D2 <- N42,A,SLICE_X9Y148
+D3 <- N9,I,AB34
+D4 <- N209,I,E38
+D5 <- N18,I,AP27
+D6 <- N12,I,D37
+O6  ->  D pin
+D pin  ->  N10641,O,K42
+LUT-203
+C1 <- N18,I,AP27
+C2 <- N83,I,AN41
+C3 <- null
+C4 <- null
+C5 <- null
+C6 <- N280,I,U32
+O6  ->  C pin
+C pin  ->  N10713_OBUF,B6,SLICE_X7Y135
+C pin  ->  N2729,A3,SLICE_X7Y133
+C pin  ->  N8394,D4,SLICE_X6Y133
+LUT-204
+D1 <- N179,I,M39
+D2 <- N18,I,AP27
+D3 <- N84,I,W32
+D4 <- N283,I,K34
+D5 <- N144,I,H38
+D6 <- XDL_DUMMY_INT_X1Y140_TIEOFF_X1Y140,KEEP1,TIEOFF_X1Y140
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10713_OBUF,A4,SLICE_X7Y135
+D pin  ->  N2729,A4,SLICE_X7Y133
+LUT-205
+D1 <- N179,I,M39
+D2 <- N18,I,AP27
+D3 <- N84,I,W32
+D4 <- N283,I,K34
+D5 <- N144,I,H38
+D6 <- XDL_DUMMY_INT_X1Y140_TIEOFF_X1Y140,KEEP1,TIEOFF_X1Y140
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10713_OBUF,A4,SLICE_X7Y135
+D pin  ->  N2729,A4,SLICE_X7Y133
+LUT-206
+A1 <- N9352,BMUX,SLICE_X18Y140
+A2 <- N147,I,AK15
+A3 <- null
+A4 <- N277,I,AH39
+A5 <- N151,I,AN13
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N10632,O,AG37
+LUT-207
+A1 <- N9098,A,SLICE_X39Y137
+A2 <- N9352,BMUX,SLICE_X18Y140
+A3 <- N8315,A,SLICE_X9Y140
+A4 <- N1931,C,SLICE_X28Y128
+A5 <- N2567,B,SLICE_X39Y138
+A6 <- N6761,A,SLICE_X31Y128
+O6  ->  A pin
+A pin  ->  N42,A6,SLICE_X9Y148
+LUT-208
+B1 <- N364,I,AL17
+B2 <- N219,I,T32
+B3 <- N1011919,A,SLICE_X29Y142
+B4 <- N18,I,AP27
+B5 <- N66,I,F40
+B6 <- XDL_DUMMY_INT_X11Y140_TIEOFF_X11Y140,KEEP1,TIEOFF_X11Y140
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10301,A1,SLICE_X28Y141
+B pin  ->  N10905_OBUF,D3,SLICE_X18Y152
+LUT-209
+B1 <- N364,I,AL17
+B2 <- N219,I,T32
+B3 <- N1011919,A,SLICE_X29Y142
+B4 <- N18,I,AP27
+B5 <- N66,I,F40
+B6 <- XDL_DUMMY_INT_X11Y140_TIEOFF_X11Y140,KEEP1,TIEOFF_X11Y140
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10301,A1,SLICE_X28Y141
+B pin  ->  N10905_OBUF,D3,SLICE_X18Y152
+LUT-210
+A1 <- N2745,D,SLICE_X5Y132
+A2 <- N2729,BMUX,SLICE_X7Y133
+A3 <- N2733,C,SLICE_X2Y129
+A4 <- N2737,D,SLICE_X0Y140
+A5 <- N2741,D,SLICE_X7Y141
+A6 <- null
+O6  ->  A pin
+A pin  ->  N10402,B3,SLICE_X12Y133
+LUT-211
+B1 <- N65,I,AA41
+B2 <- N18,I,AP27
+B3 <- N274,I,AV41
+B4 <- N277,I,AH39
+B5 <- N82,I,AE42
+B6 <- XDL_DUMMY_INT_X4Y133_TIEOFF_X4Y133,KEEP1,TIEOFF_X4Y133
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10713_OBUF,B4,SLICE_X7Y135
+LUT-212
+B1 <- N65,I,AA41
+B2 <- N18,I,AP27
+B3 <- N274,I,AV41
+B4 <- N277,I,AH39
+B5 <- N82,I,AE42
+B6 <- XDL_DUMMY_INT_X4Y133_TIEOFF_X4Y133,KEEP1,TIEOFF_X4Y133
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10713_OBUF,B4,SLICE_X7Y135
+LUT-213
+A1 <- N178,I,T37
+A2 <- N135,I,N38
+A3 <- null
+A4 <- null
+A5 <- null
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N10713_OBUF,A1,SLICE_X7Y135
+A pin  ->  N2538,A1,SLICE_X19Y135
+LUT-214
+A1 <- N8252,A,SLICE_X11Y160
+A2 <- N3390,CMUX,SLICE_X19Y147
+A3 <- N358,I,M27
+A4 <- N3398,B,SLICE_X27Y147
+A5 <- N3404,B,SLICE_X33Y141
+A6 <- N361,I,V36
+O6  ->  A pin
+A pin  ->  N10301,A5,SLICE_X28Y141
+LUT-215
+B1 <- N361,I,V36
+B2 <- null
+B3 <- N18,I,AP27
+B4 <- N220,I,AU42
+B5 <- N50,I,L14
+B6 <- XDL_DUMMY_INT_X18Y141_TIEOFF_X18Y141,KEEP1,TIEOFF_X18Y141
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10905_OBUF,D2,SLICE_X18Y152
+B pin  ->  N3390,A1,SLICE_X19Y147
+B pin  ->  N3390,B4,SLICE_X19Y147
+B pin  ->  N3404,A5,SLICE_X33Y141
+B pin  ->  N441,A1,SLICE_X18Y147
+LUT-216
+B1 <- N361,I,V36
+B2 <- null
+B3 <- N18,I,AP27
+B4 <- N220,I,AU42
+B5 <- N50,I,L14
+B6 <- XDL_DUMMY_INT_X18Y141_TIEOFF_X18Y141,KEEP1,TIEOFF_X18Y141
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10905_OBUF,D2,SLICE_X18Y152
+B pin  ->  N3390,A1,SLICE_X19Y147
+B pin  ->  N3390,B4,SLICE_X19Y147
+B pin  ->  N3404,A5,SLICE_X33Y141
+B pin  ->  N441,A1,SLICE_X18Y147
+LUT-217
+D1 <- null
+D2 <- N18,I,AP27
+D3 <- N138,I,N29
+D4 <- null
+D5 <- N180,I,N30
+D6 <- null
+O6  ->  D pin
+D pin  ->  N10713_OBUF,B1,SLICE_X7Y135
+D pin  ->  N2538,A5,SLICE_X19Y135
+D pin  ->  N8394,D6,SLICE_X6Y133
+LUT-218
+A1 <- null
+A2 <- null
+A3 <- N18,I,AP27
+A4 <- N179,I,M39
+A5 <- N144,I,H38
+A6 <- null
+O6  ->  A pin
+A pin  ->  N10713_OBUF,A6,SLICE_X7Y135
+A pin  ->  N2538,A6,SLICE_X19Y135
+LUT-219
+A1 <- N57,I,AE37
+A2 <- N5,I,N35
+A3 <- null
+A4 <- null
+A5 <- null
+A6 <- null
+O6  ->  A pin
+A pin  ->  N881,O,AK40
+LUT-220
+A1 <- N2550,A,SLICE_X6Y141
+A2 <- N2538,BMUX,SLICE_X19Y135
+A3 <- null
+A4 <- N2462,D,SLICE_X9Y133
+A5 <- N2542,D,SLICE_X47Y133
+A6 <- N2546,A,SLICE_X0Y143
+O6  ->  A pin
+A pin  ->  N10388,D3,SLICE_X9Y141
+A pin  ->  N10576_OBUF,D2,SLICE_X8Y144
+LUT-221
+B1 <- N18,I,AP27
+B2 <- N181,I,V39
+B3 <- N171,I,AG42
+B4 <- N147,I,AK15
+B5 <- N141,I,E40
+B6 <- XDL_DUMMY_INT_X11Y135_TIEOFF_X11Y135,KEEP1,TIEOFF_X11Y135
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10713_OBUF,B3,SLICE_X7Y135
+B pin  ->  N8394,C4,SLICE_X6Y133
+LUT-222
+B1 <- N18,I,AP27
+B2 <- N181,I,V39
+B3 <- N171,I,AG42
+B4 <- N147,I,AK15
+B5 <- N141,I,E40
+B6 <- XDL_DUMMY_INT_X11Y135_TIEOFF_X11Y135,KEEP1,TIEOFF_X11Y135
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10713_OBUF,B3,SLICE_X7Y135
+B pin  ->  N8394,C4,SLICE_X6Y133
+LUT-223
+B1 <- N293,I,AN30
+B2 <- N63,I,M41
+B3 <- N2761,C,SLICE_X7Y128
+B4 <- N2757,B,SLICE_X13Y115
+B5 <- N2753,B,SLICE_X2Y110
+B6 <- N18,I,AP27
+O6  ->  B pin
+B pin  ->  N10402,B4,SLICE_X12Y133
+LUT-224
+C1 <- N18,I,AP27
+C2 <- N110,I,R42
+C3 <- null
+C4 <- null
+C5 <- null
+C6 <- N303,I,AD36
+O6  ->  C pin
+C pin  ->  N2761,B3,SLICE_X7Y128
+C pin  ->  N7057,B2,SLICE_X6Y131
+C pin  ->  N8943,D3,SLICE_X6Y132
+C pin  ->  N8943141,B3,SLICE_X7Y129
+LUT-225
+D1 <- N3390,A,SLICE_X19Y147
+D2 <- N3404,B,SLICE_X33Y141
+D3 <- N9352,B,SLICE_X18Y140
+D4 <- N10301,B,SLICE_X28Y141
+D5 <- N361,I,V36
+D6 <- N10906_OBUF,C,SLICE_X14Y141
+O6  ->  D pin
+D pin  ->  N10905,O,U31
+LUT-226
+C1 <- N361,I,V36
+C2 <- N61,I,T41
+C3 <- null
+C4 <- null
+C5 <- N18,I,AP27
+C6 <- null
+O6  ->  C pin
+C pin  ->  N3448,C2,SLICE_X0Y139
+C pin  ->  N8405,D2,SLICE_X0Y137
+C pin  ->  N8950,D2,SLICE_X1Y137
+LUT-227
+D1 <- null
+D2 <- null
+D3 <- null
+D4 <- N263,I,M37
+D5 <- null
+D6 <- N382,I,AA42
+O6  ->  D pin
+D pin  ->  N10104_OBUF,D4,SLICE_X25Y144
+D pin  ->  N10838_OBUF,A3,SLICE_X2Y145
+LUT-228
+C1 <- N355,I,AL26
+C2 <- N3444,C,SLICE_X7Y137
+C3 <- N18,I,AP27
+C4 <- N79,I,K33
+C5 <- N8405,B,SLICE_X0Y137
+C6 <- N3448,D,SLICE_X0Y139
+O6  ->  C pin
+C pin  ->  N10402,A3,SLICE_X12Y133
+LUT-229
+D1 <- null
+D2 <- N364,I,AL17
+D3 <- N18,I,AP27
+D4 <- null
+D5 <- null
+D6 <- N62,I,T39
+O6  ->  D pin
+D pin  ->  N3448,C6,SLICE_X0Y139
+D pin  ->  N8405,D4,SLICE_X0Y137
+D pin  ->  N8950,D4,SLICE_X1Y137
+LUT-230
+D1 <- null
+D2 <- null
+D3 <- N245,I,AL40
+D4 <- null
+D5 <- null
+D6 <- N382,I,AA42
+O6  ->  D pin
+D pin  ->  N10103_OBUF,B6,SLICE_X16Y127
+D pin  ->  N7852,A3,SLICE_X2Y127
+LUT-231
+D1 <- null
+D2 <- N18,I,AP27
+D3 <- N352,I,L37
+D4 <- null
+D5 <- null
+D6 <- N80,I,Y34
+O6  ->  D pin
+D pin  ->  N3416,A1,SLICE_X18Y129
+D pin  ->  N9786,A2,SLICE_X6Y129
+LUT-232
+D1 <- null
+D2 <- N355,I,AL26
+D3 <- N18,I,AP27
+D4 <- null
+D5 <- null
+D6 <- N79,I,K33
+O6  ->  D pin
+D pin  ->  N8405,C4,SLICE_X0Y137
+D pin  ->  N8950,C3,SLICE_X1Y137
+LUT-233
+A1 <- N343,I,J17
+A2 <- null
+A3 <- N18,I,AP27
+A4 <- null
+A5 <- null
+A6 <- N78,I,AM13
+O6  ->  A pin
+A pin  ->  N3303,A2,SLICE_X7Y130
+A pin  ->  N3416,A6,SLICE_X18Y129
+A pin  ->  N8412,B2,SLICE_X6Y130
+LUT-234
+B1 <- N8242,BMUX,SLICE_X33Y134
+B2 <- N8242,A,SLICE_X33Y134
+B3 <- N8242,B,SLICE_X33Y134
+B4 <- N280,I,U32
+B5 <- N2567,C,SLICE_X39Y138
+B6 <- N283,I,K34
+O6  ->  B pin
+B pin  ->  N2271,A6,SLICE_X47Y135
+B pin  ->  N2573,C3,SLICE_X47Y138
+LUT-235
+C1 <- N158,I,N25
+C2 <- N286,I,M36
+C3 <- N2573,B,SLICE_X47Y138
+C4 <- N135,I,N38
+C5 <- N18,I,AP27
+C6 <- XDL_DUMMY_INT_X25Y138_TIEOFF_X25Y138,KEEP1,TIEOFF_X25Y138
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10412,A1,SLICE_X51Y138
+C pin  ->  N2567,A2,SLICE_X39Y138
+C pin  ->  N2567,B2,SLICE_X39Y138
+C pin  ->  N43,A6,SLICE_X35Y135
+C pin  ->  N9098,B2,SLICE_X39Y137
+C pin  ->  N9910,A5,SLICE_X31Y134
+C pin  ->  N9910,B5,SLICE_X31Y134
+LUT-236
+C1 <- N158,I,N25
+C2 <- N286,I,M36
+C3 <- N2573,B,SLICE_X47Y138
+C4 <- N135,I,N38
+C5 <- N18,I,AP27
+C6 <- XDL_DUMMY_INT_X25Y138_TIEOFF_X25Y138,KEEP1,TIEOFF_X25Y138
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10412,A1,SLICE_X51Y138
+C pin  ->  N2567,A2,SLICE_X39Y138
+C pin  ->  N2567,B2,SLICE_X39Y138
+C pin  ->  N43,A6,SLICE_X35Y135
+C pin  ->  N9098,B2,SLICE_X39Y137
+C pin  ->  N9910,A5,SLICE_X31Y134
+C pin  ->  N9910,B5,SLICE_X31Y134
+LUT-237
+A1 <- N346,I,N36
+A2 <- N94,I,W41
+A3 <- N195,I,T40
+A4 <- N59,I,V41
+A5 <- N18,I,AP27
+A6 <- XDL_DUMMY_INT_X3Y129_TIEOFF_X3Y129,KEEP1,TIEOFF_X3Y129
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N3416,A4,SLICE_X18Y129
+LUT-238
+A1 <- N346,I,N36
+A2 <- N94,I,W41
+A3 <- N195,I,T40
+A4 <- N59,I,V41
+A5 <- N18,I,AP27
+A6 <- XDL_DUMMY_INT_X3Y129_TIEOFF_X3Y129,KEEP1,TIEOFF_X3Y129
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N3416,A4,SLICE_X18Y129
+LUT-239
+B1 <- null
+B2 <- N18,I,AP27
+B3 <- N349,I,AN39
+B4 <- null
+B5 <- N81,I,AC36
+B6 <- null
+O6  ->  B pin
+B pin  ->  N3416,A3,SLICE_X18Y129
+B pin  ->  N8412,A4,SLICE_X6Y130
+B pin  ->  N9786,A4,SLICE_X6Y129
+LUT-240
+A1 <- N3349,BMUX,SLICE_X64Y137
+A2 <- N319,I,P35
+A3 <- N9249,B,SLICE_X46Y138
+A4 <- N3355,D,SLICE_X25Y128
+A5 <- N9741,B,SLICE_X64Y138
+A6 <- N3343,BMUX,SLICE_X57Y138
+O6  ->  A pin
+A pin  ->  N101190,B5,SLICE_X47Y139
+A pin  ->  N10301,C4,SLICE_X28Y141
+A pin  ->  N10350_OBUF,B1,SLICE_X36Y139
+A pin  ->  N7,C1,SLICE_X49Y139
+LUT-241
+B1 <- N367,I,AN29
+B2 <- null
+B3 <- N9249,BMUX,SLICE_X46Y138
+B4 <- N9290,A,SLICE_X35Y139
+B5 <- N101190,A,SLICE_X47Y139
+B6 <- XDL_DUMMY_INT_X25Y139_TIEOFF_X25Y139,KEEP1,TIEOFF_X25Y139
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N1011919,B5,SLICE_X29Y142
+LUT-242
+B1 <- N367,I,AN29
+B2 <- null
+B3 <- N9249,BMUX,SLICE_X46Y138
+B4 <- N9290,A,SLICE_X35Y139
+B5 <- N101190,A,SLICE_X47Y139
+B6 <- XDL_DUMMY_INT_X25Y139_TIEOFF_X25Y139,KEEP1,TIEOFF_X25Y139
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N1011919,B5,SLICE_X29Y142
+LUT-243
+A1 <- N10412,B,SLICE_X51Y138
+A2 <- N2573,C,SLICE_X47Y138
+A3 <- N283,I,K34
+A4 <- N286,I,M36
+A5 <- N2567,C,SLICE_X39Y138
+A6 <- N3273,A,SLICE_X38Y138
+O6  ->  A pin
+A pin  ->  N10711,O,N16
+LUT-244
+B1 <- N8246,D,SLICE_X32Y134
+B2 <- N2573,C,SLICE_X47Y138
+B3 <- N8242,B,SLICE_X33Y134
+B4 <- N286,I,M36
+B5 <- N3273,A,SLICE_X38Y138
+B6 <- N2567,CMUX,SLICE_X39Y138
+O6  ->  B pin
+B pin  ->  N10760_OBUF,A2,SLICE_X19Y151
+B pin  ->  N10762_OBUF,C6,SLICE_X18Y148
+B pin  ->  N6,A4,SLICE_X33Y135
+B pin  ->  N8246,B5,SLICE_X32Y134
+B pin  ->  N9352,A5,SLICE_X18Y140
+LUT-245
+C1 <- null
+C2 <- N144,I,H38
+C3 <- N18,I,AP27
+C4 <- N159,I,J37
+C5 <- N283,I,K34
+C6 <- XDL_DUMMY_INT_X21Y138_TIEOFF_X21Y138,KEEP1,TIEOFF_X21Y138
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10412,A3,SLICE_X51Y138
+C pin  ->  N2567,A5,SLICE_X39Y138
+C pin  ->  N2573,B5,SLICE_X47Y138
+C pin  ->  N43,B3,SLICE_X35Y135
+C pin  ->  N9098,B5,SLICE_X39Y137
+C pin  ->  N9910,A2,SLICE_X31Y134
+C pin  ->  N9910,B6,SLICE_X31Y134
+C pin  ->  N9969,D5,SLICE_X30Y136
+LUT-246
+C1 <- null
+C2 <- N144,I,H38
+C3 <- N18,I,AP27
+C4 <- N159,I,J37
+C5 <- N283,I,K34
+C6 <- XDL_DUMMY_INT_X21Y138_TIEOFF_X21Y138,KEEP1,TIEOFF_X21Y138
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N10412,A3,SLICE_X51Y138
+C pin  ->  N2567,A5,SLICE_X39Y138
+C pin  ->  N2573,B5,SLICE_X47Y138
+C pin  ->  N43,B3,SLICE_X35Y135
+C pin  ->  N9098,B5,SLICE_X39Y137
+C pin  ->  N9910,A2,SLICE_X31Y134
+C pin  ->  N9910,B6,SLICE_X31Y134
+C pin  ->  N9969,D5,SLICE_X30Y136
+LUT-247
+A1 <- N3432,D,SLICE_X7Y131
+A2 <- N3416,BMUX,SLICE_X18Y129
+A3 <- N3428,B,SLICE_X3Y123
+A4 <- N3424,A,SLICE_X4Y129
+A5 <- null
+A6 <- N3420,A,SLICE_X46Y118
+O6  ->  A pin
+A pin  ->  N10402,A6,SLICE_X12Y133
+LUT-248
+B1 <- N18,I,AP27
+B2 <- N340,I,E33
+B3 <- N58,I,AB33
+B4 <- N337,I,AB39
+B5 <- N77,I,AC41
+B6 <- XDL_DUMMY_INT_X11Y129_TIEOFF_X11Y129,KEEP1,TIEOFF_X11Y129
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N3303,A4,SLICE_X7Y130
+B pin  ->  N8412,B4,SLICE_X6Y130
+LUT-249
+B1 <- N18,I,AP27
+B2 <- N340,I,E33
+B3 <- N58,I,AB33
+B4 <- N337,I,AB39
+B5 <- N77,I,AC41
+B6 <- XDL_DUMMY_INT_X11Y129_TIEOFF_X11Y129,KEEP1,TIEOFF_X11Y129
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N3303,A4,SLICE_X7Y130
+B pin  ->  N8412,B4,SLICE_X6Y130
+LUT-250
+A1 <- N3478,A,SLICE_X21Y122
+A2 <- N7384,B,SLICE_X43Y131
+A3 <- N3474,A,SLICE_X15Y128
+A4 <- N3466,A,SLICE_X13Y134
+A5 <- N3482,B,SLICE_X41Y130
+A6 <- N3470,A,SLICE_X21Y124
+O6  ->  A pin
+A pin  ->  N10402,A4,SLICE_X12Y133
+LUT-251
+B1 <- N18,I,AP27
+B2 <- null
+B3 <- N334,I,W42
+B4 <- N56,I,M29
+B5 <- null
+B6 <- null
+O6  ->  B pin
+B pin  ->  N106280,D4,SLICE_X33Y125
+B pin  ->  N3482,A5,SLICE_X41Y130
+B pin  ->  N8541,B5,SLICE_X21Y125
+B pin  ->  N9029,B5,SLICE_X20Y125
+LUT-252
+A1 <- null
+A2 <- N9249,A,SLICE_X46Y138
+A3 <- N18,I,AP27
+A4 <- N41,I,AN40
+A5 <- null
+A6 <- N310,I,P27
+O6  ->  A pin
+A pin  ->  N3349,A3,SLICE_X64Y137
+LUT-253
+A1 <- N9,I,AB34
+A2 <- N260,I,R34
+A3 <- N12,I,D37
+A4 <- N18,I,AP27
+A5 <- N9077,B,SLICE_X9Y149
+A6 <- N213,I,M38
+O6  ->  A pin
+A pin  ->  N10104_OBUF,D6,SLICE_X25Y144
+A pin  ->  N10838_OBUF,A1,SLICE_X2Y145
+A pin  ->  N10839_OBUF,D4,SLICE_X3Y144
+A pin  ->  N51,A1,SLICE_X19Y144
+LUT-254
+B1 <- null
+B2 <- N103,I,L16
+B3 <- N18,I,AP27
+B4 <- N204,I,AK12
+B5 <- null
+B6 <- null
+O6  ->  B pin
+B pin  ->  N1801,B4,SLICE_X12Y128
+B pin  ->  N3247,C3,SLICE_X38Y128
+B pin  ->  N3247,D3,SLICE_X38Y128
+B pin  ->  N9820,A5,SLICE_X21Y128
+LUT-255
+C1 <- N208,I,AK30
+C2 <- N198,I,AC39
+C3 <- N3247,B,SLICE_X38Y128
+C4 <- N207,I,AL41
+C5 <- N2611,A,SLICE_X46Y132
+C6 <- N2615,D,SLICE_X10Y120
+O6  ->  F7BMUX
+LUT-256
+D1 <- N41,I,AN40
+D2 <- N44,I,P18
+D3 <- N3247,B,SLICE_X38Y128
+D4 <- N2611,A,SLICE_X46Y132
+D5 <- N29,I,AT42
+D6 <- N2615,D,SLICE_X10Y120
+O6  ->  F7BMUX
+LUT-257
+A1 <- N8315,A,SLICE_X9Y140
+A2 <- N2567,B,SLICE_X39Y138
+A3 <- N9352,BMUX,SLICE_X18Y140
+A4 <- N8146,A,SLICE_X31Y130
+A5 <- N1931,C,SLICE_X28Y128
+A6 <- N9098,A,SLICE_X39Y137
+O6  ->  A pin
+A pin  ->  N10760,O,J32
+LUT-258
+A1 <- N340,I,E33
+A2 <- N9290,CMUX,SLICE_X35Y139
+A3 <- N9290,A,SLICE_X35Y139
+A4 <- N3315,B,SLICE_X15Y143
+A5 <- N10301,CMUX,SLICE_X28Y141
+A6 <- null
+O6  ->  A pin
+A pin  ->  N10827,O,L32
+LUT-259
+A1 <- N53,I,AG41
+A2 <- null
+A3 <- N18,I,AP27
+A4 <- null
+A5 <- null
+A6 <- N325,I,AN28
+O6  ->  A pin
+A pin  ->  N3482,A6,SLICE_X41Y130
+A pin  ->  N8541,A5,SLICE_X21Y125
+A pin  ->  N9029,A5,SLICE_X20Y125
+LUT-260
+A1 <- N18,I,AP27
+A2 <- null
+A3 <- N328,I,K17
+A4 <- N54,I,AB42
+A5 <- null
+A6 <- null
+O6  ->  A pin
+A pin  ->  N3482,A3,SLICE_X41Y130
+A pin  ->  N9029,A4,SLICE_X20Y125
+LUT-261
+A1 <- null
+A2 <- null
+A3 <- N55,I,AL42
+A4 <- N331,I,AM26
+A5 <- null
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N106280,D5,SLICE_X33Y125
+A pin  ->  N3482,A1,SLICE_X41Y130
+A pin  ->  N8541,B3,SLICE_X21Y125
+A pin  ->  N9029,B3,SLICE_X20Y125
+LUT-262
+C1 <- N75,I,AL30
+C2 <- null
+C3 <- null
+C4 <- N319,I,P35
+C5 <- null
+C6 <- N18,I,AP27
+O6  ->  C pin
+C pin  ->  N10402,A2,SLICE_X12Y133
+C pin  ->  N1801,B2,SLICE_X12Y128
+C pin  ->  N9820,A3,SLICE_X21Y128
+LUT-263
+A1 <- N322,I,P38
+A2 <- null
+A3 <- N18,I,AP27
+A4 <- N73,I,J38
+A5 <- null
+A6 <- null
+O6  ->  A pin
+A pin  ->  N3482,A4,SLICE_X41Y130
+A pin  ->  N9820,A4,SLICE_X21Y128
+LUT-264
+B1 <- N18,I,AP27
+B2 <- N313,I,J16
+B3 <- N74,I,P42
+B4 <- null
+B5 <- null
+B6 <- null
+O6  ->  B pin
+B pin  ->  N10402,A5,SLICE_X12Y133
+B pin  ->  N3454,D6,SLICE_X14Y128
+LUT-265
+C1 <- null
+C2 <- null
+C3 <- null
+C4 <- null
+C5 <- null
+C6 <- null
+O6  ->  F7BMUX
+LUT-266
+D1 <- N41,I,AN40
+D2 <- N29,I,AT42
+D3 <- N70,I,AF41
+D4 <- N18,I,AP27
+D5 <- N207,I,AL41
+D6 <- N3454,B,SLICE_X14Y128
+O6  ->  F7BMUX
+LUT-267
+A1 <- N206,I,K28
+A2 <- N76,I,M14
+A3 <- N316,I,L29
+A4 <- N26,I,N26
+A5 <- N18,I,AP27
+A6 <- XDL_DUMMY_INT_X23Y132_TIEOFF_X23Y132,KEEP1,TIEOFF_X23Y132
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N10402,A1,SLICE_X12Y133
+LUT-268
+A1 <- N206,I,K28
+A2 <- N76,I,M14
+A3 <- N316,I,L29
+A4 <- N26,I,N26
+A5 <- N18,I,AP27
+A6 <- XDL_DUMMY_INT_X23Y132_TIEOFF_X23Y132,KEEP1,TIEOFF_X23Y132
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N10402,A1,SLICE_X12Y133
+LUT-269
+D1 <- N127,I,AT41
+D2 <- N328,I,K17
+D3 <- N18,I,AP27
+D4 <- N233,I,R38
+D5 <- null
+D6 <- XDL_DUMMY_INT_X17Y139_TIEOFF_X17Y139,KEEP1,TIEOFF_X17Y139
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N11002,A2,SLICE_X43Y138
+D pin  ->  N11002,B2,SLICE_X43Y138
+D pin  ->  N3273,C4,SLICE_X38Y138
+D pin  ->  N3287,A1,SLICE_X32Y139
+D pin  ->  N3287,B1,SLICE_X32Y139
+D pin  ->  N9290,A1,SLICE_X35Y139
+D pin  ->  N9290,B1,SLICE_X35Y139
+LUT-270
+D1 <- N127,I,AT41
+D2 <- N328,I,K17
+D3 <- N18,I,AP27
+D4 <- N233,I,R38
+D5 <- null
+D6 <- XDL_DUMMY_INT_X17Y139_TIEOFF_X17Y139,KEEP1,TIEOFF_X17Y139
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N11002,A2,SLICE_X43Y138
+D pin  ->  N11002,B2,SLICE_X43Y138
+D pin  ->  N3273,C4,SLICE_X38Y138
+D pin  ->  N3287,A1,SLICE_X32Y139
+D pin  ->  N3287,B1,SLICE_X32Y139
+D pin  ->  N9290,A1,SLICE_X35Y139
+D pin  ->  N9290,B1,SLICE_X35Y139
+LUT-271
+A1 <- N3404,B,SLICE_X33Y141
+A2 <- N349,I,AN39
+A3 <- N3334,B,SLICE_X8Y150
+A4 <- N361,I,V36
+A5 <- N441,B,SLICE_X18Y147
+A6 <- N10301,A,SLICE_X28Y141
+O6  ->  A pin
+A pin  ->  N11340,O,J35
+LUT-272
+B1 <- N346,I,N36
+B2 <- N10301,C,SLICE_X28Y141
+B3 <- N3315,A,SLICE_X15Y143
+B4 <- N3328,D,SLICE_X19Y142
+B5 <- N3384,DMUX,SLICE_X26Y143
+B6 <- N11187,A,SLICE_X19Y148
+O6  ->  B pin
+B pin  ->  N441,A5,SLICE_X18Y147
+LUT-273
+A1 <- N2615,D,SLICE_X10Y120
+A2 <- N2611,AMUX,SLICE_X46Y132
+A3 <- N3462,C,SLICE_X57Y116
+A4 <- N3466,A,SLICE_X13Y134
+A5 <- N3247,B,SLICE_X38Y128
+A6 <- N3454,CMUX,SLICE_X14Y128
+O6  ->  A pin
+A pin  ->  N1010315,B2,SLICE_X17Y128
+A pin  ->  N9820,B6,SLICE_X21Y128
+LUT-274
+B1 <- null
+B2 <- null
+B3 <- N9029,B,SLICE_X20Y125
+B4 <- N8541,B,SLICE_X21Y125
+B5 <- null
+B6 <- N9820,A,SLICE_X21Y128
+O6  ->  B pin
+B pin  ->  N1062816,B4,SLICE_X10Y128
+B pin  ->  N2451,A5,SLICE_X11Y128
+LUT-275
+A1 <- N3281,D,SLICE_X31Y139
+A2 <- N8253,A,SLICE_X32Y149
+A3 <- N3287,C,SLICE_X32Y139
+A4 <- N328,I,K17
+A5 <- N331,I,AM26
+A6 <- N3273,DMUX,SLICE_X38Y138
+O6  ->  A pin
+A pin  ->  N7,C2,SLICE_X49Y139
+LUT-276
+B1 <- N3281,D,SLICE_X31Y139
+B2 <- N325,I,AN28
+B3 <- N3273,D,SLICE_X38Y138
+B4 <- N328,I,K17
+B5 <- N3273,DMUX,SLICE_X38Y138
+B6 <- N10301,CMUX,SLICE_X28Y141
+O6  ->  B pin
+B pin  ->  N3287,C3,SLICE_X32Y139
+LUT-277
+C1 <- N232,I,M28
+C2 <- N18,I,AP27
+C3 <- N3287,B,SLICE_X32Y139
+C4 <- N331,I,AM26
+C5 <- N124,I,AF40
+C6 <- XDL_DUMMY_INT_X18Y139_TIEOFF_X18Y139,KEEP1,TIEOFF_X18Y139
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N11002,A5,SLICE_X43Y138
+C pin  ->  N3273,C2,SLICE_X38Y138
+C pin  ->  N3287,A3,SLICE_X32Y139
+C pin  ->  N45,A3,SLICE_X63Y138
+C pin  ->  N9290,A6,SLICE_X35Y139
+C pin  ->  N9290,B3,SLICE_X35Y139
+LUT-278
+C1 <- N232,I,M28
+C2 <- N18,I,AP27
+C3 <- N3287,B,SLICE_X32Y139
+C4 <- N331,I,AM26
+C5 <- N124,I,AF40
+C6 <- XDL_DUMMY_INT_X18Y139_TIEOFF_X18Y139,KEEP1,TIEOFF_X18Y139
+O5  ->  COUTMUX
+O6  ->  C pin
+C pin  ->  N11002,A5,SLICE_X43Y138
+C pin  ->  N3273,C2,SLICE_X38Y138
+C pin  ->  N3287,A3,SLICE_X32Y139
+C pin  ->  N45,A3,SLICE_X63Y138
+C pin  ->  N9290,A6,SLICE_X35Y139
+C pin  ->  N9290,B3,SLICE_X35Y139
+LUT-279
+C1 <- N12,I,D37
+C2 <- N109,I,AU41
+C3 <- N174,I,AP41
+C4 <- N18,I,AP27
+C5 <- N299,I,N28
+C6 <- N9,I,AB34
+O6  ->  C pin
+C pin  ->  N7057,B3,SLICE_X6Y131
+C pin  ->  N8943141,B2,SLICE_X7Y129
+LUT-280
+A1 <- N12,I,D37
+A2 <- N157,I,L17
+A3 <- N18,I,AP27
+A4 <- N289,I,Y39
+A5 <- N9,I,AB34
+A6 <- XDL_DUMMY_INT_X21Y138_TIEOFF_X21Y138,KEEP1,TIEOFF_X21Y138
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N2567,A6,SLICE_X39Y138
+A pin  ->  N2567,B5,SLICE_X39Y138
+A pin  ->  N43,B2,SLICE_X35Y135
+LUT-281
+A1 <- N12,I,D37
+A2 <- N157,I,L17
+A3 <- N18,I,AP27
+A4 <- N289,I,Y39
+A5 <- N9,I,AB34
+A6 <- XDL_DUMMY_INT_X21Y138_TIEOFF_X21Y138,KEEP1,TIEOFF_X21Y138
+O5  ->  AOUTMUX
+O6  ->  A pin
+A pin  ->  N2567,A6,SLICE_X39Y138
+A pin  ->  N2567,B5,SLICE_X39Y138
+A pin  ->  N43,B2,SLICE_X35Y135
+LUT-282
+C1 <- N3273,D,SLICE_X38Y138
+C2 <- N3287,C,SLICE_X32Y139
+C3 <- N100,I,AC34
+C4 <- N3281,D,SLICE_X31Y139
+C5 <- N18,I,AP27
+C6 <- N231,I,H39
+O6  ->  C pin
+C pin  ->  N10156,A3,SLICE_X28Y143
+LUT-283
+D1 <- N325,I,AN28
+D2 <- null
+D3 <- N234,I,M26
+D4 <- N130,I,AG38
+D5 <- N18,I,AP27
+D6 <- XDL_DUMMY_INT_X21Y138_TIEOFF_X21Y138,KEEP1,TIEOFF_X21Y138
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N11002,A4,SLICE_X43Y138
+D pin  ->  N11002,B4,SLICE_X43Y138
+D pin  ->  N3273,C1,SLICE_X38Y138
+D pin  ->  N3287,B3,SLICE_X32Y139
+LUT-284
+D1 <- N325,I,AN28
+D2 <- null
+D3 <- N234,I,M26
+D4 <- N130,I,AG38
+D5 <- N18,I,AP27
+D6 <- XDL_DUMMY_INT_X21Y138_TIEOFF_X21Y138,KEEP1,TIEOFF_X21Y138
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N11002,A4,SLICE_X43Y138
+D pin  ->  N11002,B4,SLICE_X43Y138
+D pin  ->  N3273,C1,SLICE_X38Y138
+D pin  ->  N3287,B3,SLICE_X32Y139
+LUT-285
+D1 <- N184,I,AJ30
+D2 <- N150,I,AK13
+D3 <- N228,I,AL14
+D4 <- null
+D5 <- N240,I,N13
+D6 <- null
+O6  ->  D pin
+D pin  ->  N882,O,AV39
+D pin  ->  N885_OBUF,C6,SLICE_X13Y131
+LUT-286
+A1 <- N382,I,AA42
+A2 <- N271,I,U36
+A3 <- null
+A4 <- null
+A5 <- null
+A6 <- null
+O6  ->  A pin
+A pin  ->  N10103_OBUF,B2,SLICE_X16Y127
+A pin  ->  N7852,A4,SLICE_X2Y127
+LUT-287
+A1 <- N3247,CMUX,SLICE_X38Y128
+A2 <- null
+A3 <- N3251,A,SLICE_X21Y113
+A4 <- N8394,A,SLICE_X6Y133
+A5 <- N3263,B,SLICE_X24Y125
+A6 <- N3255,A,SLICE_X25Y125
+O6  ->  A pin
+A pin  ->  N1601,B5,SLICE_X0Y130
+LUT-288
+B1 <- N100,I,AC34
+B2 <- N200,I,AJ37
+B3 <- null
+B4 <- N18,I,AP27
+B5 <- null
+B6 <- null
+O6  ->  B pin
+B pin  ->  N106280,D6,SLICE_X33Y125
+B pin  ->  N3263,A5,SLICE_X24Y125
+B pin  ->  N8541,B2,SLICE_X21Y125
+B pin  ->  N9029,B2,SLICE_X20Y125
+LUT-289
+D1 <- N12,I,D37
+D2 <- N215,I,AD38
+D3 <- N106,I,AM17
+D4 <- N9,I,AB34
+D5 <- N18,I,AP27
+D6 <- N10425,D,SLICE_X2Y161
+O6  ->  D pin
+D pin  ->  N10717,O,J36
+LUT-290
+C1 <- N32,I,J41
+C2 <- N18,I,AP27
+C3 <- N3436,D,SLICE_X0Y150
+C4 <- N191,I,AA34
+C5 <- N2692,A,SLICE_X1Y130
+C6 <- N8405,B,SLICE_X0Y137
+O6  ->  C pin
+C pin  ->  N8950,D5,SLICE_X1Y137
+LUT-291
+D1 <- N2700,D,SLICE_X35Y140
+D2 <- N3444,C,SLICE_X7Y137
+D3 <- null
+D4 <- N3448,D,SLICE_X0Y139
+D5 <- N8950,C,SLICE_X1Y137
+D6 <- N2704,C,SLICE_X1Y142
+O6  ->  D pin
+D pin  ->  N1010315,A1,SLICE_X17Y128
+D pin  ->  N2451,A2,SLICE_X11Y128
+D pin  ->  N9786,B1,SLICE_X6Y129
+LUT-292
+A1 <- N38,I,AJ41
+A2 <- N1062816,A,SLICE_X10Y128
+A3 <- N1028,D,SLICE_X3Y125
+A4 <- N2171,A,SLICE_X3Y140
+A5 <- N7852,B,SLICE_X2Y127
+A6 <- N7100,D,SLICE_X3Y126
+O6  ->  A pin
+A pin  ->  N10628,O,AJ40
+LUT-293
+B1 <- N8405,A,SLICE_X0Y137
+B2 <- N2454,C,SLICE_X4Y127
+B3 <- N2670,A,SLICE_X3Y128
+B4 <- N2666,A,SLICE_X2Y125
+B5 <- N785235,B,SLICE_X3Y127
+B6 <- N2458,D,SLICE_X29Y131
+O6  ->  B pin
+B pin  ->  N10103_OBUF,B1,SLICE_X16Y127
+B pin  ->  N7852,A5,SLICE_X2Y127
+LUT-294
+A1 <- null
+A2 <- null
+A3 <- N130,I,AG38
+A4 <- N203,I,AF37
+A5 <- null
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N3263,A3,SLICE_X24Y125
+A pin  ->  N8541,A3,SLICE_X21Y125
+A pin  ->  N9029,A3,SLICE_X20Y125
+LUT-295
+C1 <- N177,I,H41
+C2 <- N289,I,Y39
+C3 <- N628_and0000,B,SLICE_X12Y135
+C4 <- N10713_OBUF,A,SLICE_X7Y135
+C5 <- N18,I,AP27
+C6 <- N64,I,F42
+O6  ->  C pin
+C pin  ->  N8943,D5,SLICE_X6Y132
+LUT-296
+D1 <- N2478,A,SLICE_X39Y141
+D2 <- N8943141,B,SLICE_X7Y129
+D3 <- N2761,C,SLICE_X7Y128
+D4 <- null
+D5 <- N8943,C,SLICE_X6Y132
+D6 <- N7057,B,SLICE_X6Y131
+O6  ->  D pin
+D pin  ->  N1062816,A2,SLICE_X10Y128
+D pin  ->  N2451,B2,SLICE_X11Y128
+LUT-297
+A1 <- N202,I,AV40
+A2 <- null
+A3 <- N127,I,AT41
+A4 <- N18,I,AP27
+A5 <- null
+A6 <- null
+O6  ->  A pin
+A pin  ->  N3263,A6,SLICE_X24Y125
+A pin  ->  N8541,A1,SLICE_X21Y125
+LUT-298
+A1 <- N1931,DMUX,SLICE_X28Y128
+A2 <- N18,I,AP27
+A3 <- N628_and0000,B,SLICE_X12Y135
+A4 <- N155,I,AD32
+A5 <- N6761,B,SLICE_X31Y128
+A6 <- N296,I,AP38
+O6  ->  A pin
+A pin  ->  N9352,A6,SLICE_X18Y140
+LUT-299
+B1 <- N293,I,AN30
+B2 <- N12,I,D37
+B3 <- N156,I,AM37
+B4 <- N9,I,AB34
+B5 <- N18,I,AP27
+B6 <- XDL_DUMMY_INT_X17Y128_TIEOFF_X17Y128,KEEP1,TIEOFF_X17Y128
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N112051320,C5,SLICE_X32Y128
+B pin  ->  N6761,A5,SLICE_X31Y128
+LUT-300
+B1 <- N293,I,AN30
+B2 <- N12,I,D37
+B3 <- N156,I,AM37
+B4 <- N9,I,AB34
+B5 <- N18,I,AP27
+B6 <- XDL_DUMMY_INT_X17Y128_TIEOFF_X17Y128,KEEP1,TIEOFF_X17Y128
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N112051320,C5,SLICE_X32Y128
+B pin  ->  N6761,A5,SLICE_X31Y128
+LUT-301
+A1 <- N319,I,P35
+A2 <- N10112_OBUF,BMUX,SLICE_X65Y138
+A3 <- N3355,D,SLICE_X25Y128
+A4 <- N9741,A,SLICE_X64Y138
+A5 <- N9741,B,SLICE_X64Y138
+A6 <- N9682,A,SLICE_X56Y138
+O6  ->  A pin
+A pin  ->  N45,B5,SLICE_X63Y138
+LUT-302
+B1 <- N41,I,AN40
+B2 <- N367,I,AN29
+B3 <- N310,I,P27
+B4 <- N18,I,AP27
+B5 <- N3343,BMUX,SLICE_X57Y138
+B6 <- XDL_DUMMY_INT_X38Y138_TIEOFF_X38Y138,KEEP1,TIEOFF_X38Y138
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10112,O,K15
+LUT-303
+B1 <- N41,I,AN40
+B2 <- N367,I,AN29
+B3 <- N310,I,P27
+B4 <- N18,I,AP27
+B5 <- N3343,BMUX,SLICE_X57Y138
+B6 <- XDL_DUMMY_INT_X38Y138_TIEOFF_X38Y138,KEEP1,TIEOFF_X38Y138
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10112,O,K15
+LUT-304
+C1 <- N10402,B,SLICE_X12Y133
+C2 <- N183,I,Y42
+C3 <- N185,I,AM41
+C4 <- N883_OBUF,DMUX,SLICE_X12Y129
+C5 <- N885_OBUF,DMUX,SLICE_X13Y131
+C6 <- N1072951,D,SLICE_X58Y129
+O6  ->  C pin
+C pin  ->  N10399,C5,SLICE_X11Y145
+LUT-305
+D1 <- N182,I,AJ42
+D2 <- N172,I,AA40
+D3 <- N188,I,AA32
+D4 <- N162,I,Y40
+D5 <- N199,I,AT40
+D6 <- XDL_DUMMY_INT_X8Y131_TIEOFF_X8Y131,KEEP1,TIEOFF_X8Y131
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N885,O,AK39
+LUT-306
+D1 <- N182,I,AJ42
+D2 <- N172,I,AA40
+D3 <- N188,I,AA32
+D4 <- N162,I,Y40
+D5 <- N199,I,AT40
+D6 <- XDL_DUMMY_INT_X8Y131_TIEOFF_X8Y131,KEEP1,TIEOFF_X8Y131
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N885,O,AK39
+LUT-307
+C1 <- null
+C2 <- N209,I,E38
+C3 <- N18,I,AP27
+C4 <- N12,I,D37
+C5 <- N9,I,AB34
+C6 <- N247,D,SLICE_X15Y150
+O6  ->  C pin
+C pin  ->  N10399,D4,SLICE_X11Y145
+LUT-308
+D1 <- null
+D2 <- N213,I,M38
+D3 <- null
+D4 <- N216,I,F39
+D5 <- N215,I,AD38
+D6 <- N214,I,T34
+O6  ->  D pin
+D pin  ->  N247,C6,SLICE_X15Y150
+LUT-309
+B1 <- N166,I,G36
+B2 <- N9,I,AB34
+B3 <- N249,C,SLICE_X13Y138
+B4 <- N169,I,W33
+B5 <- N12,I,D37
+B6 <- N18,I,AP27
+O6  ->  B pin
+B pin  ->  N1601,A2,SLICE_X0Y130
+LUT-310
+C1 <- null
+C2 <- N12,I,D37
+C3 <- N170,I,G39
+C4 <- N9,I,AB34
+C5 <- N167,I,AD37
+C6 <- N168,I,L39
+O6  ->  C pin
+C pin  ->  N249,B3,SLICE_X13Y138
+LUT-311
+A1 <- N2550,A,SLICE_X6Y141
+A2 <- N2741,D,SLICE_X7Y141
+A3 <- N10713_OBUF,B,SLICE_X7Y135
+A4 <- N2737,D,SLICE_X0Y140
+A5 <- N2741,DMUX,SLICE_X7Y141
+A6 <- N2546,A,SLICE_X0Y143
+O6  ->  A pin
+A pin  ->  N8943,C4,SLICE_X6Y132
+LUT-312
+B1 <- N2542,D,SLICE_X47Y133
+B2 <- N2737,DMUX,SLICE_X0Y140
+B3 <- N2538,B,SLICE_X19Y135
+B4 <- N2729,B,SLICE_X7Y133
+B5 <- null
+B6 <- N2733,C,SLICE_X2Y129
+O6  ->  B pin
+B pin  ->  N10713_OBUF,A3,SLICE_X7Y135
+LUT-313
+C1 <- N18,I,AP27
+C2 <- N10412,B,SLICE_X51Y138
+C3 <- N159,I,J37
+C4 <- null
+C5 <- N144,I,H38
+C6 <- N283,I,K34
+O6  ->  C pin
+C pin  ->  N10713,O,G42
+LUT-314
+C1 <- N156,I,AM37
+C2 <- N296,I,AP38
+C3 <- N293,I,AN30
+C4 <- N18,I,AP27
+C5 <- N628_and0000,B,SLICE_X12Y135
+C6 <- N155,I,AD32
+O6  ->  C pin
+C pin  ->  N10176,D5,SLICE_X33Y127
+C pin  ->  N112051320,C2,SLICE_X32Y128
+LUT-315
+D1 <- N2496,B,SLICE_X33Y128
+D2 <- N296,I,AP38
+D3 <- N293,I,AN30
+D4 <- N6761,BMUX,SLICE_X31Y128
+D5 <- N10176,C,SLICE_X33Y127
+D6 <- null
+O6  ->  D pin
+D pin  ->  N2496,A1,SLICE_X33Y128
+LUT-316
+D1 <- N263,I,M37
+D2 <- N18,I,AP27
+D3 <- N245,I,AL40
+D4 <- N267,I,AT39
+D5 <- N271,I,U36
+D6 <- null
+O6  ->  D pin
+D pin  ->  N10402,B2,SLICE_X12Y133
+LUT-317
+B1 <- N10906_OBUF,C,SLICE_X14Y141
+B2 <- null
+B3 <- N220,I,AU42
+B4 <- N50,I,L14
+B5 <- N18,I,AP27
+B6 <- N361,I,V36
+O6  ->  B pin
+B pin  ->  N11011,C3,SLICE_X35Y141
+LUT-318
+C1 <- N358,I,M27
+C2 <- N3398,B,SLICE_X27Y147
+C3 <- N11011,B,SLICE_X35Y141
+C4 <- N3390,C,SLICE_X19Y147
+C5 <- N355,I,AL26
+C6 <- N3390,CMUX,SLICE_X19Y147
+O6  ->  C pin
+C pin  ->  N10301,A4,SLICE_X28Y141
+LUT-319
+A1 <- N7609,A,SLICE_X2Y149
+A2 <- N42,A,SLICE_X9Y148
+A3 <- N2110,D,SLICE_X11Y144
+A4 <- N1711,B,SLICE_X11Y148
+A5 <- N38,I,AJ41
+A6 <- N1821,B,SLICE_X34Y141
+O6  ->  A pin
+A pin  ->  N10837,O,F31
+A pin  ->  N10838,O,E32
+LUT-320
+C1 <- N9969,D,SLICE_X30Y136
+C2 <- N8242,A,SLICE_X33Y134
+C3 <- N9098,B,SLICE_X39Y137
+C4 <- N8242,B,SLICE_X33Y134
+C5 <- N8242,AMUX,SLICE_X33Y134
+C6 <- N280,I,U32
+O6  ->  C pin
+C pin  ->  N43,B6,SLICE_X35Y135
+LUT-321
+C1 <- null
+C2 <- N10388,D,SLICE_X9Y141
+C3 <- null
+C4 <- null
+C5 <- N885_OBUF,C,SLICE_X13Y131
+C6 <- N10399,D,SLICE_X11Y145
+O6  ->  C pin
+C pin  ->  N10729,O,R33
+LUT-322
+D1 <- N10156,A,SLICE_X28Y143
+D2 <- N9910,AMUX,SLICE_X31Y134
+D3 <- N628_and0000,BMUX,SLICE_X12Y135
+D4 <- N247,C,SLICE_X15Y150
+D5 <- N628_and0000,A,SLICE_X12Y135
+D6 <- XDL_DUMMY_INT_X7Y145_TIEOFF_X7Y145,KEEP1,TIEOFF_X7Y145
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10399,C6,SLICE_X11Y145
+LUT-323
+D1 <- N10156,A,SLICE_X28Y143
+D2 <- N9910,AMUX,SLICE_X31Y134
+D3 <- N628_and0000,BMUX,SLICE_X12Y135
+D4 <- N247,C,SLICE_X15Y150
+D5 <- N628_and0000,A,SLICE_X12Y135
+D6 <- XDL_DUMMY_INT_X7Y145_TIEOFF_X7Y145,KEEP1,TIEOFF_X7Y145
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N10399,C6,SLICE_X11Y145
+LUT-324
+A1 <- N3390,B,SLICE_X19Y147
+A2 <- null
+A3 <- N3273,C,SLICE_X38Y138
+A4 <- N3343,CMUX,SLICE_X57Y138
+A5 <- N10156,B,SLICE_X28Y143
+A6 <- null
+O6  ->  A pin
+A pin  ->  N10399,D1,SLICE_X11Y145
+LUT-325
+B1 <- N3384,D,SLICE_X26Y143
+B2 <- N3328,D,SLICE_X19Y142
+B3 <- N3334,B,SLICE_X8Y150
+B4 <- N3315,BMUX,SLICE_X15Y143
+B5 <- null
+B6 <- N3322,B,SLICE_X15Y148
+O6  ->  B pin
+B pin  ->  N10156,A5,SLICE_X28Y143
+LUT-326
+A1 <- N328,I,K17
+A2 <- N3281,D,SLICE_X31Y139
+A3 <- N325,I,AN28
+A4 <- N3273,D,SLICE_X38Y138
+A5 <- N3287,C,SLICE_X32Y139
+A6 <- N331,I,AM26
+O6  ->  A pin
+A pin  ->  N10350_OBUF,B5,SLICE_X36Y139
+A pin  ->  N11002,B6,SLICE_X43Y138
+LUT-327
+B1 <- N328,I,K17
+B2 <- N3281,D,SLICE_X31Y139
+B3 <- N3273,DMUX,SLICE_X38Y138
+B4 <- N3273,D,SLICE_X38Y138
+B5 <- N325,I,AN28
+B6 <- N11002,A,SLICE_X43Y138
+O6  ->  B pin
+B pin  ->  N7,C5,SLICE_X49Y139
+LUT-328
+A1 <- N3311,A,SLICE_X5Y153
+A2 <- N3299,BMUX,SLICE_X4Y131
+A3 <- N3307,A,SLICE_X3Y129
+A4 <- N3303,B,SLICE_X7Y130
+A5 <- N2688,C,SLICE_X15Y144
+A6 <- null
+O6  ->  A pin
+A pin  ->  N1601,B2,SLICE_X0Y130
+LUT-329
+B1 <- N187,I,J42
+B2 <- N118,I,V34
+B3 <- N115,I,AF39
+B4 <- N18,I,AP27
+B5 <- N197,I,N41
+B6 <- XDL_DUMMY_INT_X3Y131_TIEOFF_X3Y131,KEEP1,TIEOFF_X3Y131
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N3303,A1,SLICE_X7Y130
+B pin  ->  N8412,B1,SLICE_X6Y130
+LUT-330
+B1 <- N187,I,J42
+B2 <- N118,I,V34
+B3 <- N115,I,AF39
+B4 <- N18,I,AP27
+B5 <- N197,I,N41
+B6 <- XDL_DUMMY_INT_X3Y131_TIEOFF_X3Y131,KEEP1,TIEOFF_X3Y131
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N3303,A1,SLICE_X7Y130
+B pin  ->  N8412,B1,SLICE_X6Y130
+LUT-331
+A1 <- null
+A2 <- null
+A3 <- null
+A4 <- N163,I,AK14
+A5 <- null
+A6 <- N1,I,U42
+O6  ->  A pin
+A pin  ->  N1781,O,AP13
+LUT-332
+C1 <- null
+C2 <- N176,I,V40
+C3 <- null
+C4 <- N18,I,AP27
+C5 <- N12,I,D37
+C6 <- N9,I,AB34
+O6  ->  C pin
+C pin  ->  N10388,D5,SLICE_X9Y141
+C pin  ->  N10576_OBUF,D1,SLICE_X8Y144
+C pin  ->  N8943141,A5,SLICE_X7Y129
+LUT-333
+D1 <- N1601,A,SLICE_X0Y130
+D2 <- N2511,A,SLICE_X6Y128
+D3 <- N2538,A,SLICE_X19Y135
+D4 <- N2474,D,SLICE_X6Y119
+D5 <- N10388,C,SLICE_X9Y141
+D6 <- N2478,A,SLICE_X39Y141
+O6  ->  D pin
+D pin  ->  N10399,C2,SLICE_X11Y145
+LUT-334
+D1 <- N89,I,AR42
+D2 <- N8541,A,SLICE_X21Y125
+D3 <- N8394,A,SLICE_X6Y133
+D4 <- N3482,B,SLICE_X41Y130
+D5 <- N3478,A,SLICE_X21Y122
+D6 <- N3263,B,SLICE_X24Y125
+O6  ->  D pin
+D pin  ->  N1062816,B1,SLICE_X10Y128
+LUT-335
+C1 <- N3390,C,SLICE_X19Y147
+C2 <- N358,I,M27
+C3 <- N355,I,AL26
+C4 <- N18,I,AP27
+C5 <- N32,I,J41
+C6 <- N221,I,G38
+O6  ->  C pin
+C pin  ->  N10905_OBUF,D6,SLICE_X18Y152
+C pin  ->  N10906_OBUF,D5,SLICE_X14Y141
+C pin  ->  N11011,B1,SLICE_X35Y141
+LUT-336
+D1 <- N3404,BMUX,SLICE_X33Y141
+D2 <- N358,I,M27
+D3 <- N3390,CMUX,SLICE_X19Y147
+D4 <- N3398,B,SLICE_X27Y147
+D5 <- N10906_OBUF,C,SLICE_X14Y141
+D6 <- N10301,B,SLICE_X28Y141
+O6  ->  D pin
+D pin  ->  N10906,O,L42
+LUT-337
+C1 <- N2496,B,SLICE_X33Y128
+C2 <- N296,I,AP38
+C3 <- N3178,A,SLICE_X35Y127
+C4 <- null
+C5 <- N1931,DMUX,SLICE_X28Y128
+C6 <- N1931,D,SLICE_X28Y128
+O6  ->  C pin
+C pin  ->  N10760_OBUF,A5,SLICE_X19Y151
+C pin  ->  N112051320,C6,SLICE_X32Y128
+C pin  ->  N9352,A4,SLICE_X18Y140
+LUT-338
+D1 <- N9,I,AB34
+D2 <- N299,I,N28
+D3 <- N154,I,L40
+D4 <- N12,I,D37
+D5 <- N18,I,AP27
+D6 <- XDL_DUMMY_INT_X16Y128_TIEOFF_X16Y128,KEEP1,TIEOFF_X16Y128
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N1931,C6,SLICE_X28Y128
+LUT-339
+D1 <- N9,I,AB34
+D2 <- N299,I,N28
+D3 <- N154,I,L40
+D4 <- N12,I,D37
+D5 <- N18,I,AP27
+D6 <- XDL_DUMMY_INT_X16Y128_TIEOFF_X16Y128,KEEP1,TIEOFF_X16Y128
+O5  ->  DOUTMUX
+O6  ->  D pin
+D pin  ->  N1931,C6,SLICE_X28Y128
+LUT-340
+A1 <- N154,I,L40
+A2 <- N18,I,AP27
+A3 <- N156,I,AM37
+A4 <- N155,I,AD32
+A5 <- N628_and0000,B,SLICE_X12Y135
+A6 <- N153,I,Y33
+O6  ->  A pin
+A pin  ->  N10399,D5,SLICE_X11Y145
+LUT-341
+B1 <- N12,I,D37
+B2 <- N18,I,AP27
+B3 <- N211,I,P40
+B4 <- N9,I,AB34
+B5 <- N212,I,W35
+B6 <- XDL_DUMMY_INT_X8Y135_TIEOFF_X8Y135,KEEP1,TIEOFF_X8Y135
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10176,C5,SLICE_X33Y127
+B pin  ->  N10718_OBUF,A5,SLICE_X6Y149
+B pin  ->  N10761_OBUF,C6,SLICE_X33Y130
+B pin  ->  N1601,A6,SLICE_X0Y130
+B pin  ->  N628_and0000,A5,SLICE_X12Y135
+B pin  ->  N6761,A3,SLICE_X31Y128
+B pin  ->  N7100,C4,SLICE_X3Y126
+B pin  ->  N8943,C3,SLICE_X6Y132
+LUT-342
+B1 <- N12,I,D37
+B2 <- N18,I,AP27
+B3 <- N211,I,P40
+B4 <- N9,I,AB34
+B5 <- N212,I,W35
+B6 <- XDL_DUMMY_INT_X8Y135_TIEOFF_X8Y135,KEEP1,TIEOFF_X8Y135
+O5  ->  BOUTMUX
+O6  ->  B pin
+B pin  ->  N10176,C5,SLICE_X33Y127
+B pin  ->  N10718_OBUF,A5,SLICE_X6Y149
+B pin  ->  N10761_OBUF,C6,SLICE_X33Y130
+B pin  ->  N1601,A6,SLICE_X0Y130
+B pin  ->  N628_and0000,A5,SLICE_X12Y135
+B pin  ->  N6761,A3,SLICE_X31Y128
+B pin  ->  N7100,C4,SLICE_X3Y126
+B pin  ->  N8943,C3,SLICE_X6Y132
+LUT-343
+A1 <- N303,I,AD36
+A2 <- N9,I,AB34
+A3 <- N12,I,D37
+A4 <- N18,I,AP27
+A5 <- N153,I,Y33
+A6 <- null
+O6  ->  A pin
+A pin  ->  N10760_OBUF,A1,SLICE_X19Y151
+A pin  ->  N112051320,C1,SLICE_X32Y128
+A pin  ->  N2496,A6,SLICE_X33Y128
+A pin  ->  N9352,A3,SLICE_X18Y140
+LUT-344
+A1 <- N3255,A,SLICE_X25Y125
+A2 <- N54,I,AB42
+A3 <- N3251,A,SLICE_X21Y113
+A4 <- N328,I,K17
+A5 <- N3470,A,SLICE_X21Y124
+A6 <- N18,I,AP27
+O6  ->  A pin
+A pin  ->  N106280,D2,SLICE_X33Y125
+A pin  ->  N8541,B6,SLICE_X21Y125
+LUT-345
+B1 <- N8394,A,SLICE_X6Y133
+B2 <- N3263,B,SLICE_X24Y125
+B3 <- N3478,A,SLICE_X21Y122
+B4 <- null
+B5 <- N3482,B,SLICE_X41Y130
+B6 <- N8541,A,SLICE_X21Y125
+O6  ->  B pin
+B pin  ->  N1010315,B5,SLICE_X17Y128
+B pin  ->  N9820,B4,SLICE_X21Y128
+LUT-346
+A1 <- N319,I,P35
+A2 <- N3349,B,SLICE_X64Y137
+A3 <- N316,I,L29
+A4 <- N3355,D,SLICE_X25Y128
+A5 <- N9632,B,SLICE_X49Y151
+A6 <- null
+O6  ->  A pin
+A pin  ->  N10110,O,G33
+LUT-347
+B1 <- null
+B2 <- N3343,B,SLICE_X57Y138
+B3 <- N313,I,J16
+B4 <- N9741,B,SLICE_X64Y138
+B5 <- N367,I,AN29
+B6 <- N9741,BMUX,SLICE_X64Y138
+O6  ->  B pin
+B pin  ->  N10109_OBUF,A6,SLICE_X42Y151
+B pin  ->  N10111_OBUF,A1,SLICE_X91Y137
+B pin  ->  N9632,A5,SLICE_X49Y151
+
+
+/*        对于CLKINV的逻辑连线提取如下所示     */ 
+
+
+/*        对于F7MUX的逻辑连线提取如下所示     */ 
+F7MUX-0
+1 <- C6LUT,O6
+0 <- D6LUT,O6
+control <- CX
+output -> COUTMUX,F7 
+output -> CFFMUX,F7 
+F7MUX-1
+1 <- C6LUT,O6
+0 <- D6LUT,O6
+control <- CX
+output -> COUTMUX,F7 
+output -> CFFMUX,F7 
+F7MUX-2
+1 <- A6LUT,O6
+0 <- B6LUT,O6
+control <- AX
+output -> AOUTMUX,F7 
+output -> AFFMUX,F7 
+F7MUX-3
+1 <- C6LUT,O6
+0 <- D6LUT,O6
+control <- CX
+output -> COUTMUX,F7 
+output -> CFFMUX,F7 
+F7MUX-4
+1 <- C6LUT,O6
+0 <- D6LUT,O6
+control <- CX
+output -> COUTMUX,F7 
+output -> CFFMUX,F7 
+
+
+/*        对于F8MUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于CY0的逻辑连线提取如下所示     */ 
+
+
+/*        对于PRECYINIT的逻辑连线提取如下所示     */ 
+
+
+/*        对于进位链的逻辑连线提取如下所示     */ 
+
+
+/*        对于OUTMUX的逻辑连线提取如下所示     */ 
+OUTMUX-0
+O5  <- C5LUT,O5 
+output  ->  CMUX pin 
+CMUX  ->  N10425,C4,SLICE_X2Y161
+CMUX  ->  N10990,A2,SLICE_X8Y149
+CMUX  ->  N1711,A6,SLICE_X11Y148
+CMUX  ->  N3114,B5,SLICE_X9Y150
+CMUX  ->  N42,B1,SLICE_X9Y148
+CMUX  ->  N9077,B6,SLICE_X9Y149
+OUTMUX-1
+O5  <- C5LUT,O5 
+output  ->  CMUX pin 
+CMUX  ->  N10301,B1,SLICE_X28Y141
+CMUX  ->  N10352_OBUF,C4,SLICE_X57Y137
+CMUX  ->  N10827_OBUF,A5,SLICE_X15Y164
+CMUX  ->  N10871_OBUF,D1,SLICE_X17Y143
+CMUX  ->  N3287,B6,SLICE_X32Y139
+CMUX  ->  N8253,A1,SLICE_X32Y149
+OUTMUX-2
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N101190,B3,SLICE_X47Y139
+BMUX  ->  N1011919,B1,SLICE_X29Y142
+BMUX  ->  N10301,C1,SLICE_X28Y141
+BMUX  ->  N10350_OBUF,B6,SLICE_X36Y139
+BMUX  ->  N7,C3,SLICE_X49Y139
+OUTMUX-3
+O5  <- A5LUT,O5 
+output  ->  AMUX pin 
+AMUX  ->  N9820,A2,SLICE_X21Y128
+OUTMUX-4
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N2654,C4,SLICE_X2Y126
+BMUX  ->  N2654,D6,SLICE_X2Y126
+OUTMUX-5
+output  ->  CMUX pin 
+CMUX  ->  N10402,B5,SLICE_X12Y133
+OUTMUX-6
+O5  <- C5LUT,O5 
+output  ->  CMUX pin 
+CMUX  ->  N1011919,B2,SLICE_X29Y142
+CMUX  ->  N10301,B5,SLICE_X28Y141
+CMUX  ->  N10301,C3,SLICE_X28Y141
+CMUX  ->  N10827_OBUF,A2,SLICE_X15Y164
+CMUX  ->  N10869_OBUF,A1,SLICE_X17Y148
+CMUX  ->  N10871_OBUF,D4,SLICE_X17Y143
+OUTMUX-7
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10871_OBUF,D6,SLICE_X17Y143
+BMUX  ->  N8444,D2,SLICE_X27Y143
+OUTMUX-8
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N10870,O,U38
+OUTMUX-9
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N885_OBUF,C4,SLICE_X13Y131
+OUTMUX-10
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10156,B4,SLICE_X28Y143
+OUTMUX-11
+O5  <- A5LUT,O5 
+output  ->  AMUX pin 
+AMUX  ->  N9786,A1,SLICE_X6Y129
+OUTMUX-12
+O5  <- C5LUT,O5 
+output  ->  CMUX pin 
+CMUX  ->  N10425,D1,SLICE_X2Y161
+CMUX  ->  N10988,D6,SLICE_X9Y151
+CMUX  ->  N1711,B2,SLICE_X11Y148
+CMUX  ->  N3114,B6,SLICE_X9Y150
+OUTMUX-13
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10112_OBUF,B5,SLICE_X65Y138
+BMUX  ->  N101190,A6,SLICE_X47Y139
+BMUX  ->  N45,B6,SLICE_X63Y138
+OUTMUX-14
+output  ->  CMUX pin 
+CMUX  ->  N10156,A4,SLICE_X28Y143
+OUTMUX-15
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10762_OBUF,C1,SLICE_X18Y148
+BMUX  ->  N112051320,C4,SLICE_X32Y128
+BMUX  ->  N2496,A2,SLICE_X33Y128
+OUTMUX-16
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N101190,A1,SLICE_X47Y139
+BMUX  ->  N45,B3,SLICE_X63Y138
+OUTMUX-17
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N3315,A2,SLICE_X15Y143
+OUTMUX-18
+O5  <- C5LUT,O5 
+output  ->  CMUX pin 
+CMUX  ->  N10906_OBUF,D3,SLICE_X14Y141
+CMUX  ->  N11011,C6,SLICE_X35Y141
+CMUX  ->  N3390,A6,SLICE_X19Y147
+CMUX  ->  N3404,A2,SLICE_X33Y141
+OUTMUX-19
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N3398,A2,SLICE_X27Y147
+OUTMUX-20
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N11187,A5,SLICE_X19Y148
+DMUX  ->  N3328,C3,SLICE_X19Y142
+DMUX  ->  N441,B5,SLICE_X18Y147
+OUTMUX-21
+output  ->  AMUX pin 
+AMUX  ->  N10399,D2,SLICE_X11Y145
+OUTMUX-22
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N3349,A1,SLICE_X64Y137
+BMUX  ->  N9632,B6,SLICE_X49Y151
+BMUX  ->  N9682,A2,SLICE_X56Y138
+BMUX  ->  N9741,A6,SLICE_X64Y138
+OUTMUX-23
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N1010315,A4,SLICE_X17Y128
+OUTMUX-24
+O5  <- A5LUT,O5 
+output  ->  AMUX pin 
+AMUX  ->  N10908,O,K35
+OUTMUX-25
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N10425,D3,SLICE_X2Y161
+DMUX  ->  N10988,D1,SLICE_X9Y151
+DMUX  ->  N10990,A3,SLICE_X8Y149
+DMUX  ->  N3114,B1,SLICE_X9Y150
+OUTMUX-26
+O5  <- A5LUT,O5 
+output  ->  AMUX pin 
+AMUX  ->  N10353,O,H36
+OUTMUX-27
+O5  <- A5LUT,O5 
+output  ->  AMUX pin 
+AMUX  ->  N11000,C5,SLICE_X34Y135
+AMUX  ->  N9098,B4,SLICE_X39Y137
+OUTMUX-28
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10412,B2,SLICE_X51Y138
+BMUX  ->  N2271,A4,SLICE_X47Y135
+BMUX  ->  N2573,B1,SLICE_X47Y138
+BMUX  ->  N8242,A2,SLICE_X33Y134
+BMUX  ->  N9969,D1,SLICE_X30Y136
+OUTMUX-29
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N10713_OBUF,A5,SLICE_X7Y135
+DMUX  ->  N8394,D1,SLICE_X6Y133
+OUTMUX-30
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10575,O,E34
+OUTMUX-31
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N10713_OBUF,B2,SLICE_X7Y135
+DMUX  ->  N8394,D3,SLICE_X6Y133
+OUTMUX-32
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10412,B6,SLICE_X51Y138
+BMUX  ->  N10632_OBUF,A1,SLICE_X33Y104
+BMUX  ->  N10714_OBUF,A1,SLICE_X64Y107
+BMUX  ->  N10760_OBUF,A3,SLICE_X19Y151
+BMUX  ->  N10762_OBUF,C2,SLICE_X18Y148
+BMUX  ->  N43,B1,SLICE_X35Y135
+BMUX  ->  N6,A6,SLICE_X33Y135
+BMUX  ->  N8246,B1,SLICE_X32Y134
+BMUX  ->  N9352,A2,SLICE_X18Y140
+OUTMUX-33
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N2729,A2,SLICE_X7Y133
+OUTMUX-34
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N1011919,A6,SLICE_X29Y142
+BMUX  ->  N10906_OBUF,D1,SLICE_X14Y141
+OUTMUX-35
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N2538,A2,SLICE_X19Y135
+OUTMUX-36
+O5  <- C5LUT,O5 
+output  ->  CMUX pin 
+CMUX  ->  N2271,B2,SLICE_X47Y135
+OUTMUX-37
+O5  <- A5LUT,O5 
+output  ->  AMUX pin 
+AMUX  ->  N3303,A3,SLICE_X7Y130
+AMUX  ->  N8412,B3,SLICE_X6Y130
+OUTMUX-38
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10869_OBUF,A6,SLICE_X17Y148
+OUTMUX-39
+O5  <- C5LUT,O5 
+output  ->  CMUX pin 
+CMUX  ->  N2567,B6,SLICE_X39Y138
+OUTMUX-40
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N3416,A2,SLICE_X18Y129
+OUTMUX-41
+output  ->  CMUX pin 
+CMUX  ->  N3263,A1,SLICE_X24Y125
+OUTMUX-42
+output  ->  CMUX pin 
+CMUX  ->  N9820,A6,SLICE_X21Y128
+OUTMUX-43
+O5  <- A5LUT,O5 
+output  ->  AMUX pin 
+AMUX  ->  N1801,A6,SLICE_X12Y128
+AMUX  ->  N3454,CX,SLICE_X14Y128
+OUTMUX-44
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N10352_OBUF,C3,SLICE_X57Y137
+OUTMUX-45
+O5  <- C5LUT,O5 
+output  ->  CMUX pin 
+CMUX  ->  N10351,O,W38
+OUTMUX-46
+O5  <- A5LUT,O5 
+output  ->  AMUX pin 
+AMUX  ->  N8246,B4,SLICE_X32Y134
+AMUX  ->  N9910,A4,SLICE_X31Y134
+AMUX  ->  N9910,B4,SLICE_X31Y134
+OUTMUX-47
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N11002,B3,SLICE_X43Y138
+DMUX  ->  N3287,A6,SLICE_X32Y139
+DMUX  ->  N3287,B5,SLICE_X32Y139
+DMUX  ->  N9290,B2,SLICE_X35Y139
+OUTMUX-48
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10176,D4,SLICE_X33Y127
+BMUX  ->  N10762_OBUF,C4,SLICE_X18Y148
+BMUX  ->  N2496,A5,SLICE_X33Y128
+OUTMUX-49
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10112_OBUF,A2,SLICE_X65Y138
+OUTMUX-50
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N885_OBUF,C5,SLICE_X13Y131
+OUTMUX-51
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N10574,O,L31
+OUTMUX-52
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N3299,A2,SLICE_X4Y131
+OUTMUX-53
+O5  <- D5LUT,O5 
+output  ->  DMUX pin 
+DMUX  ->  N10761_OBUF,D1,SLICE_X33Y130
+DMUX  ->  N1931,C5,SLICE_X28Y128
+DMUX  ->  N43,A3,SLICE_X35Y135
+DMUX  ->  N6761,A1,SLICE_X31Y128
+OUTMUX-54
+O5  <- B5LUT,O5 
+output  ->  BMUX pin 
+BMUX  ->  N10399,D3,SLICE_X11Y145
+
+
+/*        对于FFMUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于触发器的逻辑连线提取如下所示     */ 
+

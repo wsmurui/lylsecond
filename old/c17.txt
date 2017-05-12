@@ -1,0 +1,119 @@
+//////////////////////////////////////////////
+////   本设计中用到的逻辑资源如下所示  
+////////////////////////////////////////////// 
+
+/*     IOB信息如下所示             */
+IOB:Total Number:7
+IOB-0 + N1 + N26 + input
+IOB-1 + N2 + P17 + input
+IOB-2 + N3 + P18 + input
+IOB-3 + N6 + P26 + input
+IOB-4 + N7 + P25 + input
+IOB-5 + N23 + N25 + output
+IOB-6 + N22 + M16 + output
+
+/*     IOB信息已显示完毕          */
+
+/*     查找表信息如下所示             */
+LUT:Total Number:2
+LUT-0 + N23_OBUF + SLICE_X103Y138 + D6LUT + ((~D3&(D5|D4))|(D3&(((~D5&D4)|D5)&~D1)))
+LUT-1 + N22_OBUF + SLICE_X102Y137 + A6LUT + ((~A6&A2)|(A6&A2&~A5)|(A6&A3))
+
+/*     查找表信息已显示完毕          */
+
+/*     CLKINV信息如下所示             */
+CLKINV:Total Number:0
+
+/*     CLKINV信息已显示完毕          */
+
+/*     F7MUX信息如下所示             */
+F7MUX:Total Number:0
+
+/*     F7MUX信息已显示完毕          */
+
+/*     F8MUX信息如下所示             */
+F8MUX:Total Number:0
+
+/*     F8MUX信息已显示完毕          */
+
+/*     CY0信息如下所示             */
+CY0:Total Number:0
+
+/*     CY0信息已显示完毕          */
+
+/*     PRECYINIT信息如下所示             */
+PRECYINIT:Total Number:0
+
+/*     PRECYINIT信息已显示完毕          */
+
+/*     CCE信息如下所示             */
+CCE:Total Number:0
+
+/*     CCE信息已显示完毕          */
+
+/*     OUTMUX信息如下所示             */
+OUTMUX:Total Number:0
+
+/*     OUTMUX信息已显示完毕          */
+
+/*     FFMUX信息如下所示             */
+FFMUX:Total Number:0
+
+/*     FFMUX信息已显示完毕          */
+
+/*     FlipFlop信息如下所示             */
+FlipFlop:Total Number:0
+
+/*     FlipFlop信息已显示完毕          */
+
+
+//////////////////////////////////////////////
+////   本设计中资源的逻辑连线如下所示  
+////////////////////////////////////////////// 
+/*        对于查找表的逻辑连线提取如下所示     */ 
+LUT-0
+D1 <- N6,I,P26
+D2 <- null
+D3 <- N3,I,P18
+D4 <- N7,I,P25
+D5 <- N2,I,P17
+D6 <- null
+O6  ->  D pin
+D pin  ->  N23,O,N25
+LUT-1
+A1 <- null
+A2 <- N2,I,P17
+A3 <- N1,I,N26
+A4 <- null
+A5 <- N6,I,P26
+A6 <- N3,I,P18
+O6  ->  A pin
+A pin  ->  N22,O,M16
+
+
+/*        对于CLKINV的逻辑连线提取如下所示     */ 
+
+
+/*        对于F7MUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于F8MUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于CY0的逻辑连线提取如下所示     */ 
+
+
+/*        对于PRECYINIT的逻辑连线提取如下所示     */ 
+
+
+/*        对于进位链的逻辑连线提取如下所示     */ 
+
+
+/*        对于OUTMUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于FFMUX的逻辑连线提取如下所示     */ 
+
+
+/*        对于触发器的逻辑连线提取如下所示     */ 
+
