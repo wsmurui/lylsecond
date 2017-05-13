@@ -1,13 +1,7 @@
 mkeys = keys(name_node_map);
 node_name_map = cell(1,length(mkeys));
 for i = 1:length(mkeys)
-    if ~isempty(node_name_map{name_node_map(mkeys{i})})
-        value = node_name_map{name_node_map(mkeys{i})};
-        index = strfind(value,',');
-%         if value(index(1)+1) == 'O'
-            continue;
-%         end
-    end
+    if mkeys{i}
     node_name_map{name_node_map(mkeys{i})} = mkeys{i};
 end
 
