@@ -1,4 +1,4 @@
-function [ adj_zeros ] = findNextGate( logic,curindex,adj_zeros,name_node_map,lutname,curnode )
+function [ adj_zeros,name_node_map] = findNextGate( logic,curindex,adj_zeros,name_node_map,lutname,curnode,lut_module_map)
 %UNTITLED3 Summary of this function goes here
 %   Detailed explanation goes here
     leftindex = curindex - 1;
@@ -34,7 +34,9 @@ function [ adj_zeros ] = findNextGate( logic,curindex,adj_zeros,name_node_map,lu
     end
     
     if leftindex == 1
-        disp('输出口');
+        mkey = lut_module_map(lutname);
+        name_node_map(mkey) = curnode;
+%         disp('输出口');
     elseif leftcount == 0 && (logic(leftindex-1) == '|' || logic(leftindex-1) == '&' || logic(leftindex-1) == '^')
         s = curnode;
         t = name_node_map([[[[lutname,','],num2str(leftindex - 1)],','],logic(leftindex - 1)]);

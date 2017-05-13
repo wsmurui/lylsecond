@@ -19,6 +19,8 @@ gate_count = 0;
 ffmux_count = 0;
 name_node_map = containers.Map('abc',0);
 lut_logic_map = containers.Map('abc','abc');
+lut_module_map = containers.Map('abc','abc');
+
 
 for i = 1:length(data)
     if strfind(data{i},'IOB:Total Number:')
@@ -26,13 +28,13 @@ for i = 1:length(data)
         input_count = str2num(data{i}(index:length(data{i})));
         disp([' IOB 个数： ',int2str(input_count)]);
         [name_node_map total_node_count] = dealIOB(data,i+1,i+input_count,name_node_map,total_node_count);
-        continue;
+%         continue;
     end
     if strfind(data{i},'LUT:Total Number:')
         index = strfind(data{i},'LUT:Total Number:') + length('LUT:Total Number:');
         lut_count = str2num(data{i}(index:length(data{i})));
         disp([' LUT 个数： ',int2str(lut_count)]);
-        [name_node_map total_node_count lut_logic_map] = dealLUT(data,i+1,i+lut_count,name_node_map,total_node_count,lut_logic_map);
+        [name_node_map total_node_count lut_logic_map lut_module_map] = dealLUT(data,i+1,i+lut_count,name_node_map,total_node_count,lut_logic_map,lut_module_map);
     end
     if strfind(data{i},'F7MUX:Total Number:')
         index = strfind(data{i},'F7MUX:Total Number:') + length('F7MUX:Total Number:');

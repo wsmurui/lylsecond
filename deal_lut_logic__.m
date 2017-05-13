@@ -28,17 +28,17 @@ for i = 1:length(mkeys)
     index = strfind(logic,'|');
     for j = 1:length(index)
         mkey = [[[lutname,','],num2str(index(j))],',|'];
-        adj_zeros = findNextGate(logic,index(j),adj_zeros,name_node_map,lutname,name_node_map(mkey));
+        [adj_zeros name_node_map] = findNextGate(logic,index(j),adj_zeros,name_node_map,lutname,name_node_map(mkey),lut_module_map);
     end
     index = strfind(logic,'&');
     for j = 1:length(index)
         mkey = [[[lutname,','],num2str(index(j))],',&'];
-        adj_zeros = findNextGate(logic,index(j),adj_zeros,name_node_map,lutname,name_node_map(mkey));
+        [adj_zeros name_node_map] = findNextGate(logic,index(j),adj_zeros,name_node_map,lutname,name_node_map(mkey),lut_module_map);
     end
     index = strfind(logic,'^');
     for j = 1:length(index)
         mkey = [[[lutname,','],num2str(index(j))],',^'];
-        adj_zeros = findNextGate(logic,index(j),adj_zeros,name_node_map,lutname,name_node_map(mkey));
+        [adj_zeros name_node_map] = findNextGate(logic,index(j),adj_zeros,name_node_map,lutname,name_node_map(mkey),lut_module_map);
     end
     
 end
