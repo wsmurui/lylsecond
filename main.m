@@ -1,8 +1,11 @@
 close all;
 clear;
 clc;
-path = 'F:\matlab_workspace\lyl\old\c1908.txt';
+path = 'F:\matlab_workspace\lyl\old\c17.txt';
 
-deal_initdata;
+deal_initdata__;
 
-construct_adjacency;
+deal_lut_logic__;
+
+test_lut__;
+construct_adjacency_;
