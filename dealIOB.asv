@@ -1,0 +1,11 @@
+function [ name_node_map ] = dealIOB(data,start_index,end_index,name_node_map)
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+    for i = start_index : end_index
+        plus_add = strfind(data{i},' ');
+        designation = data{i}(plus_add(2)+1 : plus_add(3)-1)
+    end
+
+
+end
+
