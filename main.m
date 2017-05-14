@@ -10,5 +10,6 @@ deal_lut_logic__;
 
 deal_lut_connect__;
 
-test_lut__;
-construct_adjacency_;
+% test_lut__;
+
+construct_adjacency__;

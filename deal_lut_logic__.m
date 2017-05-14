@@ -8,7 +8,6 @@ for i = 1:length(mkeys)
     
     index = strfind(logic,'~');
     for j = 1:length(index)
-        total_node_count = total_node_count + 1;
         mkey = [[[lutname,','],num2str(index(j))],',~'];
         leftindex = index(j)-1;
         rightindex = index(j)+3;

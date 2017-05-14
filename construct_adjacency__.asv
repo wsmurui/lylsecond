@@ -1,0 +1,14 @@
+node_info_vector = cell(1,total_node_count);
+mkeys = keys(name_node_map);
+for i = 1:length(mkeys)
+    index = strfind(mkeys,',');
+    if mkeys{i}(index(1))
+    if ~isempty(node_name_map{name_node_map(mkeys{i})})
+        value = node_name_map{name_node_map(mkeys{i})};
+        index = strfind(value,',');
+%         if value(index(1)+1) == 'O'
+            continue;
+%         end
+    end
+    node_name_map{name_node_map(mkeys{i})} = mkeys{i};
+end
